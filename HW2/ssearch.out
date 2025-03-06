@@ -1,0 +1,3254 @@
+# /share/home/ccwei/tools/fasta-36.2.6/bin/ssearch36 -q u1_human.fa /share/home/ccwei/courses/2017/omics/C.elegans/Proteome/ws_215.protein.fa
+SSEARCH searches a sequence data bank
+ version 36.06 Aug, 2010
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: u1_human.fa
+  1>>>RU1_human - 282 aa
+Library: /share/home/ccwei/courses/2017/omics/C.elegans/Proteome/ws_215.protein.fa
+  10879267 residues in 24705 sequences
+
+       opt      E()
+< 20     0     0:
+  22     0     0:           one = represents 63 library sequences
+  24     0     0:
+  26     0     1:*
+  28     0     6:*
+  30     0    34:*
+  32     2   131:= *
+  34     8   356:=    *
+  36    51   732:=          *
+  38   371  1210:======             *
+  40  1195  1687:===================       *
+  42  2390  2062:================================*=====
+  44  3337  2275:====================================*================
+  46  3770  2317:====================================*=======================
+  48  3064  2219:===================================*=============
+  50  2588  2024:================================*=========
+  52  1914  1780:============================*==
+  54  1364  1520:======================  *
+  56   978  1270:================    *
+  58   665  1043:===========     *
+  60   519   845:=========    *
+  62   356   677:======    *
+  64   305   538:=====   *
+  66   226   426:====  *
+  68   199   335:==== *
+  70   168   262:=== *
+  72   156   205:===*
+  74   127   160:==*
+  76   116   124:=*
+  78    89    97:=*
+  80    88    75:=*
+  82    73    57:*=
+  84    71    45:*=
+  86    65    35:*=
+  88    42    27:*          inset = represents 2 library sequences
+  90    56    21:*
+  92    55    16:*         :=======*====================
+  94    46    13:*         :======*================
+  96    33    10:*         :====*============
+  98    29     8:*         :===*===========
+ 100    29     6:*         :==*============
+ 102    26     5:*         :==*==========
+ 104    18     3:*         :=*=======
+ 106    16     3:*         :=*======
+ 108    16     2:*         :*=======
+ 110    14     2:*         :*======
+ 112    10     1:*         :*====
+ 114    10     1:*         :*====
+ 116     6     1:*         :*==
+ 118     2     1:*         :*
+>120    42     0:=         *=====================
+  10879267 residues in 24705 sequences
+Statistics:  Expectation_n fit: rho(ln(x))= 9.6968+/-0.000568; mu= -5.7008+/- 0.033
+ mean_var=235.9302+/-49.770, 0's: 0 Z-trim(124.4): 23  B-trim: 1522 in 1/62
+ Lambda= 0.083499
+ statistics sampled from 24669 (24705) to 24669 sequences
+ Kolmogorov-Smirnov  statistic: 0.1024 (N=29) at  40
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.1 Aug 2009)
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ Scan time:  1.050
+
+The best scores are:                                      s-w bits E(24705)
+K08D10.3 CE07355 WBGene00004386 locus:rnp-3 U1 sma ( 217)  633 87.4 7.5e-18
+K08D10.4 CE28597 WBGene00004385 locus:rnp-2 U1 sma ( 206)  588 82.0 3.1e-16
+C08B11.5 CE36374 WBGene00004723 locus:sap-49 Poly( ( 388)  256 42.1 0.00056
+B0035.1a CE07665 WBGene00007105 Zinc finger, C2H2  ( 298)  215 37.1   0.014
+B0035.1b CE05159 WBGene00007105 status:Confirmed U ( 341)  215 37.2   0.015
+F58A3.1b CE11352 WBGene00002261 locus:ldb-1 status ( 578)  202 35.7    0.07
+F58A3.1a CE11350 WBGene00002261 locus:ldb-1 status ( 592)  202 35.7   0.072
+F58A3.1c CE23789 WBGene00002261 locus:ldb-1 status ( 629)  202 35.8   0.075
+C02B10.5 CE16802 WBGene00015330 status:Partially_c ( 698)  201 35.7   0.089
+F11H8.4a CE36535 WBGene00000872 locus:cyk-1 requir (1435)  206 36.5     0.1
+F11H8.4b CE36536 WBGene00000872 locus:cyk-1 requir (1437)  206 36.5    0.11
+F46A9.6 CE08260 WBGene00003172 locus:mec-8 mecanos ( 312)  191 34.2    0.11
+F18H3.3a CE02193 WBGene00003903 locus:pab-2 poly-a ( 692)  191 34.5     0.2
+F18H3.3b CE03230 WBGene00003903 locus:pab-2 RNA re ( 566)  183 33.4    0.34
+ZK354.8 CE15324 WBGene00022709 protein phosphatase ( 483)  180 33.0    0.38
+C50D2.4 CE08889 WBGene00000644 locus:col-68 cuticu ( 329)  175 32.3    0.42
+K08F8.6 CE37536 WBGene00002295 locus:let-19 status (2862)  195 35.3    0.46
+C01G8.9a CE30415 WBGene00002717 locus:let-526 stat (1724)  189 34.5     0.5
+H28G03.2c CE31192 WBGene00019250 status:Confirmed  ( 275)  171 31.8    0.51
+H28G03.2b CE31191 WBGene00019250 status:Confirmed  ( 298)  171 31.8    0.55
+T06E4.11 CE41837 WBGene00004146 locus:pqn-63 statu ( 487)  175 32.4    0.58
+Y106G6H.2b CE36227 WBGene00003902 locus:pab-1 stat ( 583)  176 32.6    0.62
+Y106G6H.2c CE36228 WBGene00003902 locus:pab-1 stat ( 586)  176 32.6    0.62
+Y106G6H.2a CE20412 WBGene00003902 locus:pab-1 RNA  ( 646)  176 32.6    0.67
+F46H5.6 CE43893 WBGene00001696 locus:grd-7 status: ( 722)  177 32.8    0.68
+Y71F9B.10a CE28808 WBGene00004946 locus:sop-3 stat (1475)  183 33.7    0.73
+T05A1.2 CE03622 WBGene00000696 locus:col-122 colla ( 300)  167 31.3    0.77
+H28G03.2a CE29419 WBGene00019250 status:Confirmed  ( 548)  171 32.0     0.9
+R148.5b CE32711 WBGene00020104 status:Partially_co ( 505)  169 31.7    0.99
+R148.5a CE31583 WBGene00020104 status:Confirmed Un ( 528)  169 31.7       1
+D1007.7 CE26916 WBGene00017004 locus:nrd-1 RNA-bin ( 988)  174 32.5     1.1
+T24B8.4 CE44440 WBGene00011978 status:Partially_co ( 850)  172 32.2     1.2
+C36H8.1 CE05380 WBGene00007987 major sperm protein ( 418)  165 31.2     1.2
+C02C6.1a CE07833 WBGene00001130 locus:dyn-1 dynami ( 830)  168 31.7     1.6
+C50F7.2 CE39705 WBGene00000551 locus:clx-1 status: ( 558)  164 31.2     1.6
+W03D2.1b CE31729 WBGene00004157 locus:pqn-75 statu ( 518)  163 31.0     1.7
+W03D2.1a CE28501 WBGene00004157 locus:pqn-75 statu ( 524)  163 31.0     1.7
+W03D2.1c CE14506 WBGene00004157 locus:pqn-75 statu ( 539)  163 31.0     1.7
+F08B4.7 CE09232 WBGene00017238 U1 small nuclear ri ( 142)  150 29.1     1.7
+Y49E10.29 CE40725 WBGene00045239 status:Partially_ ( 559)  163 31.0     1.8
+C50D2.5 CE38492 WBGene00016808 status:Confirmed Un ( 138)  149 29.0     1.8
+Y41E3.2 CE18370 WBGene00001066 locus:dpy-4 CUTICLE ( 289)  156 30.0     1.9
+Y113G7B.23 CE25208 WBGene00004203 locus:psa-1 SWI\ ( 789)  165 31.4       2
+C02C6.1b CE07832 WBGene00001130 locus:dyn-1 status ( 838)  164 31.3     2.3
+F25B5.7c CE42614 WBGene00017778 locus:psf-1 status ( 282)  153 29.6     2.3
+F12F6.6 CE05594 WBGene00004755 locus:sec-24.1 Yeas (1126)  166 31.6     2.4
+B0207.1 CE36625 WBGene00015026 protein-tyrosine ph ( 564)  159 30.6     2.5
+D2045.1b CE37967 WBGene00000231 locus:atx-2 status ( 634)  160 30.7     2.5
+F42C5.7 CE34016 WBGene00001713 locus:grl-4 status: ( 210)  149 29.1     2.6
+C16D6.1 CE43158 WBGene00007634 status:Confirmed Un ( 111)  142 28.1     2.8
+C54G7.3b CE44845 WBGene00002983 locus:lgx-1 status (1231)  163 31.2     3.4
+Y73B6BL.34 CE29928 WBGene00000686 locus:col-112 st ( 297)  149 29.2     3.4
+D2045.1c CE42488 WBGene00000231 locus:atx-2 status ( 930)  160 30.8     3.4
+F33E2.6 CE09907 WBGene00009362 status:Partially_co ( 846)  159 30.7     3.5
+D2045.1a CE37889 WBGene00000231 locus:atx-2 status ( 959)  160 30.8     3.5
+F23H12.4 CE05707 WBGene00005018 locus:sqt-3 collag ( 301)  148 29.1     3.8
+Y48C3A.8a CE43420 WBGene00012990 status:Partially_ ( 455)  152 29.7     3.8
+F56A8.6 CE16126 WBGene00000774 locus:cpf-2 RNA rec ( 336)  149 29.2     3.8
+T01D1.2a CE12942 WBGene00001340 locus:etr-1 RNA-bi ( 584)  154 30.0     3.9
+T11G6.5b CE42636 WBGene00011720 status:Partially_c (1349)  162 31.2     3.9
+Y63D3A.5 CE20336 WBGene00006565 locus:tfg-1 status ( 486)  152 29.7       4
+T11G6.5a CE32932 WBGene00011720 status:Partially_c (1406)  162 31.2     4.1
+F25B5.7a CE42671 WBGene00017778 locus:psf-1 status ( 562)  153 29.8     4.1
+C50F7.5 CE04243 WBGene00016845 status:Partially_co ( 309)  147 28.9     4.2
+F27D4.2b CE36140 WBGene00009188 locus:lsy-22 statu ( 291)  146 28.8     4.3
+F44B9.7 CE29043 WBGene00004125 locus:mdt-30 status ( 466)  150 29.4     4.5
+Y53H1A.1b CE42806 WBGene00013177 locus:rsy-1 statu ( 492)  150 29.4     4.7
+C54G7.3a CE44870 WBGene00002983 locus:lgx-1 status (1884)  163 31.4     4.7
+Y37D8A.21 CE44816 WBGene00012558 RNA recognition m ( 243)  143 28.4     4.8
+F43B10.2a CE35536 WBGene00018374 locus:tag-343 sta ( 996)  156 30.3     5.1
+F52C9.8a CE30802 WBGene00004095 locus:pqe-1 status (1081)  156 30.4     5.4
+T01D1.2e CE41584 WBGene00001340 locus:etr-1 status ( 586)  150 29.5     5.5
+T01D1.2f CE41585 WBGene00001340 locus:etr-1 status ( 588)  150 29.5     5.5
+Y53H1A.1a CE42773 WBGene00013177 locus:rsy-1 statu ( 589)  150 29.5     5.5
+R04E5.8a CE04800 WBGene00019871 status:Partially_c ( 997)  155 30.2     5.5
+Y40B1A.3a CE43137 WBGene00012734 status:Partially_ ( 490)  148 29.2     5.6
+F36A4.10 CE07185 WBGene00000611 locus:col-34 cutic ( 299)  143 28.5     5.7
+Y40B1A.3b CE43287 WBGene00012734 status:Partially_ ( 504)  148 29.2     5.7
+F11G11.12 CE09354 WBGene00000649 locus:col-73 coll ( 285)  142 28.3     5.9
+R13.4 CE39269 WBGene00011259 locus:miz-1 status:Co ( 803)  152 29.8       6
+ZK973.9 CE23479 WBGene00022835 status:Confirmed Un ( 233)  140 28.0       6
+Y18D10A.8 CE21404 WBGene00012478 KH domain family  ( 507)  147 29.1     6.2
+F36A4.6 CE34548 WBGene00000610 locus:col-33 cuticu ( 304)  142 28.3     6.3
+C16B8.3 CE04013 WBGene00015823 status:Confirmed Un ( 164)  135 27.3     6.8
+F54B11.1 CE05925 WBGene00000598 locus:col-9 collag ( 339)  142 28.4     6.8
+T01D1.2g CE41586 WBGene00001340 locus:etr-1 status ( 513)  146 29.0     6.8
+Y50D4C.1b CE33232 WBGene00006770 locus:unc-34 stat ( 310)  141 28.2     6.9
+T21B4.2 CE16427 WBGene00000660 locus:col-85 collag ( 312)  141 28.2     6.9
+R10E11.1c CE42151 WBGene00000366 locus:cbp-1 statu (2016)  159 30.9       7
+R10E11.1a CE28069 WBGene00000366 locus:cbp-1 bromo (2045)  159 30.9     7.1
+R10E11.1b CE21117 WBGene00000366 locus:cbp-1 statu (2056)  159 30.9     7.1
+C46A5.3b CE08753 WBGene00000603 locus:col-14 statu ( 326)  141 28.2     7.2
+C46A5.3a CE29723 WBGene00000603 locus:col-14 cutic ( 345)  141 28.2     7.5
+F52C9.8b CE30998 WBGene00004095 locus:pqe-1 status (1647)  156 30.5     7.6
+F39H11.3 CE32409 WBGene00000409 locus:cdk-8 serine ( 588)  146 29.0     7.6
+Y48G9A.4 CE32979 WBGene00021698 locus:frl-1 status (1115)  152 29.9     7.8
+C26G2.2 CE43184 WBGene00007751 status:Partially_co (1148)  152 29.9       8
+EGAP7.1 CE07013 WBGene00001065 locus:dpy-3 cuticul ( 302)  139 28.0       8
+K04E7.3 CE40705 WBGene00003551 locus:nas-33 zinc m ( 644)  146 29.0     8.2
+F43B10.2b CE40060 WBGene00018374 locus:tag-343 sta ( 774)  147 29.2     8.8
+R144.2a CE02032 WBGene00020092 locus:pcf-11 status ( 823)  147 29.2     9.2
+R10E12.1d CE34084 WBGene00007010 locus:alx-1 statu ( 498)  142 28.5     9.3
+F15B9.4 CE37351 WBGene00008848 locus:inft-2 status (1140)  150 29.7     9.4
+F13D12.3 CE03197 WBGene00008739 status:Confirmed U ( 245)  135 27.4     9.4
+ZC513.8 CE07615 WBGene00000620 locus:col-43 cuticu ( 303)  137 27.7     9.5
+C24A8.3 CE43920 WBGene00004106 locus:pqn-15 status (1180)  150 29.7     9.6
+T26C11.2 CE05021 WBGene00020828 E. gracilis major  ( 343)  138 27.9     9.6
+Y50D4C.1a CE43197 WBGene00006770 locus:unc-34 stat ( 468)  141 28.3     9.6
+R09B3.2 CE16307 WBGene00011155 RNA recognition mot (  83)  124 25.8     9.8
+K01A2.7 CE19515 WBGene00000645 locus:col-69 cuticu ( 394)  139 28.0     9.9
+C24F3.6 CE18523 WBGene00000698 locus:col-124 CUTIC ( 291)  136 27.6      10
+
+>>K08D10.3 CE07355 WBGene00004386 locus:rnp-3 U1 small nuclea (217 aa)
+ s-w opt: 633  Z-score: 431.9  bits: 87.4 E(24705): 7.5e-18
+Smith-Waterman score: 633; 41.1% identity (61.8% similar) in 275 aa overlap (8-282:6-217)
+
+               10        20        30        40        50        60
+RU1_hu MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFK
+              ::::::.::::::.::::::.::. .:.:::.:....  :. :::::: ..::
+K08D10   MADINPNHTIYVNNLNEKVKKDELKRSLHMVFTQFGEIIQLMSFRKEKMRGQAHIVFK
+                 10        20        30        40        50        
+
+               70        80        90       100       110       120
+RU1_hu EVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPA
+       :::::.::::..:::::: ::::::::. :::.:.. ::::::. .:  :   :  : ::
+K08D10 EVSSASNALRALQGFPFYGKPMRIQYAREDSDVISRAKGTFVEKRQKSTKIAKKPYEKPA
+       60        70        80        90       100       110        
+
+              130       140       150       160       170       180
+RU1_hu TKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQI
+        .    : .:.                              : .  :     :::     
+K08D10 KN----GKSAAE-----------------------------PTQKEPQETDGPGL-----
+      120                                        130       140     
+
+              190       200       210       220       230       240
+RU1_hu PPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV
+                                ::.::: .:.:: :.  ... .:.::::..::: .
+K08D10 -------------------------PNNILFCSNIPEGTEPEQIQTIFSQFPGLREVRWM
+                                       150       160       170     
+
+              250       260       270       280  
+RU1_hu PGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+       :. .:.::.:...:  .  ::.::..:.:: .. . ..::.:
+K08D10 PNTKDFAFIEYESEDLSEPARQALDNFRITPTQQITVKFASK
+         180       190       200       210       
+
+>>K08D10.4 CE28597 WBGene00004385 locus:rnp-2 U1 small nuclea (206 aa)
+ s-w opt: 588  Z-score: 402.9  bits: 82.0 E(24705): 3.1e-16
+Smith-Waterman score: 588; 39.2% identity (61.2% similar) in 278 aa overlap (5-282:3-206)
+
+               10        20        30        40        50        60
+RU1_hu MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFK
+           :. :: :.:::::::::: :::.::: :.:.:::.:....  :.::::::: ::::
+K08D10   MAEVAPNSTLYINNLNEKIKIDELRKSLVAVFKQFGEIVSVMCFRTLKMRGQAHVIFK
+                 10        20        30        40        50        
+
+               70        80        90       100       110       120
+RU1_hu EVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPA
+       :. .:. : ....:::::.::::::.:. :::..:. :::...:. :  ..:  ..  : 
+K08D10 ELPAASAAREALNGFPFYEKPMRIQFAREDSDVVAQEKGTYIKREPKYLSEKILKK--PK
+       60        70        80        90       100       110        
+
+              130       140       150       160       170       180
+RU1_hu TKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQI
+       ..:  .::         .::.:                                      
+K08D10 SRKKENGG---------DGPAP--------------------------------------
+        120                                                        
+
+              190       200       210       220       230       240
+RU1_hu PPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV
+                                ::.::: ::::. ..  :: ..:::: :.:..:.:
+K08D10 -------------------------PNKILFCTNLPDSATAEMLEIMFNQFAGLKDIRMV
+                              130       140       150       160    
+
+              250       260       270       280  
+RU1_hu PGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+       :.:  :::::::..  :  :: .:..:::. ...:....:::
+K08D10 PNRPGIAFVEFDTDSLAIPARTTLNNFKISAEHTMRVDYAKK
+          170       180       190       200      
+
+>>C08B11.5 CE36374 WBGene00004723 locus:sap-49 Poly(A) RNA bi (388 aa)
+ s-w opt: 256  Z-score: 182.7  bits: 42.1 E(24705): 0.00056
+Smith-Waterman score: 256; 31.6% identity (49.8% similar) in 237 aa overlap (12-206:102-328)
+
+                                  10        20        30        40 
+RU1_hu                    MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQIL
+                                     :...::. ..  ::  : ::  :: :: ::
+C08B11 KILNMIKLYGKPIKVNKASAHEKNMDVGANIFVGNLDPEV--DE--KLLYDTFSAFGVIL
+              80        90       100       110           120       
+
+               50           60        70        80         90      
+RU1_hu DI-LVSRSLKM---RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYA-KTDSDIIAK
+       ..  . :..     .: ::. :    .. .::..:.:  . .. . ..:: : ::   ..
+C08B11 QVPKIMRDVDSGTSKGFAFINFASFEASDTALEAMNGQFLCNRAITVSYAFKRDSK--GE
+       130       140       150       160       170       180       
+
+        100                  110       120        130              
+RU1_hu MKGTFVER-----------DRKREKRKPKSQETPA-TKKAVQGGGAT-------------
+        .:: .::           :: ..  .     .:: :  :. :  :.             
+C08B11 RHGTAAERMLAAQNPLFPKDRPHQVFSDVPLGVPANTPLAMPGVHAAIAAHATGRPGYQP
+         190       200       210       220       230       240     
+
+                     140        150       160          170         
+RU1_hu -PVVGAVQG-------PVPGMPP-MTQAPRIMHHMPGQPPYMPPP---GMIPPPGLAPGQ
+        :..: .:.       :::  :: .:  :  :   ::. :  :::   :: :::   :  
+C08B11 PPLMGMAQSGYQGQYPPVPPPPPSVTPMPPPMPPTPGMTPRPPPPPSSGMWPPP--PPP-
+         250       260       270       280       290         300   
+
+     180       190       200       210       220       230         
+RU1_hu IPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRL
+        :::  :    :::. ::  :   .::                                 
+C08B11 -PPGRTPGPPGMPGMPPPPPPSRFGPPGMGGMPPPPPPGMRYPGGMPPPPPPRYPSAGPG
+             310       320       330       340       350       360 
+
+>>B0035.1a CE07665 WBGene00007105 Zinc finger, C2H2 type stat (298 aa)
+ s-w opt: 215  Z-score: 157.7  bits: 37.1 E(24705): 0.014
+Smith-Waterman score: 215; 37.5% identity (57.7% similar) in 104 aa overlap (115-206:94-196)
+
+           90       100       110       120       130          140 
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGA---TPVVGAVQGPV
+                                     ..: :  :.. . .:    ::.    . : 
+B0035. KIPAAVHGRDNIHVEIYGMQGIPSGAYRGAADEEPDEKRSRMDNGPPMPTPMPFPQHFPF
+            70        80        90       100       110       120   
+
+             150          160           170        180       190   
+RU1_hu PGMPPMTQAP---RIMHHMPGQPP-YMPP---PGMIPPP-GLAPGQIPPGAMPPQQLMPG
+       :::::: ..:    . . :: .:  .:::   ::  ::: :  :.  :   :::   :::
+B0035. PGMPPMPSGPPPPSMAYGMPPMPSGMMPPRGMPGAYPPPRGYPPAPAPGVYMPPPG-MPG
+           130       140       150       160       170        180  
+
+            200       210       220       230       240       250  
+RU1_hu QMPPAQ-PLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFD
+        .:: . :....::                                              
+B0035. AYPPPRMPIGHGPPGGPPMPGPPQRSRFDQPDGGDRWGPPMRGVPRTPPYENEHEHQDYQ
+            190       200       210       220       230       240  
+
+>>B0035.1b CE05159 WBGene00007105 status:Confirmed UniProt:Q9 (341 aa)
+ s-w opt: 215  Z-score: 156.9  bits: 37.2 E(24705): 0.015
+Smith-Waterman score: 215; 37.5% identity (57.7% similar) in 104 aa overlap (115-206:94-196)
+
+           90       100       110       120       130          140 
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGA---TPVVGAVQGPV
+                                     ..: :  :.. . .:    ::.    . : 
+B0035. KIPAAVHGRDNIHVEIYGMQGIPSGAYRGAADEEPDEKRSRMDNGPPMPTPMPFPQHFPF
+            70        80        90       100       110       120   
+
+             150          160           170        180       190   
+RU1_hu PGMPPMTQAP---RIMHHMPGQPP-YMPP---PGMIPPP-GLAPGQIPPGAMPPQQLMPG
+       :::::: ..:    . . :: .:  .:::   ::  ::: :  :.  :   :::   :::
+B0035. PGMPPMPSGPPPPSMAYGMPPMPSGMMPPRGMPGAYPPPRGYPPAPAPGVYMPPPG-MPG
+           130       140       150       160       170        180  
+
+            200       210       220       230       240       250  
+RU1_hu QMPPAQ-PLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFD
+        .:: . :....::                                              
+B0035. AYPPPRMPIGHGPPGGPPMPGPPQRSRFDQPDGGDRWGPPMRGVPRTPPYENEHEHQDYQ
+            190       200       210       220       230       240  
+
+>>F58A3.1b CE11352 WBGene00002261 locus:ldb-1 status:Confirme (578 aa)
+ s-w opt: 202  Z-score: 145.1  bits: 35.7 E(24705): 0.07
+Smith-Waterman score: 202; 29.8% identity (52.2% similar) in 228 aa overlap (62-241:337-553)
+
+              40        50        60        70        80        90 
+RU1_hu AIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD-
+                                     : .:. :  . : ::   .::  :. . . 
+F58A3. KPAANPRGSKKATAAAAAAAAAATNGVPPTVPTASPA--NNQQFP--PNPMTSQFQQMSY
+        310       320       330       340           350       360  
+
+                  100        110       120       130               
+RU1_hu SDIIA----KMKGT-FVERDRKREKRKPKSQETPATKKAVQGGGATPVVGA-VQG-----
+        :...    .: :. : : :..  .:  .::  : . . .:. :  :  .  ..:     
+F58A3. PDVMVVGEPSMMGSEFGENDERTISRVENSQYDPNAMQ-MQSLGQGPNSSMNINGRNMMN
+            370       380       390       400        410       420 
+
+            140             150                  160         170   
+RU1_hu -------PVPG---MPPMT---QAPRIMH---HMP--------GQPPYMPPP--GMIPPP
+              : ::   ::: .   : :  ::   :::        :.:: ::    ...:::
+F58A3. QHHPGMQPPPGQQHMPPHSMGSQMPTSMHNPMHMPPGSMQGHGGMPP-MPSTMANQMPPP
+             430       440       450       460        470       480
+
+               180       190        200       210         220      
+RU1_hu GLAP----GQIPPGAMPPQQLMPGQMPPA-QPLSENPPNHILFLTNLPEET--NELMLSM
+       .: :    .:.: . :::.:   :::::. .: . . ::  .. ...:  .  ...  ::
+F58A3. NLPPHTMSNQMPNSRMPPMQ---GQMPPSGMPGQMSNPN--MMGSGMPPMSMSSQMPGSM
+              490       500          510         520       530     
+
+           230       240       250       260       270       280  
+RU1_hu ---LFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+          . ::.::  ..  .:                                         
+F58A3. SNPMPNQMPGGMQMNQMPPPNYSQYTGGPPPQWPPPNSAMITG                
+         540       550       560       570                        
+
+>>F58A3.1a CE11350 WBGene00002261 locus:ldb-1 status:Confirme (592 aa)
+ s-w opt: 202  Z-score: 144.9  bits: 35.7 E(24705): 0.072
+Smith-Waterman score: 202; 29.8% identity (52.2% similar) in 228 aa overlap (62-241:351-567)
+
+              40        50        60        70        80        90 
+RU1_hu AIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD-
+                                     : .:. :  . : ::   .::  :. . . 
+F58A3. KPAANPRGSKKATAAAAAAAAAATNGVPPTVPTASPA--NNQQFP--PNPMTSQFQQMSY
+              330       340       350         360         370      
+
+                  100        110       120       130               
+RU1_hu SDIIA----KMKGT-FVERDRKREKRKPKSQETPATKKAVQGGGATPVVGA-VQG-----
+        :...    .: :. : : :..  .:  .::  : . . .:. :  :  .  ..:     
+F58A3. PDVMVVGEPSMMGSEFGENDERTISRVENSQYDPNAMQ-MQSLGQGPNSSMNINGRNMMN
+        380       390       400       410        420       430     
+
+            140             150                  160         170   
+RU1_hu -------PVPG---MPPMT---QAPRIMH---HMP--------GQPPYMPPP--GMIPPP
+              : ::   ::: .   : :  ::   :::        :.:: ::    ...:::
+F58A3. QHHPGMQPPPGQQHMPPHSMGSQMPTSMHNPMHMPPGSMQGHGGMPP-MPSTMANQMPPP
+         440       450       460       470       480        490    
+
+               180       190        200       210         220      
+RU1_hu GLAP----GQIPPGAMPPQQLMPGQMPPA-QPLSENPPNHILFLTNLPEET--NELMLSM
+       .: :    .:.: . :::.:   :::::. .: . . ::  .. ...:  .  ...  ::
+F58A3. NLPPHTMSNQMPNSRMPPMQ---GQMPPSGMPGQMSNPN--MMGSGMPPMSMSSQMPGSM
+          500       510          520       530         540         
+
+           230       240       250       260       270       280  
+RU1_hu ---LFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+          . ::.::  ..  .:                                         
+F58A3. SNPMPNQMPGGMQMNQMPPPNYSQYTGGPPPQWPPPNSAMITG                
+     550       560       570       580       590                  
+
+>>F58A3.1c CE23789 WBGene00002261 locus:ldb-1 status:Partiall (629 aa)
+ s-w opt: 202  Z-score: 144.5  bits: 35.8 E(24705): 0.075
+Smith-Waterman score: 202; 29.8% identity (52.2% similar) in 228 aa overlap (62-241:388-604)
+
+              40        50        60        70        80        90 
+RU1_hu AIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD-
+                                     : .:. :  . : ::   .::  :. . . 
+F58A3. KPAANPRGSKKATAAAAAAAAAATNGVPPTVPTASPA--NNQQFP--PNPMTSQFQQMSY
+       360       370       380       390         400         410   
+
+                  100        110       120       130               
+RU1_hu SDIIA----KMKGT-FVERDRKREKRKPKSQETPATKKAVQGGGATPVVGA-VQG-----
+        :...    .: :. : : :..  .:  .::  : . . .:. :  :  .  ..:     
+F58A3. PDVMVVGEPSMMGSEFGENDERTISRVENSQYDPNAMQ-MQSLGQGPNSSMNINGRNMMN
+           420       430       440       450        460       470  
+
+            140             150                  160         170   
+RU1_hu -------PVPG---MPPMT---QAPRIMH---HMP--------GQPPYMPPP--GMIPPP
+              : ::   ::: .   : :  ::   :::        :.:: ::    ...:::
+F58A3. QHHPGMQPPPGQQHMPPHSMGSQMPTSMHNPMHMPPGSMQGHGGMPP-MPSTMANQMPPP
+            480       490       500       510        520       530 
+
+               180       190        200       210         220      
+RU1_hu GLAP----GQIPPGAMPPQQLMPGQMPPA-QPLSENPPNHILFLTNLPEET--NELMLSM
+       .: :    .:.: . :::.:   :::::. .: . . ::  .. ...:  .  ...  ::
+F58A3. NLPPHTMSNQMPNSRMPPMQ---GQMPPSGMPGQMSNPN--MMGSGMPPMSMSSQMPGSM
+             540       550          560         570       580      
+
+           230       240       250       260       270       280  
+RU1_hu ---LFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+          . ::.::  ..  .:                                         
+F58A3. SNPMPNQMPGGMQMNQMPPPNYSQYTGGPPPQWPPPNSAMITG                
+        590       600       610       620                         
+
+>>C02B10.5 CE16802 WBGene00015330 status:Partially_confirmed  (698 aa)
+ s-w opt: 201  Z-score: 143.2  bits: 35.7 E(24705): 0.089
+Smith-Waterman score: 201; 37.6% identity (58.4% similar) in 101 aa overlap (118-208:527-622)
+
+        90       100       110       120       130        140      
+RU1_hu KTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPV-VGAVQGPVPGMP-
+                                     .::.. . .:.. .:      : : :. : 
+C02B10 QQQHFMQMQQAQMAHFNAQKAAAAAAAAGMSPAARASPMGASPSPHHPHPSQFP-PNHPA
+        500       510       520       530       540       550      
+
+          150           160       170       180       190          
+RU1_hu -PMTQAP----RIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQ--MPPA
+        :: .      : :: . ::: .   :::.::  . ::..::: :::  . ::.  ::: 
+C02B10 NPMYHHHIMMMRAMHAQGGQPGH---PGMMPPGMMPPGMMPPGMMPPG-MHPGMAGMPPM
+         560       570          580       590       600        610 
+
+      200        210       220       230       240       250       
+RU1_hu QP-LSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQA
+       .: ..  :: :                                                 
+C02B10 HPGMQGMPPMHPGMQGMPGMPHGPPQPPQNPALMVAGNRAGSAEAAAAQMGNPHHPMMGA
+             620       630       640       650       660       670 
+
+>>F11H8.4a CE36535 WBGene00000872 locus:cyk-1 required for a  (1435 aa)
+ s-w opt: 206  Z-score: 141.9  bits: 36.5 E(24705):  0.1
+Smith-Waterman score: 206; 28.1% identity (47.3% similar) in 224 aa overlap (40-241:603-810)
+
+      10        20        30        40        50        60         
+RU1_hu HTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNAL
+                                     : :::. :.  .  ::   :     ... .
+F11H8. TVLLSILQLMTLTNEDMSTKRSYMKLIETAISDILLHRT-PIDPQADYKFVFEVPVAEII
+            580       590       600       610        620       630 
+
+      70        80          90       100         110               
+RU1_hu RSMQGFPFYDKPM--RIQYAKTDSDIIAKMKGTFVER--DRKREK---RK----PKSQET
+        .::     :. :  ... : . ..  . :.: . .   : ..:    ::    ::    
+F11H8. DKMQ-----DEEMAKKVRQATSAKQEAVAMQGEYWKTLCDFQKEAEELRKHINDPKIPLP
+                  640       650       660       670       680      
+
+      120            130          140       150       160          
+RU1_hu PATK-----KAVQGGGAT---PVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPY-MPPPGM
+       : ::      ....::..   :..:.   : ::.::.: .:      :  ::  .::   
+F11H8. PPTKMNLSAPSTSAGGSSALPPITGGPPPP-PGLPPITGGPP-----PPPPPGGLPPITG
+        690       700       710        720            730       740
+
+     170       180         190       200       210       220       
+RU1_hu IPPPGLAPGQIPP--GAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSML
+        :::   :: .::  :. ::    ::  ::  :    ::    :  . :      :.. .
+F11H8. GPPPPPPPGGLPPISGGPPPPPPPPGGCPPPPP----PPPPGGFKGGPPPPPPPGMFAPM
+              750       760       770           780       790      
+
+       230       240       250       260       270       280       
+RU1_hu FNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK     
+          .: .   . ::                                              
+F11H8. APVIPDYLPPKKVPKVDGPMRKFPWGAHTINPRDIPRESFWVGTNEEQLTSDRMFDRLRT
+        800       810       820       830       840       850      
+
+>>F11H8.4b CE36536 WBGene00000872 locus:cyk-1 required for a  (1437 aa)
+ s-w opt: 206  Z-score: 141.9  bits: 36.5 E(24705): 0.11
+Smith-Waterman score: 206; 28.1% identity (47.3% similar) in 224 aa overlap (40-241:603-810)
+
+      10        20        30        40        50        60         
+RU1_hu HTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNAL
+                                     : :::. :.  .  ::   :     ... .
+F11H8. TVLLSILQLMTLTNEDMSTKRSYMKLIETAISDILLHRT-PIDPQADYKFVFEVPVAEII
+            580       590       600       610        620       630 
+
+      70        80          90       100         110               
+RU1_hu RSMQGFPFYDKPM--RIQYAKTDSDIIAKMKGTFVER--DRKREK---RK----PKSQET
+        .::     :. :  ... : . ..  . :.: . .   : ..:    ::    ::    
+F11H8. DKMQ-----DEEMAKKVRQATSAKQEAVAMQGEYWKTLCDFQKEAEELRKHINDPKIPLP
+                  640       650       660       670       680      
+
+      120            130          140       150       160          
+RU1_hu PATK-----KAVQGGGAT---PVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPY-MPPPGM
+       : ::      ....::..   :..:.   : ::.::.: .:      :  ::  .::   
+F11H8. PPTKMNLSAPSTSAGGSSALPPITGGPPPP-PGLPPITGGPP-----PPPPPGGLPPITG
+        690       700       710        720            730       740
+
+     170       180         190       200       210       220       
+RU1_hu IPPPGLAPGQIPP--GAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSML
+        :::   :: .::  :. ::    ::  ::  :    ::    :  . :      :.. .
+F11H8. GPPPPPPPGGLPPISGGPPPPPPPPGGCPPPPP----PPPPGGFKGGPPPPPPPGMFAPM
+              750       760       770           780       790      
+
+       230       240       250       260       270       280       
+RU1_hu FNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK     
+          .: .   . ::                                              
+F11H8. APVIPDYLPPKKVPKVDGPMRKFPWGAHTINPRDIPRESFWVGTNEEQLTSDRMFDRLRT
+        800       810       820       830       840       850      
+
+>>F46A9.6 CE08260 WBGene00003172 locus:mec-8 mecanosensory ge (312 aa)
+ s-w opt: 191  Z-score: 141.8  bits: 34.2 E(24705): 0.11
+Smith-Waterman score: 191; 23.4% identity (48.8% similar) in 299 aa overlap (6-281:25-304)
+
+                                  10          20        30         
+RU1_hu                    MAVPETRPNH--TIYINNLNEKIKKDELKKSLYAIFSQFGQ
+                               : :..  :.....:    :  ::   . .  .  : 
+F46A9. MDGPKPNLASAASMESLNSVSSEATNPSQVRTLFVSGLPMDAKPRELYLLFRGCRGYEGA
+               10        20        30        40        50        60
+
+      40        50        60        70           80        90      
+RU1_hu ILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGF---PFYDKPMRIQYAKTDSDIIAK
+       .: .  . .      .:: :   ..: .: . .::    :   . .:.. ::... .   
+F46A9. LLKMTSKNGKPTSPVGFVTFLSQQDAQDARKMLQGVRFDPECAQVLRLELAKSNTKVA--
+               70        80        90       100       110          
+
+        100       110       120       130       140       150      
+RU1_hu MKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQA------
+                  : :..:   .  : . :.  .:.   .. .:  .  . :.. :      
+F46A9. -----------RPKQSPPPPQHAALSAAA--AGVPQFLAPMQHDLL-LDPQSAALFNEQQ
+                 120       130         140       150        160    
+
+                    160       170          180       190       200 
+RU1_hu ------PRIMHHMPGQPPYMPPPGMIPPPG---LAPGQIPPGAMPPQQLMPGQMPPAQPL
+             :..   .  :  :::  ..        .: .:. :.:    .:. .:.      
+F46A9. LLALSLPHLHAAQALQAAYMPASALQQYSQNQLFAAAQMHPAAAAAASLQHSQQASQAST
+          170       180       190       200       210       220    
+
+             210       220       230       240        250       260
+RU1_hu SENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-IAFVEFDNEVQAGAA
+       :       ::..::  :.::  :  .:. : :: ..::     . .::::...  .:  :
+F46A9. SAC---STLFVANLSAEVNEDTLRGVFKAFSGFTRLRLHNKNGSCVAFVEYSDLQKATQA
+             230       240       250       260       270       280 
+
+              270         280         
+RU1_hu RDALQGFKITQNN--AMKISFAKK       
+         .::::.:: :.  ...: .:.        
+F46A9. MISLQGFQITANDRGGLRIEYARNKMADVNG
+             290       300       310  
+
+>>F18H3.3a CE02193 WBGene00003903 locus:pab-2 poly-adenylate  (692 aa)
+ s-w opt: 191  Z-score: 136.8  bits: 34.5 E(24705):  0.2
+Smith-Waterman score: 191; 24.1% identity (50.9% similar) in 232 aa overlap (12-206:345-570)
+
+                                  10        20        30        40 
+RU1_hu                    MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQIL
+                                     .:..:..: .. : :.      ::.:: : 
+F18H3. AQKKSERSAELKRKYEALKQERVQRYQGVNLYVKNIEEDLNDDGLRDH----FSSFGTIT
+          320       330       340       350       360           370
+
+                50        60        70        80        90         
+RU1_hu D--ILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKG
+       .  ..:... . .: .:: :..   :: :. .:..  .  ::. .  :.   :  :.. .
+F18H3. SAKVMVDENGRSKGFGFVCFEKPEEATAAVTDMNSKMIGAKPLYVALAQRKEDRRAQLAS
+              380       390       400       410       420       430
+
+     100       110       120                       130       140   
+RU1_hu TFVERDRKREKRKPKSQETPATKKAVQGG----------------GATPVVGAVQGPVPG
+        ...:     .   ... .::  .  : :                :  :  . ..:: ::
+F18H3. QYMQR-LATLRMGQQASGVPAMTQLYQPGQQGYFVPNPMNAQGRPGFQPQSAQIRGP-PG
+               440       450       460       470       480         
+
+                150           160            170       180         
+RU1_hu M-----PPMTQAP----RIMHHMPGQPPYM-----PPPGMIPPPGLAPGQIPPGAM----
+       .       . : :    ... .. :.::.      :  :: : :. ::    ::..    
+F18H3. QRVFQNQMFMQYPFNQRQVYPQQQGRPPMRTNDGRPQYGMAPRPAGAPRVGGPGVQMGGA
+      490       500       510       520       530       540        
+
+         190        200       210       220       230       240    
+RU1_hu PPQQLMPG-QMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRH
+       : .:  :. .  : .:. ..::                                      
+F18H3. PIRQQGPAPRGAPQKPFYQGPPRQQQPQQHSQQPAQQPGQQGQGQSGIVIHGQETLTSHM
+      550       560       570       580       590       600        
+
+>>F18H3.3b CE03230 WBGene00003903 locus:pab-2 RNA recognition (566 aa)
+ s-w opt: 183  Z-score: 132.8  bits: 33.4 E(24705): 0.34
+Smith-Waterman score: 183; 24.2% identity (50.6% similar) in 231 aa overlap (12-215:345-564)
+
+                                  10        20        30        40 
+RU1_hu                    MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQIL
+                                     .:..:..: .. : :.      ::.:: : 
+F18H3. AQKKSERSAELKRKYEALKQERVQRYQGVNLYVKNIEEDLNDDGLRDH----FSSFGTIT
+          320       330       340       350       360           370
+
+                50        60        70        80        90         
+RU1_hu D--ILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKG
+       .  ..:... . .: .:: :..   :: :. .:..  .  ::. .  :.   :  :.. .
+F18H3. SAKVMVDENGRSKGFGFVCFEKPEEATAAVTDMNSKMIGAKPLYVALAQRKEDRRAQLAS
+              380       390       400       410       420       430
+
+     100       110       120                       130       140   
+RU1_hu TFVERDRKREKRKPKSQETPATKKAVQGG----------------GATPVVGAVQGPVPG
+        ...:     .   ... .::  .  : :                :  :  . ..:: ::
+F18H3. QYMQR-LATLRMGQQASGVPAMTQLYQPGQQGYFVPNPMNAQGRPGFQPQSAQIRGP-PG
+               440       450       460       470       480         
+
+                150           160       170       180       190    
+RU1_hu M-----PPMTQAP----RIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQ
+       .       . : :    ... .. :.::.    :  :  :.::   : ::  :.   :: 
+F18H3. QRVFQNQMFMQYPFNQRQVYPQQQGRPPMRTNDGR-PQYGMAPR--PAGA--PRVGGPGV
+      490       500       510       520        530           540   
+
+          200       210       220       230       240       250    
+RU1_hu MPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNE
+       .  . :. .:    ..:. ::                                       
+F18H3. QMGGAPIRQNFGVFFFFIKNLET                                     
+           550       560                                           
+
+>>ZK354.8 CE15324 WBGene00022709 protein phosphatase status:C (483 aa)
+ s-w opt: 180  Z-score: 131.9  bits: 33.0 E(24705): 0.38
+Smith-Waterman score: 180; 29.5% identity (54.9% similar) in 122 aa overlap (103-216:32-150)
+
+             80        90       100       110       120       130  
+RU1_hu QGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATP
+                                     ::......   . ..  ::.. .       
+ZK354. PPKPKKSTGAKKKVSKLNKRPSKISVVSVNERSKNERSVMQSIEQEEATNNEIVPTPKKT
+              10        20        30        40        50        60 
+
+            140         150        160       170       180         
+RU1_hu VVGAVQGPVPGMPPMT--QAPRI-MHHMPGQPPYMPPPGMIPPPGLAPGQIPP----GAM
+       ..  .: :.: .: .   : :.. :. :   ::  :::   ::: .:: : ::    .:.
+ZK354. TAQIAQQPTPTLPQIIAKQEPEVAMKTMMLPPPSDPPP---PPPPVAPHQPPPQLATSAQ
+              70        80        90          100       110        
+
+          190       200       210       220       230       240    
+RU1_hu PPQQ-LMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRH
+       :::  .. .:.:  .:    ::.    : . :                            
+ZK354. PPQPPVINSQLPRMSPAPAIPPSMAQPLLQSPSPGADIAIRRPSKEKTDEKSVDETGGSD
+      120       130       140       150       160       170        
+
+          250       260       270       280                        
+RU1_hu DIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                      
+                                                                   
+ZK354. KKKRTEVICSWIRLVLQNGVAGLKKEYRDSPNEAPEDIATSFLGNPTRNRYRNIPCCDIT
+      180       190       200       210       220       230        
+
+>>C50D2.4 CE08889 WBGene00000644 locus:col-68 cuticular colla (329 aa)
+ s-w opt: 175  Z-score: 131.1  bits: 32.3 E(24705): 0.42
+Smith-Waterman score: 175; 34.7% identity (53.5% similar) in 101 aa overlap (113-206:193-287)
+
+             90       100       110       120       130       140  
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVP
+                                     : ... :   ..  :. .::  .:. :: :
+C50D2. NPGTPGQDAVGDESPTAADFCFDCPTGPPGPPGKQGPKGPNGEPGAPGTPGGNALPGP-P
+            170       180       190       200       210       220  
+
+            150       160       170             180        190     
+RU1_hu GMPPMTQAPRIMHHMPGQPPYMPPPGMI------PPPGLAPGQIPPGAM-PPQQLMPGQM
+       : ::  :.:     .::.:     ::..      : :.  ::  ::: . :: :  ::  
+C50D2. G-PPGPQGPPGADGLPGNPGAPGVPGQVIEVPGTPGPAGPPG--PPGPIGPPGQ--PGAP
+              230       240       250       260         270        
+
+         200       210       220       230       240       250     
+RU1_hu PPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEV
+         .::  ..::                                                 
+C50D2. GSSQPGPQGPPGDPGIDGAPGNPGSPGEPGPPGQPGAGGGCDHCPPPRTAPGY       
+        280       290       300       310       320                
+
+>>K08F8.6 CE37536 WBGene00002295 locus:let-19 status:Confirme (2862 aa)
+ s-w opt: 195  Z-score: 130.4  bits: 35.3 E(24705): 0.46
+Smith-Waterman score: 195; 35.7% identity (55.7% similar) in 115 aa overlap (100-197:1178-1290)
+
+      70        80        90       100       110       120         
+RU1_hu RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGG
+                                     ::    .:   ..:..   :.:. :.. : 
+K08F8. FKIENEPPSMSAELVYAPMVTRNFYSAPHRTFGTLAQKVVDKRPSQFAIPSTSTAAHPGL
+      1150      1160      1170      1180      1190      1200       
+
+     130       140           150            160            170     
+RU1_hu ATPVVGAVQGPV---PGMP-PMTQAPRIMHHM-----PGQPPYMPP-----PGMIPPPGL
+       .::...  :.:.   :  : :.. .:   : :     :: :  .::     ::: : :: 
+K08F8. TTPMASIFQSPTMPPPHTPSPFSAGPMSHHPMGPPAYPGTPGSFPPTTPTYPGMTPRPG-
+      1210      1220      1230      1240      1250      1260       
+
+         180         190        200       210       220       230  
+RU1_hu APGQIPPGAMPP--QQLM-PGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFP
+        :.  ::: . :  ::.: :: .::                                   
+K08F8. -PNFGPPGPVYPNSQQMMGPGGYPPQMGMINSQRHFQNQQMYQQQMVRMQQMRQMGGPPG
+        1270      1280      1290      1300      1310      1320     
+
+>>C01G8.9a CE30415 WBGene00002717 locus:let-526 status:Partia (1724 aa)
+ s-w opt: 189  Z-score: 129.7  bits: 34.5 E(24705):  0.5
+Smith-Waterman score: 189; 36.0% identity (51.4% similar) in 111 aa overlap (109-212:683-782)
+
+       80        90       100       110       120       130        
+RU1_hu DKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQ
+                                     :  .   ..::: . .:      :   .::
+C01G8. SATPDSSTIPSASAAADAQTTTSSETSTPGEPTSSTPSDTPAPSTSV------PPPTSVQ
+            660       670       680       690             700      
+
+      140       150            160       170       180       190   
+RU1_hu GPVPGMPPMTQA--PRIMHH---MPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPG
+        : : .::.     :  ..:   .:: : : :: .: :: :.::   ::::  :    ::
+C01G8. PPQPQQPPQGPPGPPGPQQHPGPYPGYPGYGPPGAMRPPAGFAP---PPGA--PYGYPPG
+        710       720       730       740       750            760 
+
+             200       210       220       230       240       250 
+RU1_hu QMPPA--QPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEF
+         :::  .:   . :.:  .:                                       
+C01G8. APPPAGFHPSHPQHPQHAQYLAWQQQRYHQQQQHQQQQQQGAPGGPRPPYPYPGGPVPPG
+             770       780       790       800       810       820 
+
+>--
+ s-w opt: 188  Z-score: 129.1  bits: 34.4 E(24705): 0.55
+Smith-Waterman score: 188; 36.9% identity (57.3% similar) in 103 aa overlap (115-206:61-161)
+
+           90       100       110       120       130       140    
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM
+                                     .:. :  ...:  .. .:  :  .   :::
+C01G8. PPAPDASMPTPQQQQQQPNLPPPQQPYEHPAQQHPPQHHSVPPNSFAPPPGQHHPQHPGM
+               40        50        60        70        80        90
+
+           150        160       170             180          190   
+RU1_hu PPMT-QAPRIMHHMP-GQPPYMPPPGMIPP---PGL---APGQIPPGA---MPPQQLMPG
+       :::  . :   ..:: : :  .:: :: ::   ::    : :  ::::   .:::.. : 
+C01G8. PPMEWRPPGAEYQMPPGYPAGYPPYGM-PPRHHPGYPHPAYGYPPPGAPYGYPPQMMRPP
+              100       110        120       130       140         
+
+           200       210       220       230       240       250   
+RU1_hu QMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDN
+       .: :.. . . ::                                               
+C01G8. MMAPGD-MVRMPPGPTPTEWAAQQQAQAASRSVPPKEGPNGNPATPSSSSQPIPSPSASS
+     150        160       170       180       190       200        
+
+>>H28G03.2c CE31192 WBGene00019250 status:Confirmed UniProt:Q (275 aa)
+ s-w opt: 171  Z-score: 129.6  bits: 31.8 E(24705): 0.51
+Smith-Waterman score: 171; 42.9% identity (55.8% similar) in 77 aa overlap (142-210:55-127)
+
+             120       130       140        150       160          
+RU1_hu KPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMT-QAPRIMHHMPGQP-PY---MPP
+                                     : ::::  .:  ..    ::: :.   :::
+H28G03 KIKRIHANMPRHMQDVLKFDGKTVHIAQERPPMPPMPFSASSLVSLKYGQPMPHHMGMPP
+           30        40        50        60        70        80    
+
+        170         180        190       200       210       220   
+RU1_hu PGMIPPPGLAP--GQIPPG-AMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELM
+       ::: ::: . :  :. ::  .::: ..  :  : : :    ::  .:             
+H28G03 PGMGPPPFMPPPIGMPPPPLGMPPPHIGLGAAPYAVP----PPMSLLGPPPFSVPPSVPP
+           90       100       110       120           130       140
+
+           230       240       250       260       270       280   
+RU1_hu LSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK 
+                                                                   
+H28G03 PTSSAAAPIVPPPPVQSTAQPPPSGTSEAEKMKMTHGLNPIAFSNAPPGLKLGMNDYNQP
+              150       160       170       180       190       200
+
+>>H28G03.2b CE31191 WBGene00019250 status:Confirmed UniProt:Q (298 aa)
+ s-w opt: 171  Z-score: 129.1  bits: 31.8 E(24705): 0.55
+Smith-Waterman score: 171; 42.9% identity (55.8% similar) in 77 aa overlap (142-210:78-150)
+
+             120       130       140        150       160          
+RU1_hu KPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMT-QAPRIMHHMPGQP-PY---MPP
+                                     : ::::  .:  ..    ::: :.   :::
+H28G03 KIKRIHANMPRHMQDVLKFDGKTVHIAQERPPMPPMPFSASSLVSLKYGQPMPHHMGMPP
+        50        60        70        80        90       100       
+
+        170         180        190       200       210       220   
+RU1_hu PGMIPPPGLAP--GQIPPG-AMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELM
+       ::: ::: . :  :. ::  .::: ..  :  : : :    ::  .:             
+H28G03 PGMGPPPFMPPPIGMPPPPLGMPPPHIGLGAAPYAVP----PPMSLLGPPPFSVPPSVPP
+       110       120       130       140           150       160   
+
+           230       240       250       260       270       280   
+RU1_hu LSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK 
+                                                                   
+H28G03 PTSSAAAPIVPPPPVQSTAQPPPSGTSEAEKMKMTHGLNPIAFSNAPPGLKLGMNDYNQP
+           170       180       190       200       210       220   
+
+>>T06E4.11 CE41837 WBGene00004146 locus:pqn-63 status:Partial (487 aa)
+ s-w opt: 175  Z-score: 128.6  bits: 32.4 E(24705): 0.58
+Smith-Waterman score: 175; 23.7% identity (45.4% similar) in 194 aa overlap (68-242:187-370)
+
+        40        50        60        70        80        90       
+RU1_hu GQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKM
+                                     : .. ::.:    : .:  .  ...   .:
+T06E4. QGYPNAAQSPSQPPGYPQQQASQGYPQPPQAQQTPQGYP---GPAQIPQGYPQNQQAPQM
+        160       170       180       190          200       210   
+
+       100       110       120       130            140        150 
+RU1_hu KGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQG-----PVP-GMPPMTQAP
+       .  . . ...  . .:.. . :        .   :  : .::      :: :.:   :::
+T06E4. SQGYSQASQQAPQGHPSGPQQPLMTGQYPPSQQKPQ-GYTQGYQDSAQVPQGYPQSQQAP
+           220       230       240        250       260       270  
+
+             160       170       180                    190        
+RU1_hu RIMHHMPGQPPYMPPPGMIPPPGLAPGQIP-------------PGAMPPQQLMPGQMPPA
+       .  . .: :::  :     ::    :   :             :  .: :: ::.:. : 
+T06E4. QAPQGYPQQPPQDPTQYAQPPQQQQPYPYPSQQQLQSQASQGYPQNYPQQQPMPSQYSPQ
+            280       290       300       310       320       330  
+
+      200       210       220       230       240       250        
+RU1_hu QPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAG
+       :  .. ::..       ::.    . ... .:.:     . .::                
+T06E4. QAQQQLPPSQY------PEQGPGPIQQQFPQQYPQGPAQQQAPGPQQYPQGLQGSPQGSQ
+            340             350       360       370       380      
+
+      260       270       280                                      
+RU1_hu AARDALQGFKITQNNAMKISFAKK                                    
+                                                                   
+T06E4. QQQMPPQPQQQMPSYNQPEALRQEIDQIQEGPMPTRGNRLQFGDEAQAVFSKAVYTSSGV
+        390       400       410       420       430       440      
+
+>>Y106G6H.2b CE36227 WBGene00003902 locus:pab-1 status:Partia (583 aa)
+ s-w opt: 176  Z-score: 128.1  bits: 32.6 E(24705): 0.62
+Smith-Waterman score: 176; 21.1% identity (47.0% similar) in 336 aa overlap (12-282:256-583)
+
+                                  10        20        30        40 
+RU1_hu                    MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQIL
+                                     .:..::.: .  : :::.    : ..:.: 
+Y106G6 AQKKSERHAELKKKHEQHKAERMQKYQGVNLYVKNLDETVDDDGLKKQ----FESYGNIT
+         230       240       250       260       270           280 
+
+                50        60        70        80        90         
+RU1_hu D--ILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKG
+       .  ...... . .: .:: :..   ::.:.  :..    .::. .  :.   :  :.. .
+Y106G6 SAKVMTDENGRSKGFGFVCFEKPEEATSAVTEMNSKMVCSKPLYVAIAQRKEDRRAQLAS
+             290       300       310       320       330       340 
+
+     100         110             120               130             
+RU1_hu TFVER--DRKREKRKP------KSQETPA--------TKKAVQGGGATPVVGAVQG----
+        ...:  . . .   :       .:  :.         ..   ::      :.  :    
+Y106G6 QYMQRLASMRMHGNVPGAAMYNPTQPGPGYYVANPMQQQRNFAGGQQMVRPGGRWGMQNQ
+             350       360       370       380       390       400 
+
+      140       150       160                    170               
+RU1_hu -PVPGMPPMTQAPRIMHHMPGQP------PYMPPP-------GMI----PP----PGLAP
+        :: ..  :.:.: ....  :.:      :  ::        : .    ::    ::.  
+Y106G6 YPVQNQYMMAQGPGVYQNRMGRPQNQQGGPRGPPQQYNQVAQGGVRMQGPPRTQNPGVQQ
+             410       420       430       440       450       460 
+
+       180       190          200                    210       220 
+RU1_hu GQIPPGAMPPQQLMP---GQMPPAQPLS-------------ENPPNHILFLTNLPEETNE
+        ..:   .  ::  :   :   : :: .             ..: .  .. .  :.: ..
+Y106G6 QNVPRPPQQQQQQRPAPTGPKAPPQPYQAYQQRPQGIVIGGQEPLTSAMLAAAAPQEQKQ
+             470       480       490       500       510       520 
+
+                 230       240       250       260        270      
+RU1_hu LM----LSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDA-LQGFKITQNNAMK
+       :.     ... . .:: :..  . :     ..:.::       .:. :   :. .  .. 
+Y106G6 LLGERIYALIEKLYPGHKDAGKITG----MMLEIDNSELIMMLQDSELFRSKVDEAASVL
+             530       540           550       560       570       
+
+        280  
+RU1_hu ISFAKK
+       .:  :.
+Y106G6 VSAQKQ
+       580   
+
+>>Y106G6H.2c CE36228 WBGene00003902 locus:pab-1 status:Confir (586 aa)
+ s-w opt: 176  Z-score: 128.1  bits: 32.6 E(24705): 0.62
+Smith-Waterman score: 176; 21.1% identity (47.0% similar) in 336 aa overlap (12-282:259-586)
+
+                                  10        20        30        40 
+RU1_hu                    MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQIL
+                                     .:..::.: .  : :::.    : ..:.: 
+Y106G6 AQKKSERHAELKKKHEQHKAERMQKYQGVNLYVKNLDETVDDDGLKKQ----FESYGNIT
+      230       240       250       260       270           280    
+
+                50        60        70        80        90         
+RU1_hu D--ILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKG
+       .  ...... . .: .:: :..   ::.:.  :..    .::. .  :.   :  :.. .
+Y106G6 SAKVMTDENGRSKGFGFVCFEKPEEATSAVTEMNSKMVCSKPLYVAIAQRKEDRRAQLAS
+          290       300       310       320       330       340    
+
+     100         110             120               130             
+RU1_hu TFVER--DRKREKRKP------KSQETPA--------TKKAVQGGGATPVVGAVQG----
+        ...:  . . .   :       .:  :.         ..   ::      :.  :    
+Y106G6 QYMQRLASMRMHGNVPGAAMYNPTQPGPGYYVANPMQQQRNFAGGQQMVRPGGRWGMQNQ
+          350       360       370       380       390       400    
+
+      140       150       160                    170               
+RU1_hu -PVPGMPPMTQAPRIMHHMPGQP------PYMPPP-------GMI----PP----PGLAP
+        :: ..  :.:.: ....  :.:      :  ::        : .    ::    ::.  
+Y106G6 YPVQNQYMMAQGPGVYQNRMGRPQNQQGGPRGPPQQYNQVAQGGVRMQGPPRTQNPGVQQ
+          410       420       430       440       450       460    
+
+       180       190          200                    210       220 
+RU1_hu GQIPPGAMPPQQLMP---GQMPPAQPLS-------------ENPPNHILFLTNLPEETNE
+        ..:   .  ::  :   :   : :: .             ..: .  .. .  :.: ..
+Y106G6 QNVPRPPQQQQQQRPAPTGPKAPPQPYQAYQQRPQGIVIGGQEPLTSAMLAAAAPQEQKQ
+          470       480       490       500       510       520    
+
+                 230       240       250       260        270      
+RU1_hu LM----LSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDA-LQGFKITQNNAMK
+       :.     ... . .:: :..  . :     ..:.::       .:. :   :. .  .. 
+Y106G6 LLGERIYALIEKLYPGHKDAGKITG----MMLEIDNSELIMMLQDSELFRSKVDEAASVL
+          530       540           550       560       570       580
+
+        280  
+RU1_hu ISFAKK
+       .:  :.
+Y106G6 VSAQKQ
+             
+
+>>Y106G6H.2a CE20412 WBGene00003902 locus:pab-1 RNA recogniti (646 aa)
+ s-w opt: 176  Z-score: 127.4  bits: 32.6 E(24705): 0.67
+Smith-Waterman score: 176; 21.1% identity (47.0% similar) in 336 aa overlap (12-282:319-646)
+
+                                  10        20        30        40 
+RU1_hu                    MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQIL
+                                     .:..::.: .  : :::.    : ..:.: 
+Y106G6 AQKKSERHAELKKKHEQHKAERMQKYQGVNLYVKNLDETVDDDGLKKQ----FESYGNIT
+      290       300       310       320       330           340    
+
+                50        60        70        80        90         
+RU1_hu D--ILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKG
+       .  ...... . .: .:: :..   ::.:.  :..    .::. .  :.   :  :.. .
+Y106G6 SAKVMTDENGRSKGFGFVCFEKPEEATSAVTEMNSKMVCSKPLYVAIAQRKEDRRAQLAS
+          350       360       370       380       390       400    
+
+     100         110             120               130             
+RU1_hu TFVER--DRKREKRKP------KSQETPA--------TKKAVQGGGATPVVGAVQG----
+        ...:  . . .   :       .:  :.         ..   ::      :.  :    
+Y106G6 QYMQRLASMRMHGNVPGAAMYNPTQPGPGYYVANPMQQQRNFAGGQQMVRPGGRWGMQNQ
+          410       420       430       440       450       460    
+
+      140       150       160                    170               
+RU1_hu -PVPGMPPMTQAPRIMHHMPGQP------PYMPPP-------GMI----PP----PGLAP
+        :: ..  :.:.: ....  :.:      :  ::        : .    ::    ::.  
+Y106G6 YPVQNQYMMAQGPGVYQNRMGRPQNQQGGPRGPPQQYNQVAQGGVRMQGPPRTQNPGVQQ
+          470       480       490       500       510       520    
+
+       180       190          200                    210       220 
+RU1_hu GQIPPGAMPPQQLMP---GQMPPAQPLS-------------ENPPNHILFLTNLPEETNE
+        ..:   .  ::  :   :   : :: .             ..: .  .. .  :.: ..
+Y106G6 QNVPRPPQQQQQQRPAPTGPKAPPQPYQAYQQRPQGIVIGGQEPLTSAMLAAAAPQEQKQ
+          530       540       550       560       570       580    
+
+                 230       240       250       260        270      
+RU1_hu LM----LSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDA-LQGFKITQNNAMK
+       :.     ... . .:: :..  . :     ..:.::       .:. :   :. .  .. 
+Y106G6 LLGERIYALIEKLYPGHKDAGKITG----MMLEIDNSELIMMLQDSELFRSKVDEAASVL
+          590       600           610       620       630       640
+
+        280  
+RU1_hu ISFAKK
+       .:  :.
+Y106G6 VSAQKQ
+             
+
+>>F46H5.6 CE43893 WBGene00001696 locus:grd-7 status:Partially (722 aa)
+ s-w opt: 177  Z-score: 127.4  bits: 32.8 E(24705): 0.68
+Smith-Waterman score: 177; 29.5% identity (50.0% similar) in 112 aa overlap (101-208:359-468)
+
+               80        90       100       110       120       130
+RU1_hu SMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGA
+                                     .::.. . ..  :    .:  ..:: .  :
+F46H5. YKSQTTYPESAPAATTPQPPPPPPPPKPAPYVEQSAQPQQTAPPPPPAPYPQQAVPAP-A
+      330       340       350       360       370       380        
+
+              140        150       160       170       180         
+RU1_hu TPVVGAVQGPVPG-MPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMP---
+        : .   :  ::.  ::... :.    .:. ::   :   .: :.  :.  :  :.:   
+F46H5. PPPAPYPQHAVPAPAPPLASYPQNAVPVPAPPPAPYPQHAVPAPAPPPAPYPQHAVPAPA
+       390       400       410       420       430       440       
+
+        190       200       210       220       230       240      
+RU1_hu PQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDI
+       : : .:   ::  :    :: :                                      
+F46H5. PYQQQPPP-PPPPPHYPPPPPHYPPPPPAPHSAYIDHSAPRPAYIEHSAPPPQPQYPQQQ
+       450        460       470       480       490       500      
+
+>>Y71F9B.10a CE28808 WBGene00004946 locus:sop-3 status:Confir (1475 aa)
+ s-w opt: 183  Z-score: 126.8  bits: 33.7 E(24705): 0.73
+Smith-Waterman score: 183; 26.9% identity (49.1% similar) in 167 aa overlap (60-211:1177-1337)
+
+      30        40        50        60         70        80        
+RU1_hu LYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSA-TNALRSMQGFPFYDKPMRIQYAK
+                                     :: :.: :..:    ..  .  : .    .
+Y71F9B EPSKKRKLEKKDEKEKDRREPERKKGKSDGKEYSKASTTSLIPTLSLKNFRIPKKDTVEE
+       1150      1160      1170      1180      1190      1200      
+
+       90       100       110       120       130             140  
+RU1_hu TDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQG------PVP
+         .:.  .  :     . :.:   : :  .: :.:    . ..:.:   :        .:
+Y71F9B EKKDVKEEAPGPSSSTESKKE---PPSA-APITRKESTTAPVAPAVQQQQQRKESFTALP
+       1210      1220         1230       1240      1250      1260  
+
+               150       160       170        180       190        
+RU1_hu GMPPMTQ---APRIMHHMPGQPPYMPPPGMIPPP-GLAPGQIPPGAMPPQQLMPGQ----
+       ..: . :    : . .. : :::  ::: :  :: :. ::   :: .: ..   :.    
+Y71F9B SLPEQQQHHREPLLKKKPPLQPP--PPPQMTGPPIGIYPGPPAPGNLPGSSRPSGNRKQP
+           1270      1280        1290      1300      1310      1320
+
+          200       210       220       230       240       250    
+RU1_hu MPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNE
+       .::  :. ..::   ..                                           
+Y71F9B LPPPPPMIRGPPPDQMYRDRSGGGGGSMRGGFPPASHYHGGTSGVNKQVASYAQGLPPGM
+             1330      1340      1350      1360      1370      1380
+
+>>T05A1.2 CE03622 WBGene00000696 locus:col-122 collagen statu (300 aa)
+ s-w opt: 167  Z-score: 126.4  bits: 31.3 E(24705): 0.77
+Smith-Waterman score: 167; 38.4% identity (51.5% similar) in 99 aa overlap (116-207:87-178)
+
+          90       100       110       120           130       140 
+RU1_hu YAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGG----GATPVVGAVQGP-
+                                     :..:: ..    :    ::.  :::.  : 
+T05A1. NTVYATAVAMPALPGRGNRTARQAGYDVAVQDAPAQEHNSCDGCCLPGAAGSVGAAGRPG
+         60        70        80        90       100       110      
+
+              150       160       170         180       190        
+RU1_hu VPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLA--PGQIPPGAMPPQQLMPGQMPPA
+       .:: :    ::    : ::.::  :   . :::  :  ::  :::: :     ::.  : 
+T05A1. TPGRPGAPGAP---GH-PGKPPQSPCEPLTPPPCPACPPG--PPGA-PGAPGKPGSEGPP
+        120           130       140       150          160         
+
+      200       210       220       230       240       250        
+RU1_hu QPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAG
+        : ... ::                                                   
+T05A1. GPPGHDGPNGGPGQPGQPGPHGPNGHPGKPGSQGPPGPPGHSDEPKPGQPGQPGRAGPRG
+     170       180       190       200       210       220         
+
+>>H28G03.2a CE29419 WBGene00019250 status:Confirmed UniProt:Q (548 aa)
+ s-w opt: 171  Z-score: 125.2  bits: 32.0 E(24705):  0.9
+Smith-Waterman score: 171; 42.9% identity (55.8% similar) in 77 aa overlap (142-210:328-400)
+
+             120       130       140        150       160          
+RU1_hu KPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMT-QAPRIMHHMPGQP-PY---MPP
+                                     : ::::  .:  ..    ::: :.   :::
+H28G03 KIKRIHANMPRHMQDVLKFDGKTVHIAQERPPMPPMPFSASSLVSLKYGQPMPHHMGMPP
+       300       310       320       330       340       350       
+
+        170         180        190       200       210       220   
+RU1_hu PGMIPPPGLAP--GQIPPG-AMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELM
+       ::: ::: . :  :. ::  .::: ..  :  : : :    ::  .:             
+H28G03 PGMGPPPFMPPPIGMPPPPLGMPPPHIGLGAAPYAVP----PPMSLLGPPPFSVPPSVPP
+       360       370       380       390           400       410   
+
+           230       240       250       260       270       280   
+RU1_hu LSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK 
+                                                                   
+H28G03 PTSSAAAPIVPPPPVQSTAQPPPSGTSEAEKMKMTHGLNPIAFSNAPPGLKLGMNDYNQP
+           420       430       440       450       460       470   
+
+>>R148.5b CE32711 WBGene00020104 status:Partially_confirmed U (505 aa)
+ s-w opt: 169  Z-score: 124.4  bits: 31.7 E(24705): 0.99
+Smith-Waterman score: 169; 26.3% identity (49.6% similar) in 224 aa overlap (8-223:189-374)
+
+                                      10        20         30      
+RU1_hu                        MAVPETRPNHTIYINNLNEKIKKDELK-KSLYAIFSQ
+                                     :.  :  :...: .  .: . :.     .:
+R148.5 TETMHLRMDERIPGLKAIKEGSTGDRSPNSPSSEIEENSFEEDVVPEEKNMKNWQERRQQ
+      160       170       180       190       200       210        
+
+         40        50        60        70        80        90      
+RU1_hu FGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAK
+        :.  .. .: ::  ..      :...:  ...:.    :: :.:.:   : .:.:.  .
+R148.5 DGEYDSVSISSSLVNKN------KKAASEQGGIRGAL-VPF-DEPLR--RAGSDNDL--S
+      220       230             240        250          260        
+
+        100       110       120       130       140        150     
+RU1_hu MKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM-PPMTQAPRIMH
+       ..:           ..: .   :  .         :   :.. :  :. ::    ::   
+R148.5 YRGP--------PPHHPYGPPHPMHH---------PY--AMMPPPFGFFPP---PPR--G
+        270               280                  290          300    
+
+         160            170       180        190       200         
+RU1_hu HMPGQPPY-----MPPPGMIPPPGLAPGQIPP-GAMPPQQLMPGQMPPAQPLSENPPNHI
+       :.:  ::.     :::: : ::: .. :  :: : ::: . :  .  :  :.   :: :.
+R148.5 HFPPPPPHFMGRGMPPPFMPPPPHFGMG--PPRGFMPPPHPMMFRGGPYPPFFPPPPPHF
+            310       320       330         340       350       360
+
+     210       220       230       240       250       260         
+RU1_hu LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI
+       .  .. : . . ..                                              
+R148.5 MRPSSPPTDGGPIITGPESVYGTMRRGAYEEPAYVGATGGFPEASYQPANYGGDGYETYY
+              370       380       390       400       410       420
+
+>>R148.5a CE31583 WBGene00020104 status:Confirmed UniProt:O17 (528 aa)
+ s-w opt: 169  Z-score: 124.2  bits: 31.7 E(24705):    1
+Smith-Waterman score: 169; 26.3% identity (49.6% similar) in 224 aa overlap (8-223:189-374)
+
+                                      10        20         30      
+RU1_hu                        MAVPETRPNHTIYINNLNEKIKKDELK-KSLYAIFSQ
+                                     :.  :  :...: .  .: . :.     .:
+R148.5 TETMHLRMDERIPGLKAIKEGSTGDRSPNSPSSEIEENSFEEDVVPEEKNMKNWQERRQQ
+      160       170       180       190       200       210        
+
+         40        50        60        70        80        90      
+RU1_hu FGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAK
+        :.  .. .: ::  ..      :...:  ...:.    :: :.:.:   : .:.:.  .
+R148.5 DGEYDSVSISSSLVNKN------KKAASEQGGIRGAL-VPF-DEPLR--RAGSDNDL--S
+      220       230             240        250          260        
+
+        100       110       120       130       140        150     
+RU1_hu MKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM-PPMTQAPRIMH
+       ..:           ..: .   :  .         :   :.. :  :. ::    ::   
+R148.5 YRGP--------PPHHPYGPPHPMHH---------PY--AMMPPPFGFFPP---PPR--G
+        270               280                  290          300    
+
+         160            170       180        190       200         
+RU1_hu HMPGQPPY-----MPPPGMIPPPGLAPGQIPP-GAMPPQQLMPGQMPPAQPLSENPPNHI
+       :.:  ::.     :::: : ::: .. :  :: : ::: . :  .  :  :.   :: :.
+R148.5 HFPPPPPHFMGRGMPPPFMPPPPHFGMG--PPRGFMPPPHPMMFRGGPYPPFFPPPPPHF
+            310       320       330         340       350       360
+
+     210       220       230       240       250       260         
+RU1_hu LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI
+       .  .. : . . ..                                              
+R148.5 MRPSSPPTDGGPIITGPESVYGTMRRGAYEEPAYVGATGGFPEASYQPANYGGDGYETYY
+              370       380       390       400       410       420
+
+>>D1007.7 CE26916 WBGene00017004 locus:nrd-1 RNA-binding prot (988 aa)
+ s-w opt: 174  Z-score: 123.5  bits: 32.5 E(24705):  1.1
+Smith-Waterman score: 174; 40.7% identity (51.9% similar) in 81 aa overlap (139-206:693-772)
+
+      110       120       130       140         150       160      
+RU1_hu EKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPM--TQAPRIMHHMPGQPPYMPP
+                                     :  ::.:::   .::     .:: ::  ::
+D1007. NIQPPVPHPPPMGFPFQHQLTQLPGQPRPAGLPPGVPPMFNLNAPPP-PGIPGYPPAPPP
+            670       680       690       700        710       720 
+
+        170         180           190            200       210     
+RU1_hu PGMIPPP--GLAPGQIPPGAMPP----QQLMPGQMPP-----AQPLSENPPNHILFLTNL
+       ::. :::  :. :  . :.  ::    : .  :  ::     : :.:  ::         
+D1007. PGVGPPPPQGIPPMGFDPNKPPPPMFQQGFNAGAPPPPFGRGAGPMSSFPPPPRGGMHHM
+             730       740       750       760       770       780 
+
+         220       230       240       250       260       270     
+RU1_hu PEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAM
+                                                                   
+D1007. PPPPSFRGGRGGHGGPPPPHFDRRGGGGPPFRPENGRGRLLDQSEMWNREQREMRGGGGA
+             790       800       810       820       830       840 
+
+>>T24B8.4 CE44440 WBGene00011978 status:Partially_confirmed U (850 aa)
+ s-w opt: 172  Z-score: 123.1  bits: 32.2 E(24705):  1.2
+Smith-Waterman score: 172; 39.5% identity (53.9% similar) in 76 aa overlap (138-206:45-115)
+
+       110       120       130       140        150       160      
+RU1_hu REKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPG-MPPMTQAPRIMHHMPGQPPYMPP
+                                     :.:  : .::  . :.    .:  ::   :
+T24B8. FKLRPTKTVDKSKPVIIAENEDESEVSVTKQAPPSGILPPGQSIPKPSFFIP--PPV--P
+           20        30        40        50        60            70
+
+        170       180             190       200       210       220
+RU1_hu PGMIPPPGLAPGQIPP------GAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETN
+        :.::::  .:: :::      :..::   : : .::  :.   ::              
+T24B8. NGFIPPPP-GPGGIPPPPPMFAGGIPPPPPMMGGIPPPPPMFGAPPPPPPPSGLGVAPQP
+                80        90       100       110       120         
+
+              230       240       250       260       270       280
+RU1_hu ELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFA
+                                                                   
+T24B8. PRPKTPVNPALAKLGGKNPGTVDRGEFLKGIQGGFKLKKTTTNDKSGLFVDEEMRERSVK
+     130       140       150       160       170       180         
+
+>>C36H8.1 CE05380 WBGene00007987 major sperm protein like sta (418 aa)
+ s-w opt: 165  Z-score: 123.0  bits: 31.2 E(24705):  1.2
+Smith-Waterman score: 165; 23.0% identity (51.2% similar) in 248 aa overlap (56-282:94-337)
+
+          30        40        50        60        70        80     
+RU1_hu LKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQ
+                                     :: :.  ...:   ::.. .: :       
+C36H8. AHFFANALLVAIPALLIFVFPIEKPTDESLFVYFSLFGAVTCLDRSLEKIPCYYVIKLAL
+            70        80        90       100       110       120   
+
+            90       100       110       120       130       140   
+RU1_hu YA--KTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPG
+       .:       .. .  . :.... :..: . . .:  . ..: . ...: .  :...: : 
+C36H8. FALLYLPPYVMHQKINEFIREQLKKQKSNENVSEM-SQRSAPRTAASTRT--AISAPPPP
+           130       140       150        160       170         180
+
+           150       160       170           180       190         
+RU1_hu MPPMTQAPRIMHHMPGQPPYMPPPGMI---PPPGLAP-GQIPPGAMPPQQLMPGQMPPAQ
+        ::  . :. ...    ::  : :  .   : :  ::  :: :   : :.  :. . :..
+C36H8. RPPPQEPPKPVEQAAPPPPPAPMPVPVEKAPEPVPAPVEQIAPPPAPVQDPAPAPVEPSD
+              190       200       210       220       230       240
+
+     200        210                 220       230       240        
+RU1_hu PLSENP-PNHILFLTNL----------PEETNELMLSMLFNQFPGFKEVRLVPGRH--DI
+       :   .  :.     :.:          :.  .   .  : ..: ::. . . ::..  :.
+C36H8. PAPPSKLPSPSKSCTDLAGGSQRFKTGPHPMQSSSFHNLKSEFDGFNSA-ISPGHNLNDV
+              250       260       270       280        290         
+
+        250        260        270       280                        
+RU1_hu AFVEFDNEV-QAGAARDALQ-GFKITQNNAMKISFAKK                      
+        :  .:. : .:    . :   .....:.  .:..: :                      
+C36H8. LFRPMDKIVFNAPFDFENLTYHMRVSNNSRHRIAYAIKGNSVPRVMAYPAFGILELGEGR
+     300       310       320       330       340       350         
+
+C36H8. IIAVSVQKFDWNDFEYNKDRIAFDYVLLPDSNKEKAFSMSMFQHSDSKRRKNIKIEYNP
+     360       370       380       390       400       410        
+
+>>C02C6.1a CE07833 WBGene00001130 locus:dyn-1 dynamin status: (830 aa)
+ s-w opt: 168  Z-score: 120.7  bits: 31.7 E(24705):  1.6
+Smith-Waterman score: 168; 39.3% identity (51.7% similar) in 89 aa overlap (119-207:752-825)
+
+       90       100       110       120       130       140        
+RU1_hu TDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMT
+                                     : .    . .: .::      :.:. :   
+C02C6. MLRMYHACKEALRIISEVNMSTLGDQPPPLPMSDYRPHPSGPSPV----PRPAPAPPGGR
+             730       740       750       760           770       
+
+      150       160       170       180       190       200        
+RU1_hu QAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNH
+       :::   .  :: ::   :::: :::: :::    : .::  :.: .  :. :    ::: 
+C02C6. QAPMPPRGGPGAPP---PPGMRPPPG-APGG-GGGMYPP--LIPTRPGPGGP----PPNM
+       780       790          800         810         820          
+
+      210       220       230       240       250       260        
+RU1_hu ILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFK
+                                                                   
+C02C6. APPR                                                        
+        830                                                        
+
+>>C50F7.2 CE39705 WBGene00000551 locus:clx-1 status:Partially (558 aa)
+ s-w opt: 164  Z-score: 120.6  bits: 31.2 E(24705):  1.6
+Smith-Waterman score: 164; 33.0% identity (50.9% similar) in 106 aa overlap (106-207:75-177)
+
+          80        90       100       110       120       130     
+RU1_hu PFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVG
+                                     : :  : :. ...: .  : . ..::    
+C50F7. PSDLPGPSGAPPGPPHPSGPPHRPHPHPSRRPRPTRLPRPSRSPHSD-APEPSAATDGFE
+           50        60        70        80        90        100   
+
+         140         150       160       170       180       190   
+RU1_hu AVQGP--VPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPG
+        : :     : :: . .:       : ::   :::.. : :  :.  ::: . :.   :.
+C50F7. LVFGKHHSTGAPP-SGGPPGPFDPSGAPPSGGPPGLFDPSGAPPSGGPPGPFGPSGAPPS
+           110        120       130       140       150       160  
+
+           200         210       220       230       240       250 
+RU1_hu QMPPAQPL--SENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEF
+         ::. :.  :: ::.                                            
+C50F7. GGPPG-PFNPSEAPPSGGPTGPFDPSGAPPSGGPPGPFNPSGAPPSGGPPGPFDPSGAPP
+             170       180       190       200       210       220 
+
+>>W03D2.1b CE31729 WBGene00004157 locus:pqn-75 status:Partial (518 aa)
+ s-w opt: 163  Z-score: 120.4  bits: 31.0 E(24705):  1.7
+Smith-Waterman score: 163; 31.9% identity (48.1% similar) in 135 aa overlap (89-206:204-332)
+
+       60        70        80        90       100       110        
+RU1_hu FKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQET
+                                     : : . ....: : .... ..  . : :  
+W03D2. QGNQGGFGGQNGQNGQNTGNNGGFGGNQGVTASGFGGQQQG-FGQQQQTQNGFRGKRQAP
+           180       190       200       210        220       230  
+
+      120         130       140          150          160          
+RU1_hu PATKKAVQGG--GATPVVGAVQGPVP---GMPPMTQAPRIMHHMP---GQPPYMPPP--G
+       :: .        :. :..:. . : :   : ::    ::     :   :.::  :::  :
+W03D2. PAGSPPPPPPPKGSPPLAGSGSPPPPPAAGSPP---PPRTGSPPPPPTGSPP--PPPAGG
+            240       250       260          270       280         
+
+      170         180       190            200       210       220 
+RU1_hu MIPPP--GLAPGQIPPGAMPPQQLMP-----GQMPPAQPLSENPPNHILFLTNLPEETNE
+         :::  :  :   :: . ::   .:     :. :::   :  ::               
+W03D2. SPPPPRAGSPPPPPPPRGSPPTGSLPPPQAGGSPPPAGTGSPPPPPRQKRQAPERSPPTG
+       290       300       310       320       330       340       
+
+             230       240       250       260       270       280 
+RU1_hu LMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAK
+                                                                   
+W03D2. SPPTGSPPTGRPPRGGPGKSSEESSESREGPRGGPRGGPRGGPRKSSEESSESREEPRGP
+       350       360       370       380       390       400       
+
+>>W03D2.1a CE28501 WBGene00004157 locus:pqn-75 status:Partial (524 aa)
+ s-w opt: 163  Z-score: 120.3  bits: 31.0 E(24705):  1.7
+Smith-Waterman score: 163; 31.9% identity (48.1% similar) in 135 aa overlap (89-206:210-338)
+
+       60        70        80        90       100       110        
+RU1_hu FKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQET
+                                     : : . ....: : .... ..  . : :  
+W03D2. QGNQGGFGGQNGQNGQNTGNNGGFGGNQGVTASGFGGQQQG-FGQQQQTQNGFRGKRQAP
+     180       190       200       210       220        230        
+
+      120         130       140          150          160          
+RU1_hu PATKKAVQGG--GATPVVGAVQGPVP---GMPPMTQAPRIMHHMP---GQPPYMPPP--G
+       :: .        :. :..:. . : :   : ::    ::     :   :.::  :::  :
+W03D2. PAGSPPPPPPPKGSPPLAGSGSPPPPPAAGSPP---PPRTGSPPPPPTGSPP--PPPAGG
+      240       250       260       270          280         290   
+
+      170         180       190            200       210       220 
+RU1_hu MIPPP--GLAPGQIPPGAMPPQQLMP-----GQMPPAQPLSENPPNHILFLTNLPEETNE
+         :::  :  :   :: . ::   .:     :. :::   :  ::               
+W03D2. SPPPPRAGSPPPPPPPRGSPPTGSLPPPQAGGSPPPAGTGSPPPPPRQKRQAPERSPPTG
+           300       310       320       330       340       350   
+
+             230       240       250       260       270       280 
+RU1_hu LMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAK
+                                                                   
+W03D2. SPPTGSPPTGRPPRGGPGKSSEESSESREGPRGGPRGGPRGGPRKSSEESSESREEPRGP
+           360       370       380       390       400       410   
+
+>>W03D2.1c CE14506 WBGene00004157 locus:pqn-75 status:Partial (539 aa)
+ s-w opt: 163  Z-score: 120.1  bits: 31.0 E(24705):  1.7
+Smith-Waterman score: 163; 31.9% identity (48.1% similar) in 135 aa overlap (89-206:225-353)
+
+       60        70        80        90       100       110        
+RU1_hu FKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQET
+                                     : : . ....: : .... ..  . : :  
+W03D2. QGNQGGFGGQNGQNGQNTGNNGGFGGNQGVTASGFGGQQQG-FGQQQQTQNGFRGKRQAP
+          200       210       220       230        240       250   
+
+      120         130       140          150          160          
+RU1_hu PATKKAVQGG--GATPVVGAVQGPVP---GMPPMTQAPRIMHHMP---GQPPYMPPP--G
+       :: .        :. :..:. . : :   : ::    ::     :   :.::  :::  :
+W03D2. PAGSPPPPPPPKGSPPLAGSGSPPPPPAAGSPP---PPRTGSPPPPPTGSPP--PPPAGG
+           260       270       280          290       300          
+
+      170         180       190            200       210       220 
+RU1_hu MIPPP--GLAPGQIPPGAMPPQQLMP-----GQMPPAQPLSENPPNHILFLTNLPEETNE
+         :::  :  :   :: . ::   .:     :. :::   :  ::               
+W03D2. SPPPPRAGSPPPPPPPRGSPPTGSLPPPQAGGSPPPAGTGSPPPPPRQKRQAPERSPPTG
+      310       320       330       340       350       360        
+
+             230       240       250       260       270       280 
+RU1_hu LMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAK
+                                                                   
+W03D2. SPPTGSPPTGRPPRGGPGKSSEESSESREGPRGGPRGGPRGGPRKSSEESSESREEPRGP
+      370       380       390       400       410       420        
+
+>>F08B4.7 CE09232 WBGene00017238 U1 small nuclear ribonucleop (142 aa)
+ s-w opt: 150  Z-score: 120.1  bits: 29.1 E(24705):  1.7
+Smith-Waterman score: 150; 34.8% identity (51.5% similar) in 132 aa overlap (90-208:16-138)
+
+      60        70        80        90        100       110        
+RU1_hu KEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMK-GTFVERDRKREKRKPKSQET
+                                     ::  . : . :   ..:  :   . : .: 
+F08B4.                MPKYYCDYCDTFLTHDSPSVRKTHNGGRKHKDNVRMFYQ-KWMED
+                              10        20        30         40    
+
+      120       130       140           150        160         170 
+RU1_hu PATKKAVQGGGATPVVGAVQGPVP----GMPPMTQAPRIMHH-MPGQPPYMP--PPGMIP
+        : : . : . :  ... .:: ::    :: :.   : . :: : : :: ::   :  .:
+F08B4. QAQKLVDQTARAF-ATNRMQGAVPRTTMGMAPV---PPVGHHPMMGGPPGMPMMAPRPFP
+           50         60        70           80        90       100
+
+                 180        190       200       210       220      
+RU1_hu PPGL----APGQIP-PGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSM
+        ::.    :::. : ::. :  .  :  ::: .:    ::..                  
+F08B4. GPGVGFPGAPGMPPFPGG-PMGMAGPPGMPPMMP---RPPQQFRPM              
+              110        120       130          140                
+
+        230       240       250       260       270       280  
+RU1_hu LFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+
+>>Y49E10.29 CE40725 WBGene00045239 status:Partially_confirmed (559 aa)
+ s-w opt: 163  Z-score: 119.9  bits: 31.0 E(24705):  1.8
+Smith-Waterman score: 163; 33.0% identity (50.5% similar) in 97 aa overlap (112-206:249-342)
+
+              90       100       110       120       130       140 
+RU1_hu MRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPV
+                                     ::  :..:....:         .  :: : 
+Y49E10 VVQQAPPVQQASPKPVAQPVQQQPVVQAPPKPIVQQAPVVQQAPPPKQQQAQAQPVQQPP
+      220       230       240       250       260       270        
+
+             150       160        170       180        190         
+RU1_hu PGMPPMTQAPRIMHHMPGQP-PYMPPPGMIPPPGLAPGQIPPGAMP-PQQLMPGQMPPAQ
+          : . ::   ... : .: : . :: .  ::  :  : :  : : : .  : : ::.:
+Y49E10 NPAPVVQQASAPVQQAPPKPVPQQTPPVQQAPPKPAVQQAPTRAAPAPPKPAPQQAPPVQ
+      280       290       300       310       320       330        
+
+     200       210       220       230       240       250         
+RU1_hu PLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGA
+          .:::                                                     
+Y49E10 ---QNPPKPAVQQAQAPVVQQAPAPPVQQAPPKPTPQQAPPVRQNPPMPAVQQAPSSQQA
+         340       350       360       370       380       390     
+
+>>C50D2.5 CE38492 WBGene00016808 status:Confirmed UniProt:Q8I (138 aa)
+ s-w opt: 149  Z-score: 119.6  bits: 29.0 E(24705):  1.8
+Smith-Waterman score: 149; 31.3% identity (65.1% similar) in 83 aa overlap (4-86:15-91)
+
+                          10        20        30        40         
+RU1_hu            MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL
+                     ::.  :. .::.::  ::  .:.    : ::..:: . .: :. . 
+C50D2. MAMANRQNRGAKLPPEV--NRILYIKNLPYKITTEEM----YEIFGKFGAVRQIRVGNTA
+               10          20        30            40        50    
+
+      50        60        70        80        90       100         
+RU1_hu KMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKRE
+       . :: :::..... .: .: . ..:.   .. . . :                       
+C50D2. ETRGTAFVVYEDIFDAKTACEHLSGYNVSNRYLVVLYYQATKAWKRMDTEKARTKLEDIK
+           60        70        80        90       100       110    
+
+     110       120       130       140       150       160         
+RU1_hu KRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGM
+                                                                   
+C50D2. ERYGIGGDIDKEKEKLGLFTPRRI                                    
+          120       130                                            
+
+>>Y41E3.2 CE18370 WBGene00001066 locus:dpy-4 CUTICLE COLLAGEN (289 aa)
+ s-w opt: 156  Z-score: 119.5  bits: 30.0 E(24705):  1.9
+Smith-Waterman score: 156; 33.7% identity (48.1% similar) in 104 aa overlap (111-206:121-220)
+
+               90       100       110       120       130       140
+RU1_hu PMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP
+                                     : :..   :.:    :     :     :  
+Y41E3. LPGPQGPQGTPGKPGKPGKPGAPGQPGTPGRPPQQPCEPTTPPPCQPCPQGPPGPPGQPG
+              100       110       120       130       140       150
+
+                150       160          170         180       190   
+RU1_hu VPG--MPPMTQAPRIMHHMPGQP-PYMP--PPGMIPPPGLA--PGQIPPGAMPPQQLMPG
+       .::   ::  :.:.     ::.: :  :  :::   ::: :  ::. : .    .  .::
+Y41E3. IPGDNGPPGEQGPKGPDAAPGEPGPKGPIGPPG---PPGQAGAPGE-PGSPAKSEPAVPG
+              160       170       180          190        200      
+
+            200       210       220       230       240       250  
+RU1_hu QM-PPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFD
+          ::.:  ...::                                              
+Y41E3. PPGPPGQAGQQGPPGPPGSNGIDGAPGAPGAKGEPGTPGEPGKDGEPGKPGTPGQDGTPG
+        210       220       230       240       250       260      
+
+>>Y113G7B.23 CE25208 WBGene00004203 locus:psa-1 SWI\/SNF prot (789 aa)
+ s-w opt: 165  Z-score: 119.0  bits: 31.4 E(24705):    2
+Smith-Waterman score: 165; 36.2% identity (50.0% similar) in 94 aa overlap (116-197:678-771)
+
+          90       100       110       120       130       140     
+RU1_hu YAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMP
+                                     :  :   .. :  :. :  :   ::  :.:
+Y113G7 YSPYPPPQQQQQHQAQQAQSQAHYGPPGGGQGPPPPPQGQQYYGGPPPPGQPYGPPGGYP
+       650       660       670       680       690       700       
+
+         150        160              170        180          190   
+RU1_hu PMTQAPRIMHH-MPGQPP------Y-MPPPGMIPPPGLAP-GQIPP---GAMPPQQLMPG
+       :. : :  . . .:: ::      : .::: .   :   : ::.::   : . ::: . :
+Y113G7 PQQQRPPYQAQPYPGPPPPQQQRGYGYPPPPQPGHPYQQPYGQMPPPPHGQYQPQQQQGG
+       710       720       730       740       750       760       
+
+           200       210       220       230       240       250   
+RU1_hu QMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDN
+        : :                                                        
+Y113G7 PMGPPGGHHEGGDGGDSQQKQE                                      
+       770       780                                               
+
+>>C02C6.1b CE07832 WBGene00001130 locus:dyn-1 status:Confirme (838 aa)
+ s-w opt: 164  Z-score: 118.0  bits: 31.3 E(24705):  2.3
+Smith-Waterman score: 164; 38.6% identity (53.4% similar) in 88 aa overlap (119-205:752-828)
+
+       90       100       110       120       130       140        
+RU1_hu TDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMT
+                                     : .    . .: .::      :.:. :   
+C02C6. MLRMYHACKEALRIISEVNMSTLGDQPPPLPMSDYRPHPSGPSPV----PRPAPAPPGGR
+             730       740       750       760           770       
+
+      150       160       170       180       190        200       
+RU1_hu QAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMP-PAQPLSENPPN
+       :::   .  :: ::   :::: :::: :::    : .::  :.: ..: :..   : :  
+C02C6. QAPMPPRGGPGAPP---PPGMRPPPG-APGG-GGGMYPP--LIPTRVPTPSNGAPEIPAR
+       780       790          800         810         820       830
+
+       210       220       230       240       250       260       
+RU1_hu HILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGF
+                                                                   
+C02C6. PQVPKRPF                                                    
+                                                                   
+
+>>F25B5.7c CE42614 WBGene00017778 locus:psf-1 status:Confirme (282 aa)
+ s-w opt: 153  Z-score: 117.7  bits: 29.6 E(24705):  2.3
+Smith-Waterman score: 153; 36.8% identity (49.4% similar) in 87 aa overlap (126-199:119-205)
+
+         100       110       120       130       140       150     
+RU1_hu KMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMH
+                                     .::.     :.  :: :   :. :::. : 
+F25B5. AARRERMRGLGGPPPGMPGGVPPQAQPFNPHGGSMFGGPGGPGGPPPFGQPFQQAPQGMF
+       90       100       110       120       130       140        
+
+          160               170       180           190       200  
+RU1_hu HMP-GQPPYM--------PPPGMIPPPGLAPGQIPPG----AMPPQQLMPGQMPPAQPLS
+       ..: : :: :        :: ::  ::: .    :::    . :: .   :  ::.:   
+F25B5. NVPTGPPPLMGGGGDPRGPPGGMGGPPGHGGMGGPPGHGGQGGPPGHGGMGGPPPGQGGP
+      150       160       170       180       190       200        
+
+            210       220       230       240       250       260  
+RU1_hu ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARD
+                                                                   
+F25B5. GGPGGPGGPGGMLPKSHGRSNMIEGVQRLLQIFKSDNGPPGGMPGRDYPPQQGPGGMFGS
+      210       220       230       240       250       260        
+
+>>F12F6.6 CE05594 WBGene00004755 locus:sec-24.1 Yeast hypothe (1126 aa)
+ s-w opt: 166  Z-score: 117.4  bits: 31.6 E(24705):  2.4
+Smith-Waterman score: 166; 34.3% identity (55.6% similar) in 99 aa overlap (113-205:215-308)
+
+             90       100       110       120          130         
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGG---ATPVVGAVQ-
+                                     :.  ..: .      ::   . :..:.   
+F12F6. SSFQAGAPTSQNVQGYPGGPSSAPSAYPGAPQVPQAPNSFIPPGTGGFPPGQPTAGSFPP
+          190       200       210       220       230       240    
+
+      140        150       160       170        180       190      
+RU1_hu GP-VPGMPPMTQAPRIMHHMPGQPPYMPPPGMIP-PPGLAPGQIPPGAMPPQQLMPGQMP
+       :: :::  :  ..:  . . ::.:  .:: .  :  ::. :: .:::   :   :::..:
+F12F6. GPQVPGSYP--SGPADIPQGPGMPRAFPPGASAPVAPGM-PGAFPPGQGGPG--MPGSFP
+          250         260       270       280        290           
+
+        200       210       220       230       240       250      
+RU1_hu PAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQ
+       :. :   .:                                                   
+F12F6. PGAPGPGGPGMPGSFAPGAPGPGGPGGYPSGGPGMPGMQGGYPGGPPQQRQQRLDPNMMP
+     300       310       320       330       340       350         
+
+>>B0207.1 CE36625 WBGene00015026 protein-tyrosine phophatase  (564 aa)
+ s-w opt: 159  Z-score: 117.2  bits: 30.6 E(24705):  2.5
+Smith-Waterman score: 159; 30.9% identity (47.8% similar) in 136 aa overlap (115-232:43-173)
+
+           90       100       110       120       130       140    
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP---V
+                                     .:  :: .  :.       .. ::.:    
+B0207. PMSGVKPSTTPNLANPFPNVNSVPVQNPNPNQIPPAPRPIVNQIQYPKPTNPVQNPNKLS
+             20        30        40        50        60        70  
+
+             150         160          170              180         
+RU1_hu PGMPPMTQA--PRIMHHMPGQ---PPYMPPPGMIPP---PGL----APGQIPPGAMP-PQ
+        :.::::.   : ... .:     ::   ::: . :   : .    .: : ::  .: : 
+B0207. TGLPPMTMMLPPTVQEPLPTPVKTPPLPRPPGNLNPVQQPQIPVQRTPPQCPPPPVPHPP
+             80        90       100       110       120       130  
+
+      190       200       210         220       230       240      
+RU1_hu QLMPGQMPPAQPLSENPPNHILFLTNLPE--ETNELMLSMLFNQFPGFKEVRLVPGRHDI
+       :.   :: :  : :  ::  :    . :.  . : : : . :. .:              
+B0207. QIT--QMAPILPTSPAPPPPI---PHPPQRAQMNCLPLPQTFQPLPHPPVPQQLNQRGSG
+              140       150          160       170       180       
+
+        250       260       270       280                          
+RU1_hu AFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                        
+                                                                   
+B0207. QAMCVPVAAPLPAIINPITQHNPVQPPLIPSSDPFGPTVVPPADGSIKLKKKKSVTCDEA
+       190       200       210       220       230       240       
+
+>>D2045.1b CE37967 WBGene00000231 locus:atx-2 status:Confirme (634 aa)
+ s-w opt: 160  Z-score: 117.1  bits: 30.7 E(24705):  2.5
+Smith-Waterman score: 160; 24.6% identity (51.4% similar) in 138 aa overlap (115-248:436-562)
+
+           90       100       110       120       130       140    
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM
+                                     .... ....: ..:...   :  .:  :: 
+D2045. SRPQSHPNSQPTTPGPRGELPKMSGAPQNGNMQAESSSNASHSGSTSSQSGQRSGSPPGA
+         410       420       430       440       450       460     
+
+          150       160       170       180       190           200
+RU1_hu PPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLM----PGQMPPAQP
+        :    :. .:..  .::.  :: .  ::   : ..    .  :: :    : :: :  :
+D2045. VPPPPPPQQQHQQQQHPPHHAPPHVGAPP---PQMMQQQQQHIQQYMVMQGPHQMHPQIP
+         470       480       490          500       510       520  
+
+              210       220       230       240       250       260
+RU1_hu LSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA
+          . :.....   .:..     . :  :: :   .  :.  : : .:            
+D2045. NYYQQPQQVFYPMIMPQQ-----MPMQQNQHP---QQSLMGERSDQGFPTSGYFDYRTMP
+            530       540               550       560       570    
+
+              270       280                                        
+RU1_hu RDALQGFKITQNNAMKISFAKK                                      
+                                                                   
+D2045. NYQQQQQQQQQQMHRQNSLPQQFQGNQGVNPSGQQSGPPPPPPPSQQGTPRDQQHSQSPP
+          580       590       600       610       620       630    
+
+>>F42C5.7 CE34016 WBGene00001713 locus:grl-4 status:Confirmed (210 aa)
+ s-w opt: 149  Z-score: 117.0  bits: 29.1 E(24705):  2.6
+Smith-Waterman score: 149; 35.8% identity (44.8% similar) in 67 aa overlap (140-206:29-86)
+
+     110       120       130       140       150       160         
+RU1_hu KRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGM
+                                     : :  ::   ::     .:  :: . :: .
+F42C5.   MLLPISILFSIIPIASSTFGGCCSMGPPPCPPPPPPMCAP---PPLPCPPPPICPPQF
+                 10        20        30        40           50     
+
+     170       180       190       200       210       220         
+RU1_hu IPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFN
+        ::: . :   ::   ::  . :   ::  :.    :                       
+F42C5. CPPPPMCP---PPPPPPPPPMCP---PPPPPMPSYSPCQSYAPAPVFNQYAMQPANDCCC
+          60           70           80        90       100         
+
+     230       240       250       260       270       280         
+RU1_hu QFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK       
+                                                                   
+F42C5. RCGSPCRFMARHRTHGSKLFTTEDPEEDPTCNSKKLRRVMERNMNGDPSISKRAIQKAVE
+     110       120       130       140       150       160         
+
+>>C16D6.1 CE43158 WBGene00007634 status:Confirmed UniProt:O62 (111 aa)
+ s-w opt: 142  Z-score: 116.4  bits: 28.1 E(24705):  2.8
+Smith-Waterman score: 142; 33.7% identity (52.2% similar) in 92 aa overlap (135-216:5-90)
+
+          110       120       130       140       150       160    
+RU1_hu DRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYM
+                                     :.  :: :  ::    :...: .: .: : 
+C16D6.                           MWFNGGPPGPPPHGPP---PPHLLHALP-HPAY-
+                                         10           20           
+
+            170        180         190       200            210    
+RU1_hu PP--PGMIPPPGLAP-GQIPPGAMP--PQQLMPGQMPPAQPLSENP-PN----HILFLTN
+       ::  :  .:   . : : . :  :   :.. ::  .::  :..  : ::    : ..: .
+C16D6. PPGHPLHMPGMTMMPMGPVGPPMMAGMPMRPMP-PLPPMTPMGSMPHPNDGGPHPMMLPG
+      30        40        50        60         70        80        
+
+          220       230       240       250       260       270    
+RU1_hu LPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNA
+        :                                                          
+C16D6. APMTQQRQRPGIRGTLHSCTLHT                                     
+       90       100       110                                      
+
+>>C54G7.3b CE44845 WBGene00002983 locus:lgx-1 status:Partiall (1231 aa)
+ s-w opt: 163  Z-score: 114.9  bits: 31.2 E(24705):  3.4
+Smith-Waterman score: 163; 27.8% identity (53.9% similar) in 115 aa overlap (161-272:435-545)
+
+              140       150       160       170       180       190
+RU1_hu TPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQL
+                                     :  .:   : ::: : : :.:  ..:::  
+C54G7. KGSICDSVIPVCVCPAQTDLSNGECISVPAPTSQPVQVMTPPPTLPPVQVPIQTLPPQT-
+          410       420       430       440       450       460    
+
+                 200       210       220       230       240       
+RU1_hu MPGQMPPAQ---PLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIA
+        : :.::.:   :  ..: . :.: :. :   .        . .:  :..  .: .    
+C54G7. RPPQLPPVQITQPPIQTPVQPIFFQTTRPPMPTYATTPATTQFIP--KQIYTTPPQMPKN
+           470       480       490       500         510       520 
+
+       250       260       270       280                           
+RU1_hu FVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                         
+        ... :... :....:  : . . :                                   
+C54G7. SIKI-NQMKIGGSKQAGVGVRCSLNTDCMIGAYCNGNTNPPSCQCLSTHVNIEGRCEKVI
+              530       540       550       560       570       580
+
+>>Y73B6BL.34 CE29928 WBGene00000686 locus:col-112 status:Conf (297 aa)
+ s-w opt: 149  Z-score: 114.8  bits: 29.2 E(24705):  3.4
+Smith-Waterman score: 149; 29.6% identity (50.0% similar) in 142 aa overlap (84-206:50-187)
+
+            60        70        80         90       100       110  
+RU1_hu QAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAK-TDSDIIAKMKGTFVERDRKREKRK
+                                     :.: : . .::. ....    :. .:  :.
+Y73B6B FSVVAVLSVCITLPMVYNYVSHVKKGIHHEIRYCKGSAKDILNEVSSI---RS-NRTARQ
+      20        30        40        50        60            70     
+
+            120       130         140         150         160      
+RU1_hu PKSQETPATKKAVQGGGATP--VVGAVQGPV--PGMPPMTQAPRI--MHHMPGQPPYMPP
+        .  .. :. .:  .::.     . .  :::  :: :     : .  .   ::.::  : 
+Y73B6B ASYGDSGAAGSAGAAGGSCSGCCLPGPAGPVGTPGKPGRPGKPGVAGLPGNPGRPPQAPC
+          80        90       100       110       120       130     
+
+        170       180                  190        200       210    
+RU1_hu PGMIPPPGLAPGQIPPGAM-PP----------QQLMPGQ-MPPAQPLSENPPNHILFLTN
+         . :::     : :::.. ::          :   :::   :.::  ..::        
+Y73B6B DPITPPPCKPCPQGPPGVQGPPGPAGDAGLDGQPGGPGQDGQPGQPGPKGPPGVNGQPGA
+         140       150       160       170       180       190     
+
+          220       230       240       250       260       270    
+RU1_hu LPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNA
+                                                                   
+Y73B6B PGQDGNPGQDAPSEPLVPGEPGAPGEAGPQGPPGQPGTPGQNGQPGQPGPKGPSGQPGQP
+         200       210       220       230       240       250     
+
+>>D2045.1c CE42488 WBGene00000231 locus:atx-2 status:Confirme (930 aa)
+ s-w opt: 160  Z-score: 114.7  bits: 30.8 E(24705):  3.4
+Smith-Waterman score: 160; 24.6% identity (51.4% similar) in 138 aa overlap (115-248:761-887)
+
+           90       100       110       120       130       140    
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM
+                                     .... ....: ..:...   :  .:  :: 
+D2045. SRPQSHPNSQPTTPGPRGELPKMSGAPQNGNMQAESSSNASHSGSTSSQSGQRSGSPPGA
+              740       750       760       770       780       790
+
+          150       160       170       180       190           200
+RU1_hu PPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLM----PGQMPPAQP
+        :    :. .:..  .::.  :: .  ::   : ..    .  :: :    : :: :  :
+D2045. VPPPPPPQQQHQQQQHPPHHAPPHVGAPP---PQMMQQQQQHIQQYMVMQGPHQMHPQIP
+              800       810          820       830       840       
+
+              210       220       230       240       250       260
+RU1_hu LSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA
+          . :.....   .:..     . :  :: :   .  :.  : : .:            
+D2045. NYYQQPQQVFYPMIMPQQ-----MPMQQNQHP---QQSLMGERSDQGFPTSGYFDYRTMP
+       850       860            870          880       890         
+
+              270       280           
+RU1_hu RDALQGFKITQNNAMKISFAKK         
+                                      
+D2045. NYQQQQQQQQQQMHRQNSLPQQFQGNQALKV
+     900       910       920       930
+
+>>F33E2.6 CE09907 WBGene00009362 status:Partially_confirmed U (846 aa)
+ s-w opt: 159  Z-score: 114.7  bits: 30.7 E(24705):  3.5
+Smith-Waterman score: 159; 26.5% identity (48.3% similar) in 151 aa overlap (110-247:572-716)
+
+      80        90       100       110       120         130       
+RU1_hu KPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATK--KAVQGGGATPVVGAV
+                                     . .:   : : :.  ..:.    .:..   
+F33E2. RTEAPETVTTRTEPPRTEPPRTIPPRTEAPRTEPPRTEPPKTEAPRTVRPKTEAPMT---
+             550       560       570       580       590           
+
+       140       150       160       170            180       190  
+RU1_hu QGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPG-----LAPGQIPPGAMPPQQLMP
+         :    ::::.:::    :  .::   ::   ::       : :  .::..  :.  .:
+F33E2. -VPPRTEPPMTEAPRTEVPMT-EPPKTEPPRTAPPRTEVSMTLPPETVPPNTEAPRTEVP
+       600       610        620       630       640       650      
+
+              200           210       220       230       240      
+RU1_hu GQMPP--AQPLSENP----PNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDI
+         .::    : .: :    :.    .:..:  :.     . ... :  .. : .: : ..
+F33E2. MTVPPRTEPPKTEAPRTVPPKTEAPMTEVPM-TGPSRTEVPMTEPPKTEQPRTAPPRTEV
+        660       670       680        690       700       710     
+
+        250       260       270       280                          
+RU1_hu AFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                        
+       .                                                           
+F33E2. SMTLPPETVPPKTEAPRTEVPMTGPSRTEVPMTVTPETGLSSTVTSKTEPPKTTTEKRIT
+         720       730       740       750       760       770     
+
+>>D2045.1a CE37889 WBGene00000231 locus:atx-2 status:Confirme (959 aa)
+ s-w opt: 160  Z-score: 114.5  bits: 30.8 E(24705):  3.5
+Smith-Waterman score: 160; 24.6% identity (51.4% similar) in 138 aa overlap (115-248:761-887)
+
+           90       100       110       120       130       140    
+RU1_hu QYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM
+                                     .... ....: ..:...   :  .:  :: 
+D2045. SRPQSHPNSQPTTPGPRGELPKMSGAPQNGNMQAESSSNASHSGSTSSQSGQRSGSPPGA
+              740       750       760       770       780       790
+
+          150       160       170       180       190           200
+RU1_hu PPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLM----PGQMPPAQP
+        :    :. .:..  .::.  :: .  ::   : ..    .  :: :    : :: :  :
+D2045. VPPPPPPQQQHQQQQHPPHHAPPHVGAPP---PQMMQQQQQHIQQYMVMQGPHQMHPQIP
+              800       810          820       830       840       
+
+              210       220       230       240       250       260
+RU1_hu LSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA
+          . :.....   .:..     . :  :: :   .  :.  : : .:            
+D2045. NYYQQPQQVFYPMIMPQQ-----MPMQQNQHP---QQSLMGERSDQGFPTSGYFDYRTMP
+       850       860            870          880       890         
+
+              270       280                                        
+RU1_hu RDALQGFKITQNNAMKISFAKK                                      
+                                                                   
+D2045. NYQQQQQQQQQQMHRQNSLPQQFQGNQGVNPSGQQSGPPPPPPPSQQGTPRDQQHSQSPP
+     900       910       920       930       940       950         
+
+>>F23H12.4 CE05707 WBGene00005018 locus:sqt-3 collagen status (301 aa)
+ s-w opt: 148  Z-score: 114.0  bits: 29.1 E(24705):  3.8
+Smith-Waterman score: 148; 31.6% identity (53.1% similar) in 98 aa overlap (112-206:175-268)
+
+              90       100       110       120       130       140 
+RU1_hu MRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPV
+                                     .: .. .:..       : .  .::  ::.
+F23H12 PPCKPCPQGPPGPPGPPGAPGDPGEAGTPGRPGTDAAPGSPGPRGPPGPAGEAGA-PGPA
+          150       160       170       180       190        200   
+
+               150       160       170       180       190         
+RU1_hu --PGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPG-QMPPA
+         :: : ... : .    ::.:    :::   ::: :::.  : . :  .  :: . ::.
+F23H12 GEPGTPAISE-P-LTPGAPGEPGDSGPPGPPGPPG-APGNDGPPGPPGPKGAPGPDGPPG
+           210         220       230        240       250       260
+
+      200       210       220       230       240       250        
+RU1_hu QPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAG
+          . .::                                                    
+F23H12 VDGQSGPPGPPGPAGTPGEKGICPKYCALDGGVFFEDGTRR                   
+              270       280       290       300                    
+
+>>Y48C3A.8a CE43420 WBGene00012990 status:Partially_confirmed (455 aa)
+ s-w opt: 152  Z-score: 114.0  bits: 29.7 E(24705):  3.8
+Smith-Waterman score: 152; 36.4% identity (53.2% similar) in 77 aa overlap (136-206:105-181)
+
+         110       120       130       140       150        160    
+RU1_hu RKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRI-MHHMPGQPPYM
+                                     :. :  :::      : . :. : :.:  .
+Y48C3A LLFWDLYSAAPERRDAGGDPFSAEAKYFHEAMIGMPPGMNGHFAPPPMGMEMMGGHPGAF
+           80        90       100       110       120       130    
+
+             170       180         190       200       210         
+RU1_hu P---PPGMIPPPGLAPGQIPPGAMP--PQQLMPGQMPPAQPLSENPPNHILFLTNLPEET
+            :: .:: ..::: .::::.:  : .    .: : : .   ::             
+Y48C3A GGRFAPGRMPPGAMAPGGMPPGAFPMFPPDPRLQRMAPNQGMRMPPPPVGQPFPGAVGMP
+          140       150       160       170       180       190    
+
+     220       230       240       250       260       270         
+RU1_hu NELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISF
+                                                                   
+Y48C3A RPVGPGAPMDMSGMQRFDFMGGPPPGGGAQPFPGASGSGGMMPNGAHPHMSLNSPSMGVP
+          200       210       220       230       240       250    
+
+>>F56A8.6 CE16126 WBGene00000774 locus:cpf-2 RNA recognition  (336 aa)
+ s-w opt: 149  Z-score: 114.0  bits: 29.2 E(24705):  3.8
+Smith-Waterman score: 149; 35.8% identity (50.9% similar) in 106 aa overlap (129-227:211-306)
+
+      100       110       120       130       140       150        
+RU1_hu GTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMP
+                                     :: :.:   : :   :::    : . :  :
+F56A8. VMRIVDPQTALGLLHRNKAATLTPFHNTPQGAPPMVQQQQMP---MPP---KPTFAHPGP
+              190       200       210       220             230    
+
+      160       170           180       190         200       210  
+RU1_hu GQPPYMPPPGMIPPPG--LAP--GQIPPGAMPPQQLMPGQMPPAQ--PLSENPPNHILFL
+       .. : : :: : :: :   ::  ::     . :::  :   :: :  :..  :: .    
+F56A8. SMGPPMGPP-MGPPMGHPQAPQYGQNYGQPVAPQQYKP---PPQQQPPVQMRPPVQQPQQ
+          240        250       260       270          280       290
+
+            220        230       240       250       260       270 
+RU1_hu TNLPEETN-ELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQ
+       ..  :. : ::.....                                            
+F56A8. NHQEEQQNAELLMQVMQLSEHDLQMLPAGDREKIIELRQQLKRNVK              
+              300       310       320       330                    
+
+>>T01D1.2a CE12942 WBGene00001340 locus:etr-1 RNA-binding pro (584 aa)
+ s-w opt: 154  Z-score: 113.8  bits: 30.0 E(24705):  3.9
+Smith-Waterman score: 154; 23.4% identity (51.8% similar) in 282 aa overlap (5-271:137-410)
+
+                                         10        20        30    
+RU1_hu                           MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIF
+                                     :.: .. ..:..:..: ....:..    ::
+T01D1. KDAIEAQGALHNIKVIEGMHHPVQMKPADTENRNERKLFIGQLSKKHNEENLRE----IF
+        110       120       130       140       150       160      
+
+           40          50        60        70           80         
+RU1_hu SQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNALRSM---QGFPFYDKPMRIQYAKT
+       ..::.: :  .: ... : :: ::: : . : :. : . :   : .   . :. ...: :
+T01D1. AKFGHIEDCSVLRDQDGKSRGCAFVTFTNRSCAVVATKEMHHSQTMEGCSAPLVVKFADT
+            170       180       190       200       210       220  
+
+      90       100       110          120       130       140      
+RU1_hu DSDIIAKMKGTFVERDRKREKRKPKS--QE-TPATKKAVQGGGATPVVGAVQGPVPGMPP
+       ..:  .: :. ..       :    :  :. .::  . . ::    .:... . . :.  
+T01D1. QKDKDVKTKSMITGSGAGSPKGGAASLLQNLNPALLQQLGGGQNYQAVASLLSLINGQQG
+            230       240       250       260       270       280  
+
+        150        160       170       180        190       200    
+RU1_hu MTQAPRIMHHMPG-QPPYMPPPGMIPPPGLAPGQIPPGAMPPQQ-LMPGQMPPAQPLSEN
+       . :  . .... :     .   : .   :   .    .  : .: :: .  : :   . .
+T01D1. QQQQHQQQQNVLGILGTVLSALGKLTEGGDDASAKSSSEKPRHQALMTSPAPTATSSTSS
+            290       300       310       320       330       340  
+
+          210       220       230       240        250       260   
+RU1_hu PPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFV-EFDNEVQAGAARD-
+         .:     .  .. .. . ..   :  :. .  :  :   .:   .::  ..:  :.. 
+T01D1. SASH--HHQQHQQQLSQQQQQQQHPQQQGLGNPLL--GNPAMAAQNQFDAITMAQIAHQQ
+              350       360       370         380       390        
+
+               270       280                                       
+RU1_hu ---ALQGFKITQNNAMKISFAKK                                     
+          ::::: . :                                                
+T01D1. QMLALQGFAVQQGAPSQQQQGLAGGMAGAKTTSPVAASLANHQQIALTPFAGGAAALDHF
+      400       410       420       430       440       450        
+
+>>T11G6.5b CE42636 WBGene00011720 status:Partially_confirmed  (1349 aa)
+ s-w opt: 162  Z-score: 113.7  bits: 31.2 E(24705):  3.9
+Smith-Waterman score: 162; 25.4% identity (47.8% similar) in 268 aa overlap (5-252:475-714)
+
+                                         10        20        30    
+RU1_hu                           MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIF
+                                     .: :.:   : ...:  :..:..:      
+T11G6. KPRNLKVRWNDEDSTGNERKQLCFVKEFTNDTVPHHDHSILSFDEMRKQEEIEK------
+          450       460       470       480       490              
+
+             40         50        60        70              80     
+RU1_hu SQFGQ--ILDILVSRS-LKMRGQAFVIFKEVSSATNALR------SMQGFPFYDKPMRIQ
+        : ::  .... .... .. .:   : ::.. : ::: :      : :.  .:: : :: 
+T11G6. RQQGQDEVVQLQLGKTDIENQGTDDV-FKQAISRTNAQRESVERESSQSPQLYD-PKRIP
+      500       510       520        530       540       550       
+
+          90       100       110       120       130       140     
+RU1_hu YAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMP
+       .. . :  :      :        .: :   ..: .        : : .:  ..: :   
+T11G6. HSASISTNIPGSPTQF--------NRPPPVLHSPRS--------ALPSAGPFSSPQP--V
+        560       570               580               590          
+
+         150        160           170       180           190      
+RU1_hu PMTQAPRIMHHMPG-QPPYMPPPGM----IPPPGLAPGQIPPGAM----PPQQLMPGQMP
+       :  ..:     .:.  ::  ::::.    .::   .:   ::. .    :   : :.   
+T11G6. PRFNGPPSSFILPSIYPP--PPPGVSLNQLPPRVPVPIIRPPNDLQSIEPKVPLKPNFSI
+      600       610         620       630       640       650      
+
+        200       210         220       230       240       250    
+RU1_hu PAQPLSENPPNHILFLTNL--PEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNE
+       :  ::   ::. :   : .  :  ..    ..:  .  :  :. .  . .: ...:..  
+T11G6. PPPPLPAPPPTTISTTTVIAGPVSAEATSTTLLSLEEIGEAEMDIETNDEDDSIIEIEPS
+        660       670       680       690       700       710      
+
+          260       270       280                                  
+RU1_hu VQAGAARDALQGFKITQNNAMKISFAKK                                
+                                                                   
+T11G6. KEVKPAPQEEENDILRMVFTPSQPTLLQSSLESLKNSVSLMELLQKKEKMNPIVTTTSLP
+        720       730       740       750       760       770      
+
+>>Y63D3A.5 CE20336 WBGene00006565 locus:tfg-1 status:Confirme (486 aa)
+ s-w opt: 152  Z-score: 113.6  bits: 29.7 E(24705):    4
+Smith-Waterman score: 152; 32.4% identity (49.5% similar) in 105 aa overlap (113-206:311-412)
+
+             90       100       110           120       130        
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQE----TPATKKAVQGGGATPVVGAVQ
+                                     :..:.    .:  . : : : ..:  :  :
+Y63D3A PVQQQGFAPPQQFGGPPPSGPPSEYGGYAPPQQQQQQFGAPPPQGAPQQGFGAPPQGPPQ
+              290       300       310       320       330       340
+
+      140             150       160       170       180        190 
+RU1_hu GPVP----GMPPMTQ--APRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAM-PPQQLM
+       :  :    : ::  :  ::  .      ::    :: . ::   : . ::::. :: . .
+Y63D3A GGPPQGSFGAPPPQQFHAPSPQSFGGPPPPVSSAPGNFAPP---PQSGPPGAFAPPPSAF
+              350       360       370       380          390       
+
+             200       210       220       230       240       250 
+RU1_hu PGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEF
+        . . :. : . .::                                             
+Y63D3A GAPQGPGGPGGYGPPPPGGPGAPGSYGPPQGGPGGFGPPPPGGPGAYGPPPTGFPPVGAP
+       400       410       420       430       440       450       
+
+>>T11G6.5a CE32932 WBGene00011720 status:Partially_confirmed  (1406 aa)
+ s-w opt: 162  Z-score: 113.4  bits: 31.2 E(24705):  4.1
+Smith-Waterman score: 162; 25.4% identity (47.8% similar) in 268 aa overlap (5-252:532-771)
+
+                                         10        20        30    
+RU1_hu                           MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIF
+                                     .: :.:   : ...:  :..:..:      
+T11G6. KPRNLKVRWNDEDSTGNERKQLCFVKEFTNDTVPHHDHSILSFDEMRKQEEIEK------
+             510       520       530       540       550           
+
+             40         50        60        70              80     
+RU1_hu SQFGQ--ILDILVSRS-LKMRGQAFVIFKEVSSATNALR------SMQGFPFYDKPMRIQ
+        : ::  .... .... .. .:   : ::.. : ::: :      : :.  .:: : :: 
+T11G6. RQQGQDEVVQLQLGKTDIENQGTDDV-FKQAISRTNAQRESVERESSQSPQLYD-PKRIP
+         560       570       580        590       600        610   
+
+          90       100       110       120       130       140     
+RU1_hu YAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMP
+       .. . :  :      :        .: :   ..: .        : : .:  ..: :   
+T11G6. HSASISTNIPGSPTQF--------NRPPPVLHSPRS--------ALPSAGPFSSPQP--V
+           620               630       640               650       
+
+         150        160           170       180           190      
+RU1_hu PMTQAPRIMHHMPG-QPPYMPPPGM----IPPPGLAPGQIPPGAM----PPQQLMPGQMP
+       :  ..:     .:.  ::  ::::.    .::   .:   ::. .    :   : :.   
+T11G6. PRFNGPPSSFILPSIYPP--PPPGVSLNQLPPRVPVPIIRPPNDLQSIEPKVPLKPNFSI
+         660       670         680       690       700       710   
+
+        200       210         220       230       240       250    
+RU1_hu PAQPLSENPPNHILFLTNL--PEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNE
+       :  ::   ::. :   : .  :  ..    ..:  .  :  :. .  . .: ...:..  
+T11G6. PPPPLPAPPPTTISTTTVIAGPVSAEATSTTLLSLEEIGEAEMDIETNDEDDSIIEIEPS
+           720       730       740       750       760       770   
+
+          260       270       280                                  
+RU1_hu VQAGAARDALQGFKITQNNAMKISFAKK                                
+                                                                   
+T11G6. KEVKPAPQEEENDILRMVFTPSQPTLLQSSLESLKNSVSLMELLQKKEKMNPIVTTTSLP
+           780       790       800       810       820       830   
+
+>>F25B5.7a CE42671 WBGene00017778 locus:psf-1 status:Confirme (562 aa)
+ s-w opt: 153  Z-score: 113.3  bits: 29.8 E(24705):  4.1
+Smith-Waterman score: 153; 36.8% identity (49.4% similar) in 87 aa overlap (126-199:399-485)
+
+         100       110       120       130       140       150     
+RU1_hu KMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMH
+                                     .::.     :.  :: :   :. :::. : 
+F25B5. AARRERMRGLGGPPPGMPGGVPPQAQPFNPHGGSMFGGPGGPGGPPPFGQPFQQAPQGMF
+      370       380       390       400       410       420        
+
+          160               170       180           190       200  
+RU1_hu HMP-GQPPYM--------PPPGMIPPPGLAPGQIPPG----AMPPQQLMPGQMPPAQPLS
+       ..: : :: :        :: ::  ::: .    :::    . :: .   :  ::.:   
+F25B5. NVPTGPPPLMGGGGDPRGPPGGMGGPPGHGGMGGPPGHGGQGGPPGHGGMGGPPPGQGGP
+      430       440       450       460       470       480        
+
+            210       220       230       240       250       260  
+RU1_hu ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARD
+                                                                   
+F25B5. GGPGGPGGPGGMLPKSHGRSNMIEGVQRLLQIFKSDNGPPGGMPGRDYPPQQGPGGMFGS
+      490       500       510       520       530       540        
+
+>>C50F7.5 CE04243 WBGene00016845 status:Partially_confirmed U (309 aa)
+ s-w opt: 147  Z-score: 113.2  bits: 28.9 E(24705):  4.2
+Smith-Waterman score: 147; 34.4% identity (51.6% similar) in 93 aa overlap (119-208:200-282)
+
+       90       100       110       120       130       140        
+RU1_hu TDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMT
+                                     :. . . .:  .   :   . : :. :: .
+C50F7. PQPSGPPSPGPVDPSEDPQPSGSSSPGPVDPSDEPSPSGPPSPGPVDPSEDPKPSEPP-S
+     170       180       190       200       210       220         
+
+      150         160        170       180       190       200     
+RU1_hu QAPRIMHHMPG--QPPYMP-PPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENP
+        .:      :.  .::  : :::  ::    ::  :::  :: .  ::  ::. : .. :
+C50F7. PGPVDPSDEPSPSDPPGPPGPPG--PPTRRPPG--PPG--PPTRRPPG--PPGPP-TRRP
+      230       240       250           260         270            
+
+         210       220       230       240       250       260     
+RU1_hu PNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQ
+       :.:                                                         
+C50F7. PGHQGHHITMIMDIMDTMGIISIKSNCNCT                              
+     280       290       300                                       
+
+>>F27D4.2b CE36140 WBGene00009188 locus:lsy-22 status:Partial (291 aa)
+ s-w opt: 146  Z-score: 112.9  bits: 28.8 E(24705):  4.3
+Smith-Waterman score: 146; 27.8% identity (53.6% similar) in 151 aa overlap (111-247:120-268)
+
+               90       100       110       120       130       140
+RU1_hu PMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP
+                                     :.:  .   ...  :.: :..:  :...: 
+F27D4. SISKNGTPQMPVMTPPMMNAVAAMQPHMMMRNPMLNAMGGASPRVSGKGGAPQNGGMNG-
+      90       100       110       120       130       140         
+
+                  150       160       170           180        190 
+RU1_hu VPGMPPMT----QAPRIMHHMPGQPPYMPPPGMIP--PPGLA--PGQIPPGAMPP-QQLM
+       .  :  :     ::  .. .:  : :.: : ::.:  :::.:  ::..::. :   .: .
+F27D4. MSMMQHMQMQAFQAQMMQAQMFQQMPMMMP-GMVPGMPPGMAGLPGMMPPNNMAAAMQHF
+      150       160       170        180       190       200       
+
+             200       210       220       230            240      
+RU1_hu PGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQ-----FPGFKEVRLVPGRHDI
+        .::  :  .. . :..    ..   .:   . .   :.      : .:: .    .::.
+F27D4. NAQMAAAASVAVSTPSRNPSTSGAASRTRTPLTTSATNSPRPTTEPTIKEEEPQTMEHDV
+       210       220       230       240       250       260       
+
+        250       260       270       280  
+RU1_hu AFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+       :                                   
+F27D4. AAAVAATTATATIKQEENSTVAVA            
+       270       280       290             
+
+>>F44B9.7 CE29043 WBGene00004125 locus:mdt-30 status:Confirme (466 aa)
+ s-w opt: 150  Z-score: 112.6  bits: 29.4 E(24705):  4.5
+Smith-Waterman score: 150; 33.7% identity (49.0% similar) in 98 aa overlap (113-208:36-125)
+
+             90       100       110       120       130       140  
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVP
+                                     :   ..:   .    ::  : .: .:  . 
+F44B9. PPNYPPGNPNQPPPFPPTPYYPMYQAGMPMPYIPQSPQYPQPGPPGGPPPFMG-IQ--IK
+          10        20        30        40        50         60    
+
+            150        160       170        180       190       200
+RU1_hu GMPPMTQAPRI-MHHMPGQPPYMPPPGMIPPPGLAPGQ-IPPGAMPPQQLMPGQMPPAQP
+         :  .:  :  :.  :.  : ::: .   : :  : . .::: ::  : :: .: : .:
+F44B9. QEPMWSQENRYGMQAGPSGMPGMPPSSH--PYGYPPMHGMPPG-MP--QGMPPMMDPNMP
+             70        80        90         100          110       
+
+              210       220       230       240       250       260
+RU1_hu LSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA
+          .:: :                                                    
+F44B9. DFSSPPMHHPTTSLLAQHLSSAPLPPAPPQQQSHLSQLLQQPTTYSTATNPHAAPTQTIA
+       120       130       140       150       160       170       
+
+>>Y53H1A.1b CE42806 WBGene00013177 locus:rsy-1 status:Partial (492 aa)
+ s-w opt: 150  Z-score: 112.2  bits: 29.4 E(24705):  4.7
+Smith-Waterman score: 150; 31.3% identity (41.7% similar) in 115 aa overlap (105-211:70-176)
+
+           80        90       100       110       120       130    
+RU1_hu FPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVV
+                                     .: .. : : .   :.   . .. :  :  
+Y53H1A HDFAQNHQLPWHQPRHPGPPAHQDWGDWSANRDEQWRGPPGPSGPSGPPVYHNQG--PPR
+      40        50        60        70        80        90         
+
+          140       150           160           170       180      
+RU1_hu GAVQGPVPGMPPMTQAPRIMHHM----PGQ----PPYMPPPGMIPPPGLAPGQIPPGAMP
+       :    :  :      ::   ::     ::.    ::   :::  ::    ::  :::   
+Y53H1A GYPPPPPQGADTWRGAPPPAHHGHFGPPGHHFQGPPQHFPPG--PPRPHFPG--PPGPHR
+       100       110       120       130         140         150   
+
+        190       200       210       220       230       240      
+RU1_hu PQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDI
+       : . .::  ::       :: . ::                                   
+Y53H1A PPEHYPG--PPRPQAPAAPPPKSLFPSAQKPKPLFAAASSAPSFFGAPQRPPPQLHFFQE
+           160         170       180       190       200       210 
+
+>>C54G7.3a CE44870 WBGene00002983 locus:lgx-1 status:Partiall (1884 aa)
+ s-w opt: 163  Z-score: 112.2  bits: 31.4 E(24705):  4.7
+Smith-Waterman score: 163; 27.8% identity (53.9% similar) in 115 aa overlap (161-272:435-545)
+
+              140       150       160       170       180       190
+RU1_hu TPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQL
+                                     :  .:   : ::: : : :.:  ..:::  
+C54G7. KGSICDSVIPVCVCPAQTDLSNGECISVPAPTSQPVQVMTPPPTLPPVQVPIQTLPPQT-
+          410       420       430       440       450       460    
+
+                 200       210       220       230       240       
+RU1_hu MPGQMPPAQ---PLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIA
+        : :.::.:   :  ..: . :.: :. :   .        . .:  :..  .: .    
+C54G7. RPPQLPPVQITQPPIQTPVQPIFFQTTRPPMPTYATTPATTQFIP--KQIYTTPPQMPKN
+           470       480       490       500         510       520 
+
+       250       260       270       280                           
+RU1_hu FVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                         
+        ... :... :....:  : . . :                                   
+C54G7. SIKI-NQMKIGGSKQAGVGVRCSLNTDCMIGAYCNGNTNPPSCQCLSTHVNIEGRCEKVI
+              530       540       550       560       570       580
+
+>>Y37D8A.21 CE44816 WBGene00012558 RNA recognition motif. (ak (243 aa)
+ s-w opt: 143  Z-score: 112.1  bits: 28.4 E(24705):  4.8
+Smith-Waterman score: 143; 24.6% identity (50.7% similar) in 203 aa overlap (4-199:10-189)
+
+                     10        20        30        40        50    
+RU1_hu       MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQ
+                :: :   :::. :..:.. .. :..    .: : : .. ... :...  . 
+Y37D8A MEIKPTPSPPEER---TIYVANFSEEVDEELLEE----LFIQAGPVVKVIL-RDVRDSNA
+               10           20        30            40         50  
+
+             60        70        80         90       100       110 
+RU1_hu AFVI--FKEVSSATNALRSMQGFPFYDKPMRIQ-YAKTDSDIIAKMKGTFVERDRKREKR
+        :..  :..  :.  :.. :.:  .... ....    :... . : :   .: .: :   
+Y37D8A KFALVEFEDELSVLFAIELMNGVRLFNQELQVKPRNGTNQEELYKRKKGEIE-ERVRSVA
+             60        70        80        90       100        110 
+
+             120       130       140       150       160       170 
+RU1_hu KPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIP
+        :   .  . . . .        :  .     . :    ::  ::   .:  .:::   :
+Y37D8A AP---DRDGRRDSYRDDRNRNRNGNNRDSWQQQQP----PR--HHRQYDP--LPPPP--P
+                120       130       140             150            
+
+               180         190       200       210       220       
+RU1_hu PP--GLAPGQIPPGAM--PPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSML
+       ::  : . :.   :.   :::   : :: : :                            
+Y37D8A PPLMGGSGGHWRSGGERGPPQYSTP-QMLPHQHFVNQMMQQQINRSAPPYNGRHQNSTPH
+      160       170       180        190       200       210       
+
+       230       240       250       260       270       280  
+RU1_hu FNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+                                                              
+Y37D8A RHHDRHGYDRSSSRHHRNDDRRRERY                             
+       220       230       240                                
+
+>>F43B10.2a CE35536 WBGene00018374 locus:tag-343 status:Parti (996 aa)
+ s-w opt: 156  Z-score: 111.7  bits: 30.3 E(24705):  5.1
+Smith-Waterman score: 156; 27.0% identity (46.0% similar) in 211 aa overlap (47-245:219-413)
+
+         20        30        40        50        60        70      
+RU1_hu LNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFP
+                                     :  ::  . :  : :  . :. . ...:.:
+F43B10 GLSECPKFTINTSCTFQKQMEDRLNDEHRRRYWKMSVNQFDSFMEKVQETTPI-TISGLP
+      190       200       210       220       230       240        
+
+         80            90       100        110       120       130 
+RU1_hu FYDKPMR-IQYA---KTDSDIIAKMKGTFVERDRK-REKRKPKSQETPATKKAVQGGGAT
+       : :  .  .: .   .. :.. .. :.: .: ... :...  .  :.:            
+F43B10 FVDDGIYGVQESGQNSSRSSVYSSSKSTVIEVEQSSRQQQVGRPTESPPLPPP-----PL
+       250       260       270       280       290       300       
+
+             140       150       160       170       180           
+RU1_hu PVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIP--PGAMPPQQ
+       :. .    :.:  ::    : :    :   :  :::    ::.  :  ::     .  ::
+F43B10 PLSNPPAKPTP--PPPPPKPTIR---PPPIPASPPP---RPPASEPVGIPLYSEKQHQQQ
+            310         320          330          340       350    
+
+     190         200        210       220       230         240    
+RU1_hu LMPGQM--PPAQPLSENP-PNHILFLTNLPEETNELMLSMLFNQFPGFKEVRL--VPGRH
+       : :     ::  :    : :    ..:.    :: :  .: :.:.   . ::   :: . 
+F43B10 LRPTTAVSPPKPPSFAPPVPPAAALITDTSTTTNALTNAM-FEQLKQ-SSVRYDYVPYKS
+          360       370       380       390        400        410  
+
+          250       260       270       280                        
+RU1_hu DIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                      
+       :                                                           
+F43B10 DHRSFTQNTQPSPLPPAGVGDRRHSVPDDVRHYADETTPPPVLHDVADRYSTVAYMNHEP
+            420       430       440       450       460       470  
+
+>>F52C9.8a CE30802 WBGene00004095 locus:pqe-1 status:Partiall (1081 aa)
+ s-w opt: 156  Z-score: 111.2  bits: 30.4 E(24705):  5.4
+Smith-Waterman score: 156; 27.7% identity (48.4% similar) in 155 aa overlap (111-247:224-376)
+
+               90       100       110       120         130        
+RU1_hu PMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGG--GATPVVGAVQ
+                                     : :.   .  ...: . :  ::.:.   .:
+F52C9. AQQVQNAPQRIPQHVPMPQGVAPHQVIQQVRAPNIGASQMVQQAPSRGHTGAAPASRMAQ
+           200       210       220       230       240       250   
+
+      140          150         160               170        180    
+RU1_hu GPVP---GMPPMTQAPRIMHHMP--GQPPYMP--------PPGMIP-PPGLAPGQIPPGA
+        :::   :. :   ::. ... :  :.:             : ..: : :.:: .::: :
+F52C9. QPVPLHQGVAPHQAAPQTIQQTPARGRPANAQLAQNAQQRNPQQVPMPQGVAPHHIPPQA
+           260       270       280       290       300       310   
+
+          190       200       210       220       230         240  
+RU1_hu MPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFP--GFKEVRLVPG
+       . :.   : ::    : ...: .      :  . :.. .  .   : :  :  ..   ::
+F52C9. LGPHGAAP-QMTQQAP-ARGPSGAAQHAQNAHRMTHQQVPLQAPVQGPHRGAPQMAQQPG
+           320         330       340       350       360       370 
+
+            250       260       270       280                      
+RU1_hu RHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                    
+        :  :                                                       
+F52C9. PHGAAQHPSSGTVAPMHITSLPGNHPLNRTHLLFNRQVVPALDIRNLIAQHRLMVDDFVR
+             380       390       400       410       420       430 
+
+>>T01D1.2e CE41584 WBGene00001340 locus:etr-1 status:Confirme (586 aa)
+ s-w opt: 150  Z-score: 111.1  bits: 29.5 E(24705):  5.5
+Smith-Waterman score: 150; 23.9% identity (54.1% similar) in 222 aa overlap (5-214:137-353)
+
+                                         10        20        30    
+RU1_hu                           MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIF
+                                     :.: .. ..:..:..: ....:..    ::
+T01D1. KDAIEAQGALHNIKVIEGMHHPVQMKPADTENRNERKLFIGQLSKKHNEENLRE----IF
+        110       120       130       140       150       160      
+
+           40          50        60        70           80         
+RU1_hu SQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNALRSM---QGFPFYDKPMRIQYAKT
+       ..::.: :  .: ... : :: ::: : . : :. : . :   : .   . :. ...: :
+T01D1. AKFGHIEDCSVLRDQDGKSRGCAFVTFTNRSCAVVATKEMHHSQTMEGCSAPLVVKFADT
+            170       180       190       200       210       220  
+
+      90       100       110          120       130       140      
+RU1_hu DSDIIAKMKGTFVERDRKREKRKPKS--QE-TPATKKAVQGGGATPVVGAVQGPVPGMPP
+       ..:  .: :. ..       :    :  :. .::  . . ::    .:... . . :.  
+T01D1. QKDKDVKTKSMITGSGAGSPKGGAASLLQNLNPALLQQLGGGQNYQAVASLLSLINGQQG
+            230       240       250       260       270       280  
+
+        150           160       170       180       190       200  
+RU1_hu MTQAPRIMHHMPG----QPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLS
+       . :  . .... :      : .  :.:     .    .   :   ::..  :   .:  .
+T01D1. QQQQHQQQQNVLGILGTGNPLLGNPAMAAQNQFDAITMAQIAHQ-QQMLALQGFAVQQGA
+            290       300       310       320        330       340 
+
+            210       220       230       240       250       260  
+RU1_hu ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARD
+        .  .. :::..                                                
+T01D1. PSQQQQGLFLAHQYSTNYSTGSPDSASNATDSSSDDNNVMNNRLTPTSKMAQYGYGPLIP
+             350       360       370       380       390       400 
+
+>>T01D1.2f CE41585 WBGene00001340 locus:etr-1 status:Confirme (588 aa)
+ s-w opt: 150  Z-score: 111.1  bits: 29.5 E(24705):  5.5
+Smith-Waterman score: 150; 23.9% identity (54.1% similar) in 222 aa overlap (5-214:137-353)
+
+                                         10        20        30    
+RU1_hu                           MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIF
+                                     :.: .. ..:..:..: ....:..    ::
+T01D1. KDAIEAQGALHNIKVIEGMHHPVQMKPADTENRNERKLFIGQLSKKHNEENLRE----IF
+        110       120       130       140       150       160      
+
+           40          50        60        70           80         
+RU1_hu SQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNALRSM---QGFPFYDKPMRIQYAKT
+       ..::.: :  .: ... : :: ::: : . : :. : . :   : .   . :. ...: :
+T01D1. AKFGHIEDCSVLRDQDGKSRGCAFVTFTNRSCAVVATKEMHHSQTMEGCSAPLVVKFADT
+            170       180       190       200       210       220  
+
+      90       100       110          120       130       140      
+RU1_hu DSDIIAKMKGTFVERDRKREKRKPKS--QE-TPATKKAVQGGGATPVVGAVQGPVPGMPP
+       ..:  .: :. ..       :    :  :. .::  . . ::    .:... . . :.  
+T01D1. QKDKDVKTKSMITGSGAGSPKGGAASLLQNLNPALLQQLGGGQNYQAVASLLSLINGQQG
+            230       240       250       260       270       280  
+
+        150           160       170       180       190       200  
+RU1_hu MTQAPRIMHHMPG----QPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLS
+       . :  . .... :      : .  :.:     .    .   :   ::..  :   .:  .
+T01D1. QQQQHQQQQNVLGILGTGNPLLGNPAMAAQNQFDAITMAQIAHQ-QQMLALQGFAVQQGA
+            290       300       310       320        330       340 
+
+            210       220       230       240       250       260  
+RU1_hu ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARD
+        .  .. :::..                                                
+T01D1. PSQQQQGLFLAHQYSTNYSTGSPDSASNATDSSSDDNNVMNNRLTPTSKMAQYGYGPLIP
+             350       360       370       380       390       400 
+
+>>Y53H1A.1a CE42773 WBGene00013177 locus:rsy-1 status:Partial (589 aa)
+ s-w opt: 150  Z-score: 111.1  bits: 29.5 E(24705):  5.5
+Smith-Waterman score: 150; 31.3% identity (41.7% similar) in 115 aa overlap (105-211:70-176)
+
+           80        90       100       110       120       130    
+RU1_hu FPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVV
+                                     .: .. : : .   :.   . .. :  :  
+Y53H1A HDFAQNHQLPWHQPRHPGPPAHQDWGDWSANRDEQWRGPPGPSGPSGPPVYHNQG--PPR
+      40        50        60        70        80        90         
+
+          140       150           160           170       180      
+RU1_hu GAVQGPVPGMPPMTQAPRIMHHM----PGQ----PPYMPPPGMIPPPGLAPGQIPPGAMP
+       :    :  :      ::   ::     ::.    ::   :::  ::    ::  :::   
+Y53H1A GYPPPPPQGADTWRGAPPPAHHGHFGPPGHHFQGPPQHFPPG--PPRPHFPG--PPGPHR
+       100       110       120       130         140         150   
+
+        190       200       210       220       230       240      
+RU1_hu PQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDI
+       : . .::  ::       :: . ::                                   
+Y53H1A PPEHYPG--PPRPQAPAAPPPKSLFPSAQKPKPLFAAASSAPSFFGAPQRPPPQLHFFQE
+           160         170       180       190       200       210 
+
+>>R04E5.8a CE04800 WBGene00019871 status:Partially_confirmed  (997 aa)
+ s-w opt: 155  Z-score: 111.0  bits: 30.2 E(24705):  5.5
+Smith-Waterman score: 155; 30.6% identity (48.0% similar) in 98 aa overlap (111-206:90-184)
+
+               90       100       110       120       130       140
+RU1_hu PMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP
+                                     ..:.    :.     : :  .:  .  .: 
+R04E5. ASIAHTYGGYPPPYPYQHPHQPPPAHPHHLQHPHPYAYPGYPVPGQEGHQVP--APQHGD
+      60        70        80        90       100       110         
+
+              150       160         170       180       190        
+RU1_hu VPGMPPMTQAPRIMHHMPGQPPYMPPPGM--IPPPGLAPGQIPPGAMPPQQLMPGQMPPA
+         . ::    ::  .   ..::  ::: .   :::   : . :: . :  :  : . ::.
+R04E5. HEASPPPPPPPRKSRAGGSSPPPPPPPRVPRTPPPRSPPPRRPPMTPPSPQRRPPRTPPS
+       120       130       140       150       160       170       
+
+      200       210       220       230       240       250        
+RU1_hu QPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAG
+        :  .:::                                                    
+R04E5. -PEPRNPPRTPPSPIPPPPPRLNSHDRRALRARRPMVHRPAPYGRRSISQGPGRNNDDWG
+        180       190       200       210       220       230      
+
+>>Y40B1A.3a CE43137 WBGene00012734 status:Partially_confirmed (490 aa)
+ s-w opt: 148  Z-score: 111.0  bits: 29.2 E(24705):  5.6
+Smith-Waterman score: 148; 29.8% identity (46.3% similar) in 121 aa overlap (113-216:28-145)
+
+             90       100       110       120       130       140  
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVP
+                                     :     :     ..   :. :.. :. : :
+Y40B1A    MEIPVVEFTTARRRKRHVVSTPPPPPPPAPPALPRELTQISTETAAAVAALVRKPPP
+                  10        20        30        40        50       
+
+              150       160                170       180           
+RU1_hu GMPP--MTQAPRIMHHMPGQPPY------MPPP---GMIPPPGLAPGQIPPGAMPPQ---
+       ..::  :  .:. :  : : ::.      .:::   :  :::     : ::   :::   
+Y40B1A SLPPSTMPPGPHGMPFMGGPPPHHQYHLQYPPPHGLGPPPPPPHYYTQPPP---PPQSGY
+        60        70        80        90       100          110    
+
+        190       200        210       220       230       240     
+RU1_hu --QLMPGQMPPAQPLSENPP-NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD
+         . .  .  :. :. .: :     : ..::                             
+Y40B1A YHHQQQQHSGPTTPVPRNAPMAPPQFASGLPPPPQVPPPPPPAPPPRTLPGASSASSTAS
+          120       130       140       150       160       170    
+
+         250       260       270       280                         
+RU1_hu IAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                       
+                                                                   
+Y40B1A SSGIPPPPPPMQRTPRTPGNPMFNSPRDGAYTSMPSGSSSSTAPPPPPPPPPPPPPPPPP
+          180       190       200       210       220       230    
+
+>>F36A4.10 CE07185 WBGene00000611 locus:col-34 cuticular coll (299 aa)
+ s-w opt: 143  Z-score: 110.8  bits: 28.5 E(24705):  5.7
+Smith-Waterman score: 143; 26.3% identity (49.5% similar) in 186 aa overlap (50-206:6-189)
+
+      20        30        40        50        60        70         
+RU1_hu KIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQ-GFPF-
+                                     ....  :: .. :. .. :. :.   .:. 
+F36A4.                          MDLETRIKAYRFVAYSAVAFSVVAVISVCVTLPMV
+                                        10        20        30     
+
+        80        90       100       110       120          130    
+RU1_hu YDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPA---TKKAVQGGGATP--
+       :.   ... .  .   . : ..  .  . .  :  :.:..:     .  :: ::::    
+F36A4. YNYVHHVKRTMHNEITFCKGSAKDIWNEVHALKSLPNSNRTARQAYNDAAVTGGGAQSGS
+          40        50        60        70        80        90     
+
+                140            150       160            170        
+RU1_hu ----VVGAVQGPV-----PGMPPMTQAPRIMHHMPGQPPYMP-----PPGMIP----PPG
+            . .  ::.     :: :    :: .  . ::.:: .:     ::   :    :::
+F36A4. CESCCLPGPPGPAGTPGKPGRPGKPGAPGLPGN-PGRPPQQPCEPITPPPCKPCPQGPPG
+         100       110       120        130       140       150    
+
+          180          190        200       210       220       230
+RU1_hu LAPGQI-PPG--AMPPQQLMPGQ-MPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQ
+         ::   :::  . : .  .:::   :..:  ..::                        
+F36A4. -PPGPPGPPGDSGEPGSPGLPGQDAAPGEPGPKGPPGPPGAPGAPGTPGEPGVPAQSEPL
+           160       170       180       190       200       210   
+
+              240       250       260       270       280          
+RU1_hu FPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK        
+                                                                   
+F36A4. IPGEPGPPGEAGPQGPPGSPGQPGADGSPGQPGPKGPNGPDGQPGADGNPGAPGPAGPPG
+           220       230       240       250       260       270   
+
+>>Y40B1A.3b CE43287 WBGene00012734 status:Partially_confirmed (504 aa)
+ s-w opt: 148  Z-score: 110.8  bits: 29.2 E(24705):  5.7
+Smith-Waterman score: 148; 29.8% identity (46.3% similar) in 121 aa overlap (113-216:28-145)
+
+             90       100       110       120       130       140  
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVP
+                                     :     :     ..   :. :.. :. : :
+Y40B1A    MEIPVVEFTTARRRKRHVVSTPPPPPPPAPPALPRELTQISTETAAAVAALVRKPPP
+                  10        20        30        40        50       
+
+              150       160                170       180           
+RU1_hu GMPP--MTQAPRIMHHMPGQPPY------MPPP---GMIPPPGLAPGQIPPGAMPPQ---
+       ..::  :  .:. :  : : ::.      .:::   :  :::     : ::   :::   
+Y40B1A SLPPSTMPPGPHGMPFMGGPPPHHQYHLQYPPPHGLGPPPPPPHYYTQPPP---PPQSGY
+        60        70        80        90       100          110    
+
+        190       200        210       220       230       240     
+RU1_hu --QLMPGQMPPAQPLSENPP-NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD
+         . .  .  :. :. .: :     : ..::                             
+Y40B1A YHHQQQQHSGPTTPVPRNAPMAPPQFASGLPPPPQVPPPPPPAPPPRTLPGASSASSTAS
+          120       130       140       150       160       170    
+
+         250       260       270       280                         
+RU1_hu IAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                       
+                                                                   
+Y40B1A SSGIPPPPPPMQRTPRTPGNPMFNSPRDGAYTSMPSGSSSSTAPPPPPPPPPPPPPPPPP
+          180       190       200       210       220       230    
+
+>>F11G11.12 CE09354 WBGene00000649 locus:col-73 collagen stat (285 aa)
+ s-w opt: 142  Z-score: 110.5  bits: 28.3 E(24705):  5.9
+Smith-Waterman score: 142; 38.2% identity (52.6% similar) in 76 aa overlap (138-206:155-225)
+
+       110       120       130       140         150       160     
+RU1_hu REKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMP--PMTQAPRIMHHMPGQPPYMP
+                                     .:: ::.:  :  :.:      :: :  . 
+F11G11 APNEHVQPTPADFCFECPPGPAGNAGNPGPKGP-PGQPGAPGEQGPNGRPGAPGAPGPQG
+          130       140       150        160       170       180   
+
+         170            180       190       200       210       220
+RU1_hu PPGMIP---PPGL--APGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETN
+       :::       ::   ::::.     :: .  :::  :..: ...::              
+F11G11 PPGTAGNDGTPGQPGAPGQVRTVPAPPGN--PGQ--PGEPGAQGPPGEDGRPGNSGPQGP
+           190       200       210           220       230         
+
+              230       240       250       260       270       280
+RU1_hu ELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFA
+                                                                   
+F11G11 PGPQGEPGQDGAPGNPGAPGEAGEPGKDGAKGGCDHCPIPRTAPGY              
+     240       250       260       270       280                   
+
+>>R13.4 CE39269 WBGene00011259 locus:miz-1 status:Confirmed U (803 aa)
+ s-w opt: 152  Z-score: 110.4  bits: 29.8 E(24705):    6
+Smith-Waterman score: 152; 29.1% identity (54.4% similar) in 103 aa overlap (102-200:108-208)
+
+              80        90       100       110       120       130 
+RU1_hu MQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGAT
+                                     ....  ..:: : . . :: . . :  :. 
+R13.4  GLVGACFTHRKHLSKPAATRIGRWYEQMRRLKKNGGKRKRAPPKPKDPALQASSQPTGTL
+        80        90       100       110       120       130       
+
+             140       150       160       170         180         
+RU1_hu PVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIP--PPGLAPGQIPPGAMPPQQ
+       ::. . . :  :.   :.   .:    ..   : ::  .:   :: . :..: ::   . 
+R13.4  PVLTSPSCPQNGQQLPTENNNFMFSPNSSDGSMWPPQGVPMSTPGSSAGHMPLGAGAAS-
+       140       150       160       170       180       190       
+
+     190         200       210       220       230       240       
+RU1_hu LMPGQM--PPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIA
+        .::::  :: .:                                               
+R13.4  -FPGQMNGPPQHPGMQYSGQMQQLPYGQMEGNHAMYDQRIMGQRAAGRPGMMPDYPQMPM
+         200       210       220       230       240       250     
+
+>>ZK973.9 CE23479 WBGene00022835 status:Confirmed UniProt:Q9N (233 aa)
+ s-w opt: 140  Z-score: 110.4  bits: 28.0 E(24705):    6
+Smith-Waterman score: 140; 34.6% identity (48.1% similar) in 104 aa overlap (114-208:120-217)
+
+            90       100       110       120       130       140   
+RU1_hu IQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPG
+                                     ..:  :       ::   :  : .  :. :
+ZK973. PAPHLQQQQPQHSPQQGHPHPQQGLPAAHHRQQMMPPQAAPSPGGPMQPPHGFAPPPMGG
+      90       100       110       120       130       140         
+
+               150        160       170           180       190    
+RU1_hu -MPPMT---QAPRI-MHHMPGQPPYMPPPGMIPPPGL-AP---GQIPPGAMPPQQLMPGQ
+        .::     :: .  :...  ::  . :: . :: :  ::   ::  :  .:::  ::: 
+ZK973. GVPPEMMNHQAYQAQMRQQQQQPNGQAPPPVYPPFGQPAPQMSGQRMPYPYPPQG-MPG-
+     150       160       170       180       190       200         
+
+          200       210       220       230       240       250    
+RU1_hu MPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNE
+       .: . :    :: :                                              
+ZK973. YPGGPP----PPPHGYEGYPPPGAQPGYMR                              
+       210           220       230                                 
+
+>>Y18D10A.8 CE21404 WBGene00012478 KH domain family of RNA bi (507 aa)
+ s-w opt: 147  Z-score: 110.1  bits: 29.1 E(24705):  6.2
+Smith-Waterman score: 147; 30.3% identity (56.3% similar) in 119 aa overlap (112-223:126-237)
+
+              90       100       110       120       130           
+RU1_hu MRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATP---VVGAVQ
+                                     .:..:. ::   ..  ....:   :...: 
+Y18D10 TPCRLKIMELVELRAMNWRTNLAHSQYYVNRPEGQHDPAPTVGIPPSATSPPTQVTSSVT
+         100       110       120       130       140       150     
+
+      140       150       160       170       180       190        
+RU1_hu GPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPA
+       .:::. :   : :  :. .: .: ..  :      . .   :: ..   . :::  ::: 
+Y18D10 SPVPSSP---QPP--MQFVPQNPMMFQDPMAANHNAGGIFFIPAASTWMNPLMP--MPPN
+         160            170       180       190       200          
+
+        200       210         220       230       240       250    
+RU1_hu Q--PLSENPPNHILFLT--NLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNE
+          : :  ::.: .::   .: .. :.::                               
+Y18D10 PFLPHSMIPPDHQMFLRQRSLNKKPNNLMNKTLQLRHEMIIRNSDSGKIMGVKGRRVAAV
+      210       220       230       240       250       260        
+
+>>F36A4.6 CE34548 WBGene00000610 locus:col-33 cuticular colla (304 aa)
+ s-w opt: 142  Z-score: 110.1  bits: 28.3 E(24705):  6.3
+Smith-Waterman score: 142; 36.7% identity (50.0% similar) in 90 aa overlap (127-208:180-258)
+
+        100       110       120       130       140       150      
+RU1_hu MKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHH
+                                     :: : :  .. .:: :: :    ::     
+F36A4. CKPCPDGPAGPPGPPGAPGDAGTNGAPGAPGGDAPPGEAGPKGP-PGPPGSPGAP----G
+     150       160       170       180       190        200        
+
+        160               170       180       190       200        
+RU1_hu MPGQP-------PYMP-PPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNH
+        ::.:       : .:  ::   :::  :::  : ..:     ::   :. : :..::..
+F36A4. EPGRPGDDAPSEPLIPGEPGPQGPPG-PPGQAGPDGQPGA---PGG--PGTPGSKGPPGN
+          210       220       230        240            250        
+
+      210       220       230       240       250       260        
+RU1_hu ILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFK
+                                                                   
+F36A4. PGAPGADGKPGAPGQAGPAGAKGEKGICPKYCAIDGGVFFEDGTRR              
+      260       270       280       290       300                  
+
+>>C16B8.3 CE04013 WBGene00015823 status:Confirmed UniProt:Q18 (164 aa)
+ s-w opt: 135  Z-score: 109.4  bits: 27.3 E(24705):  6.8
+Smith-Waterman score: 135; 34.1% identity (48.9% similar) in 88 aa overlap (127-200:71-154)
+
+        100       110       120       130         140              
+RU1_hu MKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQG--PVPGM---------P
+                                     :.:..:  : ::   :.: .         :
+C16B8. PPPVGAGVGYAPPPPRPYGATYAPPPPMGIGAGVNPS-GYVQQAPPLPTQGYSAYNQQPP
+               50        60        70         80        90         
+
+         150       160       170       180       190          200  
+RU1_hu PMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMP---GQMPPAQPLS
+       :. : :   . .:..: :   ::.   :   : ::  :: :  .  :   ::.::  :  
+C16B8. PLPQQPYQTNMYPSNPGYSSTPGY---PQQQPYQIGTGATPAGMYPPPPTGQYPPPPPGQ
+     100       110       120          130       140       150      
+
+            210       220       230       240       250       260  
+RU1_hu ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARD
+                                                                   
+C16B8. YPGYPRPY                                                    
+        160                                                        
+
+>>F54B11.1 CE05925 WBGene00000598 locus:col-9 collagen status (339 aa)
+ s-w opt: 142  Z-score: 109.4  bits: 28.4 E(24705):  6.8
+Smith-Waterman score: 142; 25.0% identity (51.6% similar) in 192 aa overlap (27-210:56-237)
+
+                   10        20        30        40        50      
+RU1_hu     MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAF
+                                     :::.  :. .. . .::. .:...   .:.
+F54B11 ATAFLCVTLPLIYEHAQNGMMTISREGAYCKKSINEIWFDMTEDVDIVHNRTIR---EAY
+          30        40        50        60        70           80  
+
+         60         70         80        90       100       110    
+RU1_hu VIFK-EVSSATNALRSMQGFPF-YDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPK
+       .. . : ...  . :. .  :  :.  .: :  :...      .:  :  .         
+F54B11 TVTRGEGNTGYAVGRGSNIKPRGYNTGYRSQKKKNNGWRSPPRSGIVVASEGGTCM--GC
+             90       100       110       120       130         140
+
+          120       130       140       150             160        
+RU1_hu SQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAP---RIM---HHMPGQPPYMPPPG
+        .  :   ..  :  . :   . .: .:::: .  .:   : .   .. :  ::   :::
+F54B11 CNPGPPGPSGHPGKPGRPGRPGGHG-MPGMPGLGASPCQPRTQSQCQQCPQGPP--GPPG
+              150       160        170       180       190         
+
+      170       180       190       200       210       220        
+RU1_hu MIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLF
+       .   :::  :. ::: .  ....:: . :  : .. : :: :                  
+F54B11 LNGQPGLPGGMGPPG-QSMSNVLPGPLGPPGPPGQ-PGNHGLAGQPGSPGQSVLGGIVGF
+       200       210        220       230        240       250     
+
+      230       240       250       260       270       280        
+RU1_hu NQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK      
+                                                                   
+F54B11 AAPGPMGPPGLMGPPGLDAQNGANGFGPPGLPGPPGPPGRPGSDGNPGVPGQSGGSRRHG
+         260       270       280       290       300       310     
+
+>>T01D1.2g CE41586 WBGene00001340 locus:etr-1 status:Confirme (513 aa)
+ s-w opt: 146  Z-score: 109.4  bits: 29.0 E(24705):  6.8
+Smith-Waterman score: 146; 25.4% identity (57.1% similar) in 177 aa overlap (5-169:137-309)
+
+                                         10        20        30    
+RU1_hu                           MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIF
+                                     :.: .. ..:..:..: ....:..    ::
+T01D1. KDAIEAQGALHNIKVIEGMHHPVQMKPADTENRNERKLFIGQLSKKHNEENLRE----IF
+        110       120       130       140       150       160      
+
+           40          50        60        70           80         
+RU1_hu SQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNALRSM---QGFPFYDKPMRIQYAKT
+       ..::.: :  .: ... : :: ::: : . : :. : . :   : .   . :. ...: :
+T01D1. AKFGHIEDCSVLRDQDGKSRGCAFVTFTNRSCAVVATKEMHHSQTMEGCSAPLVVKFADT
+            170       180       190       200       210       220  
+
+      90       100       110          120       130       140      
+RU1_hu DSDIIAKMKGTFVERDRKREKRKPKS--QE-TPATKKAVQGGGATPVVGAVQGPVPGMPP
+       ..:  .: :. ..       :    :  :. .::  . . ::    .:... . . :.  
+T01D1. QKDKDVKTKSMITGSGAGSPKGGAASLLQNLNPALLQQLGGGQNYQAVASLLSLINGQQG
+            230       240       250       260       270       280  
+
+        150           160       170       180       190       200  
+RU1_hu MTQAPRIMHHMPG----QPPYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLS
+       . :  . .... :      : .  :.:                                 
+T01D1. QQQQHQQQQNVLGILGTGNPLLGNPAMAAQNQFDAITMAQIAHQQQMLALQGFAVQQGAP
+            290       300       310       320       330       340  
+
+>>Y50D4C.1b CE33232 WBGene00006770 locus:unc-34 status:Confir (310 aa)
+ s-w opt: 141  Z-score: 109.3  bits: 28.2 E(24705):  6.9
+Smith-Waterman score: 141; 31.8% identity (51.8% similar) in 85 aa overlap (141-224:183-260)
+
+              120       130       140       150       160          
+RU1_hu RKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPP-GM
+                                     .:  ::   .: .  ..:  ::  ::: : 
+Y50D4C ASSLLSSTAAALTQQQRRASQSSSTSAGSSIPHAPP-PPVP-LTSNIPQAPPAPPPPIGG
+            160       170       180        190        200       210
+
+     170       180       190       200       210       220         
+RU1_hu IPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFN
+       : : . : :  ::  .::  .  :  ::  :    :: ...  .. :  ...: .     
+Y50D4C IAPVN-AHGAPPPPPLPP--VGAGAPPPPPP--PPPPAQLMASSGTPSLAEQLKMRSQQG
+               220         230         240       250       260     
+
+     230       240       250       260       270       280  
+RU1_hu QFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK
+                                                            
+Y50D4C LKATSNGVKAAAAEPEKPAAKGGKNIGKCVKFLEKIEFFSLVFQR        
+         270       280       290       300       310        
+
+>>T21B4.2 CE16427 WBGene00000660 locus:col-85 collagen status (312 aa)
+ s-w opt: 141  Z-score: 109.3  bits: 28.2 E(24705):  6.9
+Smith-Waterman score: 141; 36.6% identity (44.1% similar) in 93 aa overlap (118-200:195-285)
+
+        90       100       110       120       130       140       
+RU1_hu KTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPM
+                                     ::.   :   :   :  :  .   :: :  
+T21B4. FCFDCPPGPAGPAGNAGPPGAPGGPGAPGNTPSGGAAGPPGPPGPPGGPGNDGQPGGPGN
+          170       180       190       200       210       220    
+
+       150       160         170            180        190         
+RU1_hu TQAPRIMHHMPGQ--PPYMPPPGMIPPPGLA-----PGQIPPG-AMPPQQLMPGQMP--P
+         ::  . ..:::  ::   :::   ::: :      :   :: : :: .  :   :  :
+T21B4. PGAPGAVTEVPGQQGPP--GPPGPAGPPGPAGNAGQAGYAQPGPAGPPGDAGPDGAPGNP
+          230       240         250       260       270       280  
+
+       200       210       220       230       240       250       
+RU1_hu AQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQA
+       .::                                                         
+T21B4. GQPGAPGDAGAPGSGGGCDHCPPPRTAPGY                              
+            290       300       310                                
+
+>>R10E11.1c CE42151 WBGene00000366 locus:cbp-1 status:Partial (2016 aa)
+ s-w opt: 159  Z-score: 109.2  bits: 30.9 E(24705):    7
+Smith-Waterman score: 159; 26.3% identity (47.9% similar) in 190 aa overlap (65-233:21-195)
+
+           40        50        60        70        80        90    
+RU1_hu SQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDII
+                                     : .::.:...::  .:   ..   . :   
+R10E11           MDEPPSKKSRADSDYDSGLDALSALESLEAFPTSSKDTDVDNNPSTSAGG
+                         10        20        30        40        50
+
+          100       110                120       130       140     
+RU1_hu AKMKGTFVERDRKREKRKPKS---------QETPATKKAVQGGGATPVVGAVQGPVPGMP
+       .   .  . . .   .  :..         :  :      .:::   : :.:   .   :
+R10E11 SGGPSGSTPHPQGTPQPAPSNNGGFNLQPGQSQPQQPPQNMGGG---VNGSVLQELLMNP
+               60        70        80        90          100       
+
+           150       160               170         180       190   
+RU1_hu PMTQ--APRIMHHMPGQP------PYMP--PPGMIPPP--GLAPGQIPPGAMPPQQLMPG
+        .:.  .:: . . :::       :.::   :.:. ::  : .::  : : .::   .: 
+R10E11 SQTSNNSPRPQAYPPGQQNAFNRSPMMPNGTPNMMSPPSMGRVPGPSPGGPQPPGPGQP-
+       110       120       130       140       150       160       
+
+           200       210       220       230       240       250   
+RU1_hu QMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDN
+       :: :.::         .:     .. ...:..   .::::                    
+R10E11 QMRPGQPG--------MFQG---DQQQQMMMGAQGQQFPGMMHRYPYAQGGPPPGAQGMP
+        170                  180       190       200       210     
+
+           260       270       280                                 
+RU1_hu EVQAGAARDALQGFKITQNNAMKISFAKK                               
+                                                                   
+R10E11 QGYPGVSRGGPTPGQPMGRGAMMNGAMPRSGPMPTQGRPGIPPNQQAMMQPMMTDRQFMQ
+         220       230       240       250       260       270     
+
+>>R10E11.1a CE28069 WBGene00000366 locus:cbp-1 bromodomain st (2045 aa)
+ s-w opt: 159  Z-score: 109.1  bits: 30.9 E(24705):  7.1
+Smith-Waterman score: 159; 26.3% identity (47.9% similar) in 190 aa overlap (65-233:21-195)
+
+           40        50        60        70        80        90    
+RU1_hu SQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDII
+                                     : .::.:...::  .:   ..   . :   
+R10E11           MDEPPSKKSRADSDYDSGLDALSALESLEAFPTSSKDTDVDNNPSTSAGG
+                         10        20        30        40        50
+
+          100       110                120       130       140     
+RU1_hu AKMKGTFVERDRKREKRKPKS---------QETPATKKAVQGGGATPVVGAVQGPVPGMP
+       .   .  . . .   .  :..         :  :      .:::   : :.:   .   :
+R10E11 SGGPSGSTPHPQGTPQPAPSNNGGFNLQPGQSQPQQPPQNMGGG---VNGSVLQELLMNP
+               60        70        80        90          100       
+
+           150       160               170         180       190   
+RU1_hu PMTQ--APRIMHHMPGQP------PYMP--PPGMIPPP--GLAPGQIPPGAMPPQQLMPG
+        .:.  .:: . . :::       :.::   :.:. ::  : .::  : : .::   .: 
+R10E11 SQTSNNSPRPQAYPPGQQNAFNRSPMMPNGTPNMMSPPSMGRVPGPSPGGPQPPGPGQP-
+       110       120       130       140       150       160       
+
+           200       210       220       230       240       250   
+RU1_hu QMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDN
+       :: :.::         .:     .. ...:..   .::::                    
+R10E11 QMRPGQPG--------MFQG---DQQQQMMMGAQGQQFPGMMHRYPYAQGGPPPGAQGMP
+        170                  180       190       200       210     
+
+           260       270       280                                 
+RU1_hu EVQAGAARDALQGFKITQNNAMKISFAKK                               
+                                                                   
+R10E11 QGYPGVSRGGPTPGQPMGRGAMMNGAMPRSGPMPTQGRPGIPPNQQAMMQPMMTDRQFMQ
+         220       230       240       250       260       270     
+
+>>R10E11.1b CE21117 WBGene00000366 locus:cbp-1 status:Partial (2056 aa)
+ s-w opt: 159  Z-score: 109.1  bits: 30.9 E(24705):  7.1
+Smith-Waterman score: 159; 26.3% identity (47.9% similar) in 190 aa overlap (65-233:21-195)
+
+           40        50        60        70        80        90    
+RU1_hu SQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDII
+                                     : .::.:...::  .:   ..   . :   
+R10E11           MDEPPSKKSRADSDYDSGLDALSALESLEAFPTSSKDTDVDNNPSTSAGG
+                         10        20        30        40        50
+
+          100       110                120       130       140     
+RU1_hu AKMKGTFVERDRKREKRKPKS---------QETPATKKAVQGGGATPVVGAVQGPVPGMP
+       .   .  . . .   .  :..         :  :      .:::   : :.:   .   :
+R10E11 SGGPSGSTPHPQGTPQPAPSNNGGFNLQPGQSQPQQPPQNMGGG---VNGSVLQELLMNP
+               60        70        80        90          100       
+
+           150       160               170         180       190   
+RU1_hu PMTQ--APRIMHHMPGQP------PYMP--PPGMIPPP--GLAPGQIPPGAMPPQQLMPG
+        .:.  .:: . . :::       :.::   :.:. ::  : .::  : : .::   .: 
+R10E11 SQTSNNSPRPQAYPPGQQNAFNRSPMMPNGTPNMMSPPSMGRVPGPSPGGPQPPGPGQP-
+       110       120       130       140       150       160       
+
+           200       210       220       230       240       250   
+RU1_hu QMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDN
+       :: :.::         .:     .. ...:..   .::::                    
+R10E11 QMRPGQPG--------MFQG---DQQQQMMMGAQGQQFPGMMHRYPYAQGGPPPGAQGMP
+        170                  180       190       200       210     
+
+           260       270       280                                 
+RU1_hu EVQAGAARDALQGFKITQNNAMKISFAKK                               
+                                                                   
+R10E11 QGYPGVSRGGPTPGQPMGRGAMMNGAMPRSGPMPTQGRPGIPPNQQAMMQPMMTDRQFMQ
+         220       230       240       250       260       270     
+
+>>C46A5.3b CE08753 WBGene00000603 locus:col-14 status:Confirm (326 aa)
+ s-w opt: 141  Z-score: 109.0  bits: 28.2 E(24705):  7.2
+Smith-Waterman score: 141; 33.0% identity (45.3% similar) in 106 aa overlap (113-206:173-272)
+
+             90       100       110       120        130       140 
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATK-KAVQGGGATPVVGAVQGPV
+                                     :.:   :    .:  : :. :   . .:: 
+C46A5. GDGGRDGADGVDGTPGEIGPPGPPAPPGPDPHSLFPPQCPCEAPPGDGGPPGQPGPDGP-
+            150       160       170       180       190       200  
+
+                     150       160          170       180       190
+RU1_hu PGMP--------PMTQAPRIMHHMPGQP--PYMP-PPGMIPPPGLAPGQIPPGAMPPQQL
+       :: :        :  :.::    .:: :  :  : :::    ::    .. :..      
+C46A5. PGAPGNAGEDGKPGDQGPRGPPGIPGAPGQPGRPGPPG---EPGTYKTEVGPAGRAGAPG
+             210       220       230          240       250        
+
+              200       210       220       230       240       250
+RU1_hu MPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVE
+        ::  ::.::   .::                                            
+C46A5. RPG--PPGQPGPAGPPGENGKGGGQGPSGLPGPPGQPGQNGAPGEVGQPGDNGAPGSCDH
+      260         270       280       290       300       310      
+
+>>C46A5.3a CE29723 WBGene00000603 locus:col-14 cuticular coll (345 aa)
+ s-w opt: 141  Z-score: 108.6  bits: 28.2 E(24705):  7.5
+Smith-Waterman score: 141; 33.0% identity (45.3% similar) in 106 aa overlap (113-206:192-291)
+
+             90       100       110       120        130       140 
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATK-KAVQGGGATPVVGAVQGPV
+                                     :.:   :    .:  : :. :   . .:: 
+C46A5. GDGGRDGADGVDGTPGEIGPPGPPAPPGPDPHSLFPPQCPCEAPPGDGGPPGQPGPDGP-
+             170       180       190       200       210       220 
+
+                     150       160          170       180       190
+RU1_hu PGMP--------PMTQAPRIMHHMPGQP--PYMP-PPGMIPPPGLAPGQIPPGAMPPQQL
+       :: :        :  :.::    .:: :  :  : :::    ::    .. :..      
+C46A5. PGAPGNAGEDGKPGDQGPRGPPGIPGAPGQPGRPGPPG---EPGTYKTEVGPAGRAGAPG
+              230       240       250          260       270       
+
+              200       210       220       230       240       250
+RU1_hu MPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVE
+        ::  ::.::   .::                                            
+C46A5. RPG--PPGQPGPAGPPGENGKGGGQGPSGLPGPPGQPGQNGAPGEVGQPGDNGAPGSCDH
+       280         290       300       310       320       330     
+
+>>F52C9.8b CE30998 WBGene00004095 locus:pqe-1 status:Partiall (1647 aa)
+ s-w opt: 156  Z-score: 108.5  bits: 30.5 E(24705):  7.6
+Smith-Waterman score: 156; 27.7% identity (48.4% similar) in 155 aa overlap (111-247:224-376)
+
+               90       100       110       120         130        
+RU1_hu PMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGG--GATPVVGAVQ
+                                     : :.   .  ...: . :  ::.:.   .:
+F52C9. AQQVQNAPQRIPQHVPMPQGVAPHQVIQQVRAPNIGASQMVQQAPSRGHTGAAPASRMAQ
+           200       210       220       230       240       250   
+
+      140          150         160               170        180    
+RU1_hu GPVP---GMPPMTQAPRIMHHMP--GQPPYMP--------PPGMIP-PPGLAPGQIPPGA
+        :::   :. :   ::. ... :  :.:             : ..: : :.:: .::: :
+F52C9. QPVPLHQGVAPHQAAPQTIQQTPARGRPANAQLAQNAQQRNPQQVPMPQGVAPHHIPPQA
+           260       270       280       290       300       310   
+
+          190       200       210       220       230         240  
+RU1_hu MPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFP--GFKEVRLVPG
+       . :.   : ::    : ...: .      :  . :.. .  .   : :  :  ..   ::
+F52C9. LGPHGAAP-QMTQQAP-ARGPSGAAQHAQNAHRMTHQQVPLQAPVQGPHRGAPQMAQQPG
+           320         330       340       350       360       370 
+
+            250       260       270       280                      
+RU1_hu RHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                    
+        :  :                                                       
+F52C9. PHGAAQHPSSGTVAPMHITSLPGNHPLNRTHLLFNRQVVPALDIRNLIAQHRLMVDDFVR
+             380       390       400       410       420       430 
+
+>>F39H11.3 CE32409 WBGene00000409 locus:cdk-8 serine\/threoni (588 aa)
+ s-w opt: 146  Z-score: 108.5  bits: 29.0 E(24705):  7.6
+Smith-Waterman score: 146; 38.5% identity (54.9% similar) in 91 aa overlap (132-208:487-576)
+
+             110       120       130       140             150     
+RU1_hu VERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGM-PPMTQ-----APRIMH
+                                     :  :: :   : . :::.:     .:  ..
+F39H11 DPMQGGMDEGPQAKMMRMGNVPVGRYAPMPPPYGAPQDYHPQQGPPMVQMMQQPGPSGYY
+        460       470       480       490       500       510      
+
+          160            170       180       190        200        
+RU1_hu -HMPGQPP-YMPPPG----MIPPPGLAPGQIPPGAMPPQQLMPGQ-MPPAQPLSENP-PN
+        . ::::   .: ::    : :  :.  :.  :: .:::  :::. : : :  ...: ::
+F39H11 PQRPGQPTGAVPGPGPQGYMNPQMGMQMGMRAPG-VPPQGYMPGRGMAPPQMGQQQPGPN
+        520       530       540       550        560       570     
+
+       210       220       230       240       250       260       
+RU1_hu HILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGF
+       .                                                           
+F39H11 QQQQQQWQQQYHR                                               
+         580                                                       
+
+>>Y48G9A.4 CE32979 WBGene00021698 locus:frl-1 status:Partiall (1115 aa)
+ s-w opt: 152  Z-score: 108.4  bits: 29.9 E(24705):  7.8
+Smith-Waterman score: 152; 34.3% identity (51.1% similar) in 137 aa overlap (100-206:454-590)
+
+      70        80        90       100        110          120     
+RU1_hu RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRK-REKRKPKSQ---ETPATKKAV
+                                     :. :.::. ::.::   :   :  : .: .
+Y48G9A AALDRRLFDLVKERESMEKEYVEEKGSWTKTMNEKDRQAREERKRLEQKIGELEAIQKQM
+           430       440       450       460       470       480   
+
+                  130       140       150         160         170  
+RU1_hu QGG---------GATPVVGAVQGPVPGMPPMTQAPRIMHH--MPGQPPY-MPPP-GMIPP
+       :.:         .:. ...:.:   :  :: . .:.  ..     .::   ::: . :::
+Y48G9A QAGLQVQQQQQAAAAAAAAAAQKSPPTPPPPAPGPHKEQRRSTSKDPPRPAPPPVSSIPP
+           490       500       510       520       530       540   
+
+                     180         190         200       210         
+RU1_hu P----GL--APGQ---IPPGAMPP--QQL--MPGQMPPAQPLSENPPNHILFLTNLPEET
+       :    ::  : :    :::   ::  :.:   :   ::  :.  .::             
+Y48G9A PPPIAGLLAANGTNVPIPPPPPPPLPQNLSGAPPPPPPPPPMLGGPPPPPPPPGGLMGPA
+           550       560       570       580       590       600   
+
+     220       230       240       250       260       270         
+RU1_hu NELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISF
+                                                                   
+Y48G9A SNDAKTIKKIYQTKNKLPQLNWTAMKPMQAKNTVFEKLNDELIIEKLDFSKLEEMFKLAQ
+           610       620       630       640       650       660   
+
+>>C26G2.2 CE43184 WBGene00007751 status:Partially_confirmed U (1148 aa)
+ s-w opt: 152  Z-score: 108.2  bits: 29.9 E(24705):    8
+Smith-Waterman score: 152; 30.8% identity (52.7% similar) in 91 aa overlap (132-220:390-472)
+
+             110       120       130       140       150       160 
+RU1_hu VERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQP
+                                     :  :  . : : .:: .   ...   ::. 
+C26G2. RFEVTKLSGPMAFTYLPGFTLPEDRFENIGPYSGKHRLP-PILPPPVIIKKVIISAPGSN
+     360       370       380       390        400       410        
+
+              170       180       190       200       210          
+RU1_hu -PYMPPPGMIPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNL-PEET
+        : .:: .:. :: : :   ::  .::.       ::  :..  ::. . : ... : . 
+C26G2. VPALPPVAMLAPPLLPPLLPPPIPLPPHG------PPRAPIAL-PPDLMRFAADIAPPKM
+      420       430       440             450        460       470 
+
+     220       230       240       250       260       270         
+RU1_hu NELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISF
+       :                                                           
+C26G2. NSTTTMKPTSTTVLATTTIPTTTTSTSTTTTTTTTAAPTKKKSRKQLEAELEEEEEHALN
+             480       490       500       510       520       530 
+
+>>EGAP7.1 CE07013 WBGene00001065 locus:dpy-3 cuticular collag (302 aa)
+ s-w opt: 139  Z-score: 108.2  bits: 28.0 E(24705):    8
+Smith-Waterman score: 139; 31.1% identity (51.9% similar) in 106 aa overlap (113-206:169-269)
+
+             90       100       110       120       130       140  
+RU1_hu RIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP--
+                                     ::.   :    ...:  ..: . .  ::  
+EGAP7. RDGALLPGPPPKPPCQKCPPGPPGPAGPPGPKGLPGPQGDAGTSGQDGVPGLPGPPGPSG
+      140       150       160       170       180       190        
+
+                     150       160        170       180         190
+RU1_hu ---VPGMP----PMTQAPRIMHHMPGQPPYMP-PPGMIPPPGLAPGQI-PPG-AMPPQQL
+          .::.:    :  .  ....  :  ::  : :::   :::  ::.   :: : ::   
+EGAP7. PQGAPGVPGEKGPTGEPGKVINGAPPGPPGPPGPPGPQGPPG-PPGKDGQPGKAGPPG--
+      200       210       220       230       240        250       
+
+              200       210       220       230       240       250
+RU1_hu MPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVE
+       .::.  :..  :.. :                                            
+EGAP7. LPGD--PGEKGSDGLPGPHGGTGPRGPPGQPGSCDHCPPPRTGPGYARR           
+           260       270       280       290       300             
+
+>>K04E7.3 CE40705 WBGene00003551 locus:nas-33 zinc metallprot (644 aa)
+ s-w opt: 146  Z-score: 107.9  bits: 29.0 E(24705):  8.2
+Smith-Waterman score: 146; 29.9% identity (47.4% similar) in 97 aa overlap (139-233:33-121)
+
+      110       120       130       140        150       160       
+RU1_hu EKRKPKSQETPATKKAVQGGGATPVVGAVQGPV-PGMPPMTQAPRIMHHMPGQPPYMPPP
+                                     ::. :  ::    :   :.  : ::. :::
+K04E7. FVSILISQFVTCLTQPDFFERPPPPDWFFPGPLRPWGPP---PP--WHRNRGPPPFGPPP
+             10        20        30        40             50       
+
+       170        180       190       200       210       220      
+RU1_hu GMI-PPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSM
+           :::   : . ::    :   .:   :: .:  ..   ...:  .. . .: .  . 
+K04E7. PWDRPPP---PWRRPPWHRRPPWGLPPPPPPPEPEPQQDQPQVMFSQDIDKVVNSVNQNT
+        60           70        80        90       100       110    
+
+        230       240       250       260       270       280      
+RU1_hu LFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK    
+          : ::                                                     
+K04E7. AAFQRPGESYDKVIQIMSSYFNRKSGSQYDINTVIPSSGIYNNEMAANSKIAAVMFESDM
+          120       130       140       150       160       170    
+
+>>F43B10.2b CE40060 WBGene00018374 locus:tag-343 status:Parti (774 aa)
+ s-w opt: 147  Z-score: 107.4  bits: 29.2 E(24705):  8.8
+Smith-Waterman score: 147; 26.6% identity (46.9% similar) in 207 aa overlap (51-245:1-191)
+
+               30        40        50        60        70        80
+RU1_hu IKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDK
+                                     :  . :  : :  . :. . ...:.:: : 
+F43B10                               MSVNQFDSFMEKVQETTPI-TISGLPFVDD
+                                             10         20         
+
+                   90       100        110       120       130     
+RU1_hu PMR-IQYA---KTDSDIIAKMKGTFVERDRK-REKRKPKSQETPATKKAVQGGGATPVVG
+        .  .: .   .. :.. .. :.: .: ... :...  .  :.:            :. .
+F43B10 GIYGVQESGQNSSRSSVYSSSKSTVIEVEQSSRQQQVGRPTESPPLPPP-----PLPLSN
+      30        40        50        60        70             80    
+
+         140       150       160       170       180         190   
+RU1_hu AVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIP--PGAMPPQQLMPG
+           :.:  ::    : :    :   :  :::    ::.  :  ::     .  ::: : 
+F43B10 PPAKPTP--PPPPPKPTI---RPPPIPASPPPR---PPASEPVGIPLYSEKQHQQQLRPT
+           90         100          110          120       130      
+
+            200         210       220       230         240        
+RU1_hu Q-MPPAQPLSENPP--NHILFLTNLPEETNELMLSMLFNQFPGFKEVRL--VPGRHDIAF
+         . : .: :  ::      ..:.    :: :  .: :.:.   . ::   :: . :   
+F43B10 TAVSPPKPPSFAPPVPPAAALITDTSTTTNALTNAM-FEQLKQ-SSVRYDYVPYKSDHRS
+        140       150       160       170         180       190    
+
+      250       260       270       280                            
+RU1_hu VEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                          
+                                                                   
+F43B10 FTQNTQPSPLPPAGVGDRRHSVPDDVRHYADETTPPPVLHDVADRYSTVAYMNHEPTHNS
+          200       210       220       230       240       250    
+
+>>R144.2a CE02032 WBGene00020092 locus:pcf-11 status:Partiall (823 aa)
+ s-w opt: 147  Z-score: 107.0  bits: 29.2 E(24705):  9.2
+Smith-Waterman score: 147; 28.4% identity (51.4% similar) in 148 aa overlap (76-207:257-397)
+
+          50        60        70        80          90         100 
+RU1_hu SRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKT--DSDI--IAKMKGTF
+                                     :.  ::..    .:  : :.  :.  :   
+R144.2 KLLPSSSASKTSSSPAGLKRKSAPSEHPNAPIRKKPQQPPKPQTAIDEDLRSISLTKKPP
+        230       240       250       260       270       280      
+
+             110       120       130        140       150          
+RU1_hu VERDRKREKRKPKSQETPATKKAVQGGGA-TPVVGAVQGPVPGMPPMTQAPRI-MHHMPG
+       :   . .. : ::. . :..   : :. : .::.. ..  .:  ::.. :: .    . .
+R144.2 VPSAQDQDFR-PKTLK-PTS---VIGSHAFAPVAAPIRPMIPVPPPVSVAPFVPAPPLSS
+        290        300           310       320       330       340 
+
+     160           170             180       190       200         
+RU1_hu QPPYMPP----PGMIPPP---GLAPG---QIPPGAMPPQQLMPGQMPPAQPLSENPPNHI
+        ::.. :    : . :::   :.. :   . ::  . :  ..: : :: :     : :  
+R144.2 APPFQHPQQHHPQLPPPPVHQGMGRGYHHNSPP--QDPAPIVPVQAPPPQQHLPAPENVY
+             350       360       370         380       390         
+
+     210       220       230       240       250       260         
+RU1_hu LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI
+                                                                   
+R144.2 SSEQPKLDVPANNRIFVDGKAYEVMFVDDTAVIERGGAPHRIYFAGPPRNLVIDGIPHLL
+     400       410       420       430       440       450         
+
+>>R10E12.1d CE34084 WBGene00007010 locus:alx-1 status:Confirm (498 aa)
+ s-w opt: 142  Z-score: 107.0  bits: 28.5 E(24705):  9.3
+Smith-Waterman score: 142; 25.7% identity (46.1% similar) in 152 aa overlap (58-205:306-451)
+
+        30        40        50        60        70        80       
+RU1_hu KSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYA
+                                     :.  ::.:  : .. . : ...:   ..  
+R10E12 GEQLSRLAESLKLFDTAQKYLPRDITGIWDIYPSVSKAHAAAKKDNDFIYHEKVSDFRTL
+         280       290       300       310       320       330     
+
+        90       100       110       120       130       140       
+RU1_hu KTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPM
+        :    .   : : ..       :  .. ..::.    .     :.. .:..:.:  :: 
+R10E12 PTLPKAVLA-KPTPMQTPMTPSFRGTNAAQSPANAPP-RPPPPRPAAPSVESPIP--PPR
+         340        350       360       370        380         390 
+
+       150       160       170       180           190       200   
+RU1_hu TQAPRIMHHMPGQPPYMPPPGMIPPPGLAPGQIPPG----AMPPQQLMPGQMPPAQPLSE
+       ::    :.  :: :: . :  .   : .   :  ::     ::  : .:  .:  ::   
+R10E12 TQQS--MQATPGAPPQYNPYQQQQQPQMQQFQQHPGYYQQPMPYGQPQPMFQPQYQPTFA
+               400       410       420       430       440         
+
+           210       220       230       240       250       260   
+RU1_hu NPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDA
+        :                                                          
+R10E12 APYPTFPGAFPSYQQQWPQQQQQGGFPPNPQFGQQNQQQGGGGGANPFQ           
+     450       460       470       480       490                   
+
+>>F15B9.4 CE37351 WBGene00008848 locus:inft-2 status:Partiall (1140 aa)
+ s-w opt: 150  Z-score: 106.9  bits: 29.7 E(24705):  9.4
+Smith-Waterman score: 150; 29.0% identity (45.8% similar) in 155 aa overlap (91-242:443-574)
+
+               70        80        90       100       110       120
+RU1_hu EVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPA
+                                     :::.. :.  ..:  .      : . ..: 
+F15B9. ASPSAVFPDKANIAFIDESTSASPLDGLGFSDILT-MSFEMIETGKMNSAIAPINANAPP
+            420       430       440        450       460       470 
+
+              130       140       150       160         170        
+RU1_hu TKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPP--GMIPPPGLAPG
+              :  . ..  ..  .:  :::   : :  : :. ::  :::  :. :    :: 
+F15B9. PP-----GPPSSLLPLINTNAPPPPPM---PSINGHAPNPPP--PPPLLGIAPMSTNAP-
+                  480       490          500         510       520 
+
+      180       190       200       210        220       230       
+RU1_hu QIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNL-PEETNELMLSMLFNQFPGFKEV
+         ::   ::   :::. : .      ::   . ..:  :     : :..: .   :.: :
+F15B9. --PP---PP---MPGMAPLSTGAPTPPPPPPVGMANGGPPPPPPLPLDLLKGAVAGLKSV
+                      530       540       550       560       570  
+
+       240       250       260       270       280                 
+RU1_hu RLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK               
+          ::                                                       
+F15B9. ---PGGPPPPPPPPPPSFMFNGKVPNAFSPGTSTSPVLSPGVVKSAVVYRKQKKTAFVRW
+               580       590       600       610       620         
+
+>>F13D12.3 CE03197 WBGene00008739 status:Confirmed UniProt:Q1 (245 aa)
+ s-w opt: 135  Z-score: 106.9  bits: 27.4 E(24705):  9.4
+Smith-Waterman score: 135; 30.4% identity (49.0% similar) in 102 aa overlap (112-203:100-196)
+
+              90       100       110       120       130       140 
+RU1_hu MRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP-
+                                     .:.   .: .. . . :       :  :: 
+F13D12 RGSQYGSSYGRPSSYGPPQPSYSPPKSSYGRPEPTYSPYSRPSSSYGRPPQFYPAQPGPA
+      70        80        90       100       110       120         
+
+               150         160          170          180       190 
+RU1_hu VPG-MPPMTQAPRIMHHMP--GQP---PYMPPPGMIPPP---GLAPGQIPPGAMPPQQLM
+       ::. .::..  : .   .:  ..:   : .: :: . ::   :   : . :::     : 
+F13D12 VPAVIPPVVTQPIVPPPVPEVSEPVPEPPIPAPGPVAPPTPSGPLFGGVEPGA---GALT
+     130       140       150       160       170       180         
+
+             200       210       220       230       240       250 
+RU1_hu PGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEF
+       ::  ::  : .:                                                
+F13D12 PGVAPP--PTDEEMTRVDAAEKENEVRKARGGPPGINVAAIAETGTLPPQASIPDIPMPP
+        190         200       210       220       230       240    
+
+>>ZC513.8 CE07615 WBGene00000620 locus:col-43 cuticualr colla (303 aa)
+ s-w opt: 137  Z-score: 106.8  bits: 27.7 E(24705):  9.5
+Smith-Waterman score: 137; 25.4% identity (44.8% similar) in 181 aa overlap (50-206:7-184)
+
+      20        30        40        50        60         70        
+RU1_hu KIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVS-SATNALRSMQGFPF-
+                                     . ..  :: .  :: : . .:  .  .:. 
+ZC513.                         MDSSDGRTKAYKFVAYAAVSFSIVAVLSVVLTLPMV
+                                       10        20        30      
+
+          80        90       100       110       120       130     
+RU1_hu --YDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVG
+         : . .: :. .  :   .. :  :.: .  . .  : .   :... : :.: . : :.
+ZC513. YNYVSHVRQQMNHELSFCKGSAKDIFAEVNFMKTHSGPAA---PGNRTARQSGYGQPEVN
+         40        50        60        70           80        90   
+
+                   140            150         160       170        
+RU1_hu A----------VQGP-----VPGMPPMTQAPRIMHH--MPGQPPYMPPPGMIPPPGLAPG
+                  . ::     ::: :     :    .  .::.::  :     :::     
+ZC513. PSANLQCEGCCLPGPPGPAGVPGKPGKPGRPGAPGQPGVPGKPPTAPCEPTTPPPCKPCP
+           100       110       120       130       140       150   
+
+      180       190          200       210       220       230     
+RU1_hu QIPPGAMPPQQLM--PGQM-PPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFK
+       : :::   :      ::.   :..: ..  :                             
+ZC513. QGPPGPPGPPGAPGDPGEAGTPGRPGTDATPGLPGPRGPPGPPGEAGQPGPQGDAGTPAQ
+           160       170       180       190       200       210   
+
+         240       250       260       270       280               
+RU1_hu EVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK             
+                                                                   
+ZC513. SEPLTPGAPGEAGDAGPAGPPGPPGAPGNDGPPGPPGPKGSPGPDGPAGVDGQAGPPGPP
+           220       230       240       250       260       270   
+
+>>C24A8.3 CE43920 WBGene00004106 locus:pqn-15 status:Partiall (1180 aa)
+ s-w opt: 150  Z-score: 106.7  bits: 29.7 E(24705):  9.6
+Smith-Waterman score: 150; 28.7% identity (55.8% similar) in 129 aa overlap (111-220:379-503)
+
+               90       100       110       120       130       140
+RU1_hu PMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGP
+                                     ..:.. . :. ....: ::  :.    :. 
+C24A8. GRNLDVLRFNFRVVMLNQQHNQAAPQLLNVQRPHQIQPPGPHRVIQQGGP-PMQ---QNK
+      350       360       370       380       390        400       
+
+                    150       160        170               180     
+RU1_hu VP-GMPPMT-----QAPRIMHHMPGQPPYMP-PPGMIPPPGLAP--------GQIPPGAM
+       .: :.  :.     :.:. :...:.:  .:     : :: . ::        .::   . 
+C24A8. IPQGQSQMVNMQGQQGPQQMQQQPAQNLMMNMGQQMRPPQNQAPQMMQNPQQSQIQMRGN
+          410       420       430       440       450       460    
+
+         190         200         210       220       230       240 
+RU1_hu PPQQL--MPGQMPPAQPLSENPP--NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVP
+       ::::.  :: : :: :  .. ::  ... .  . :.. :                     
+C24A8. PPQQMRGMPQQGPPMQQSQQPPPQMSQMRMQQQQPQQPNMNSPQSQHQRAPNNMNMQQNL
+          470       480       490       500       510       520    
+
+             250       260       270       280                     
+RU1_hu GRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK                   
+                                                                   
+C24A8. PNPQQQMRIPQAQNQMQQRIPQVSPQQMQMQQQQNMNGPPSHPHQMQQGGPQSINRPPSQ
+          530       540       550       560       570       580    
+
+>>T26C11.2 CE05021 WBGene00020828 E. gracilis major membrane  (343 aa)
+ s-w opt: 138  Z-score: 106.7  bits: 27.9 E(24705):  9.6
+Smith-Waterman score: 138; 27.0% identity (46.0% similar) in 126 aa overlap (112-232:3-124)
+
+              90       100       110       120       130       140 
+RU1_hu MRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPV
+                                     .:::. ::  :.        :     . : 
+T26C11                             MPEPKSKPTPKPKSE-PFPKPMPKSKPKSEPF
+                                           10         20        30 
+
+             150       160         170       180          190      
+RU1_hu PGMPPMTQAPRIMHHMPGQPPYMPP--PGMIPPPGLAPGQIP---PGAMPPQQLMPGQMP
+       :.  :.   :. : .   .:  ::   :  .: : : :  .:   :  .:  .:.:  ::
+T26C11 PSPMPF---PKPMPKPKPKPKPMPKHKPKPFPKPMLFPKPMPKHKPKPFPKPMLFPKPMP
+                 40        50        60        70        80        
+
+        200       210       220       230       240       250      
+RU1_hu PAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQ
+         .:. .. :.   : . .:    . : .   . ::                        
+T26C11 FPKPMPKSKPKSEPFPNPMPFPKPKPMPKHKPKPFPKPMLFPKPMPIPKPMPFPKPMLFP
+       90       100       110       120       130       140        
+
+        260       270       280                                    
+RU1_hu AGAARDALQGFKITQNNAMKISFAKK                                  
+                                                                   
+T26C11 KPMPFPKPMPKSKPKSEPFPNPMPFPKPMPKPKPKPKPMPKHKPKPFPKPMLFPKPMPIP
+      150       160       170       180       190       200        
+
+>>Y50D4C.1a CE43197 WBGene00006770 locus:unc-34 status:Confir (468 aa)
+ s-w opt: 141  Z-score: 106.7  bits: 28.3 E(24705):  9.6
+Smith-Waterman score: 141; 31.8% identity (51.8% similar) in 85 aa overlap (141-224:197-274)
+
+              120       130       140       150       160          
+RU1_hu RKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMPPMTQAPRIMHHMPGQPPYMPPP-GM
+                                     .:  ::   .: .  ..:  ::  ::: : 
+Y50D4C ASSLLSSTAAALTQQQRRASQSSSTSAGSSIPHAPP-PPVP-LTSNIPQAPPAPPPPIGG
+        170       180       190       200         210       220    
+
+     170       180       190       200       210       220         
+RU1_hu IPPPGLAPGQIPPGAMPPQQLMPGQMPPAQPLSENPPNHILFLTNLPEETNELMLSMLFN
+       : : . : :  ::  .::  .  :  ::  :    :: ...  .. :  ...: .     
+Y50D4C IAPVN-AHGAPPPPPLPP--VGAGAPPPPPP--PPPPAQLMASSGTPSLAEQLKMRSQQG
+           230       240         250         260       270         
+
+     230       240       250       260       270       280         
+RU1_hu QFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKITQNNAMKISFAKK       
+                                                                   
+Y50D4C LKATSNGVKAAAAEPEKPAAKGAGNLMSELEAQLNKRKMTQAKSDAVDSKSNTSNGSSDS
+     280       290       300       310       320       330         
+
+>>R09B3.2 CE16307 WBGene00011155 RNA recognition motif. (aka  (83 aa)
+ s-w opt: 124  Z-score: 106.5  bits: 25.8 E(24705):  9.8
+Smith-Waterman score: 124; 30.0% identity (63.8% similar) in 80 aa overlap (11-87:6-81)
+
+               10        20        30        40           50       
+RU1_hu MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILV---SRSLKMRGQAFV
+                 ..:..:   .  ..:: .    .::..::: .. .    .. . :: ::.
+R09B3.      MSGIFSVYVGNAPFQTTEEELGN----FFSSIGQINNVRIVCDRETGRPRGFAFI
+                    10        20            30        40        50 
+
+        60        70        80        90       100       110       
+RU1_hu IFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVERDRKREKRKPKSQE
+        : : .::  :...:.:  :  .:.:.. :                              
+R09B3. EFAEEGSAQRAVEQMNGAEFNGRPLRVNLANK                            
+              60        70        80                               
+
+>>K01A2.7 CE19515 WBGene00000645 locus:col-69 cuticular colla (394 aa)
+ s-w opt: 139  Z-score: 106.5  bits: 28.0 E(24705):  9.9
+Smith-Waterman score: 139; 32.4% identity (48.6% similar) in 105 aa overlap (116-206:176-269)
+
+          90       100       110       120       130       140     
+RU1_hu YAKTDSDIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQGGGATPVVGAVQGPVPGMP
+                                     :: :.  .  ::  . :  ::: ::     
+K01A2. TGYPGAPGEPGSRGLDGRPGANGVTLIAYDQEIPGCIQCPQGPQGPP--GAV-GPC----
+         150       160       170       180       190               
+
+         150       160       170              180            190   
+RU1_hu PMTQAPRIMHHMPGQPPYMPPPGMIPPPG-------LAPGQIP-----PGAMPPQQL-MP
+           .:  .  .::.: :  :::.  :::        .:.  :     ::    .:. .:
+K01A2. ----GPSGIPGLPGNPGYTSPPGLPGPPGPCGEAGREGPNGTPGLKGEPGNNSIRQISLP
+          200       210       220       230       240       250    
+
+             200       210       220       230       240       250 
+RU1_hu GQM-PPAQPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEF
+       :.  ::. : . .::                                             
+K01A2. GRKGPPGLPGQCGPPGPPGYTPPPGPPGTPGVQGEAGQDGEPGVPGVTGYPGVRGPPGQD
+          260       270       280       290       300       310    
+
+>>C24F3.6 CE18523 WBGene00000698 locus:col-124 CUTICLE COLLAG (291 aa)
+ s-w opt: 136  Z-score: 106.4  bits: 27.6 E(24705):   10
+Smith-Waterman score: 136; 25.7% identity (47.3% similar) in 226 aa overlap (1-206:26-234)
+
+                                        10        20          30   
+RU1_hu                          MAVPETRPNHTIYINNLNEKIKKD--ELKKSLYAI
+                                ..:  : :    ::..  . ...:  : :.    .
+C24F3. MDIDSRIKAYRFVGYAALTFSTIAVLSVCITLPMMYNYIHHTRKVMHSDIVECKSEAQRL
+               10        20        30        40        50        60
+
+            40          50        60        70        80        90 
+RU1_hu FSQFGQILDILVS--RSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDS
+       ::: ..: :....  :. .. :..     . .     : . :: :    :   . ..  .
+C24F3. FSQVNRIPDLMMAHNRTARQAGEG-----NGQCEGCCLPGAQGPP--GTPG--SAGRPGK
+               70        80             90       100           110 
+
+             100       110       120           130       140       
+RU1_hu DIIAKMKGTFVERDRKREKRKPKSQETPATKKAVQ----GGGATPVVGAVQGPV-PGMPP
+            ..:     .  :  ..:    ::   :       : .. :   . .::. :  ::
+C24F3. PGAPGLNG-----NPGRPPKEPCEPLTPPPCKPCPEGPPGPAGPPGPDGNKGPLGPPGPP
+                  120       130       140       150       160      
+
+        150        160        170       180               190      
+RU1_hu MTQAPRIMHHMPG-QPPYMPP-PGMIPPPGLAPGQI-----P-PGA--MPPQQLMPGQMP
+         ..:   .  :: . :  :: ::  : :.  ::.      : :::   : :  .:::  
+C24F3. GPEGP---NGEPGNKGPAGPPGPGGKPGPAGPPGENGNNGEPQPGAPGEPGQPGQPGQRG
+        170          180       190       200       210       220   
+
+         200       210       220       230       240       250     
+RU1_hu PA-QPLSENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEV
+       :: .: ... :                                                 
+C24F3. PAGEPGKDGSPGGQGEKGASGEPGQPGRDGQPGHPGQPGKDGRPGEKGVCPKYCALDGGV
+           230       240       250       260       270       280   
+
+
+
+282 residues in 1 query   sequences
+10879267 residues in 24705 library sequences
+ Scomplib [36.06]
+ start: Thu Mar  9 17:11:44 2017 done: Thu Mar  9 17:11:45 2017
+ Total Scan time:  1.050 Total Display time:  0.170
+
+Function used was SSEARCH [version 36.06 Aug, 2010]
