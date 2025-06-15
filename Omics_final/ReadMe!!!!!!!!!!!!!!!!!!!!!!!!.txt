@@ -1,0 +1,8 @@
+前4选3：Q1、Q3、Q4
+后3选2：Q5、Q7
+
+至于其他问题仅提供逻辑思路
+ipynb原生，翻阅效果最好是打开html文件，pdf效果没有html好
+Q7第2个markdown的表格没有渲染好，html中效果打开没有在ipynb中markdown格式好
+
+主要计算任务在个人搭建的linux主机上完成，辅助使用超算
