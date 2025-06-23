@@ -1,0 +1,89 @@
+nohup: ignoring input
+currently featureCounts Expression Quantification for all sorted bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           SRR7707740_align_sorted.bam                      ||
+||                           SRR7707742_align_sorted.bam                      ||
+||                           SRR7707734_align_sorted.bam                      ||
+||                           SRR7707733_align_sorted.bam                      ||
+||                           SRR7707735_align_sorted.bam                      ||
+||                           SRR7707741_align_sorted.bam                      ||
+||                                                                            ||
+||             Output file : all_counts.txt                                   ||
+||                 Summary : all_counts.txt.summary                           ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : hg38.knownGene.gtf (GTF)                         ||
+||      Dir for temp files : /data1/project/proj2/Deg                         ||
+||                                                                            ||
+||                 Threads : 15                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file hg38.knownGene.gtf ...                                ||
+||    Features : 1769117                                                      ||
+||    Meta-features : 236657                                                  ||
+||    Chromosomes/contigs : 439                                               ||
+||                                                                            ||
+|| Process BAM file SRR7707740_align_sorted.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33437296                                             ||
+||    Successfully assigned alignments : 3298893 (9.9%)                       ||
+||    Running time : 0.42 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7707742_align_sorted.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38125716                                             ||
+||    Successfully assigned alignments : 3996884 (10.5%)                      ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7707734_align_sorted.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31105480                                             ||
+||    Successfully assigned alignments : 3388204 (10.9%)                      ||
+||    Running time : 0.36 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7707733_align_sorted.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 30105309                                             ||
+||    Successfully assigned alignments : 3253668 (10.8%)                      ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7707735_align_sorted.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 39563565                                             ||
+||    Successfully assigned alignments : 4326355 (10.9%)                      ||
+||    Running time : 0.45 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR7707741_align_sorted.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41080620                                             ||
+||    Successfully assigned alignments : 4222799 (10.3%)                      ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data1/project/proj2/De  ||
+|| g/all_counts.txt.summary"                                                  ||
+||                                                                            ||
+\\============================================================================//
+

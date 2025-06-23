@@ -1,0 +1,122 @@
+nohup: ignoring input
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 10 BAM files                                     ||
+||                                                                            ||
+||                           T2T_SRR5811694_sorted_2718Y.bam                  ||
+||                           T2T_SRR5811711_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171147_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171155_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171161_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171162_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171165_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171167_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171168_sorted_2718Y.bam                  ||
+||                           T2T_SRR6171184_sorted_2718Y.bam                  ||
+||                                                                            ||
+||             Output file : T2T_T2T_gene_counts.txt                          ||
+||                 Summary : T2T_T2T_gene_counts.txt.summary                  ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : T2T1.gtf (GTF)                                   ||
+||      Dir for temp files : /data1/project/proj1/output/results              ||
+||      Assignment details : <input_file>.featureCounts                       ||
+||     Details output path : /data1/project/proj1/output/results              ||
+||                                                                            ||
+||       Junction Counting : <output_file>.jcounts                            ||
+||   Chromosome alias file : chr_alias3.txt                                   ||
+||                                                                            ||
+||                 Threads : 30                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| 1 chromosome name aliases are loaded.                                      ||
+|| Load annotation file T2T1.gtf ...                                          ||
+||    Features : 1483825                                                      ||
+||    Meta-features : 61988                                                   ||
+||    Chromosomes/contigs : 24                                                ||
+||                                                                            ||
+|| Process BAM file T2T_SRR5811694_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1201580                                              ||
+||    Successfully assigned alignments : 720223 (59.9%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR5811711_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 782652                                               ||
+||    Successfully assigned alignments : 375320 (48.0%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171147_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1399163                                              ||
+||    Successfully assigned alignments : 775447 (55.4%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171155_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2083999                                              ||
+||    Successfully assigned alignments : 1191049 (57.2%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171161_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1946583                                              ||
+||    Successfully assigned alignments : 1153312 (59.2%)                      ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171162_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1699186                                              ||
+||    Successfully assigned alignments : 1013925 (59.7%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171165_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1819638                                              ||
+||    Successfully assigned alignments : 1022557 (56.2%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171167_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2058940                                              ||
+||    Successfully assigned alignments : 1227852 (59.6%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171168_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 2246545                                              ||
+||    Successfully assigned alignments : 1425143 (63.4%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_SRR6171184_sorted_2718Y.bam...                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 794251                                               ||
+||    Successfully assigned alignments : 453884 (57.1%)                       ||
+||    Running time : 0.01 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the junction count table.                                            ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data1/project/proj1/ou  ||
+|| tput/results/T2T_T2T_gene_counts.txt.summary"                              ||
+||                                                                            ||
+\\============================================================================//
+

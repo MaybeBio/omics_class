@@ -1,0 +1,15 @@
+Status	/data1/project/proj2/SRR7707740_align_sorted.bam	/data1/project/proj2/SRR7707742_align_sorted.bam	/data1/project/proj2/SRR7707734_align_sorted.bam	/data1/project/proj2/SRR7707733_align_sorted.bam	/data1/project/proj2/SRR7707735_align_sorted.bam	/data1/project/proj2/SRR7707741_align_sorted.bam
+Assigned	3298893	3996884	3388204	3253668	4326355	4222799
+Unassigned_Unmapped	468073	486851	578647	764602	542634	635851
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	6977227	7081962	5861893	7491811	5987298	10403780
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	16095619	18109895	13633454	11414452	19528539	16651708
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	6597484	8450124	7643282	7180776	9178739	9166482

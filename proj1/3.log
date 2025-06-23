@@ -1,0 +1,80 @@
+nohup: ignoring input
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           T2T_merged_sorted_chr18.bam                      ||
+||                           T2T_merged_sorted_chr2.bam                       ||
+||                           T2T_merged_sorted_chr7.bam                       ||
+||                           T2T_merged_sorted_chrY.bam                       ||
+||                                                                            ||
+||             Output file : T2T_T2T_exon_counts.txt                          ||
+||                 Summary : T2T_T2T_exon_counts.txt.summary                  ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : T2T.gtf (GTF)                                    ||
+||      Dir for temp files : /data1/project/proj1/result                      ||
+||      Assignment details : <input_file>.featureCounts                       ||
+||     Details output path : /data1/project/proj1/result                      ||
+||                                                                            ||
+||       Junction Counting : <output_file>.jcounts                            ||
+||   Chromosome alias file : chr_alias3.txt                                   ||
+||                                                                            ||
+||                 Threads : 20                                               ||
+||                   Level : feature level                                    ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| 1 chromosome name aliases are loaded.                                      ||
+|| Load annotation file T2T.gtf ...                                           ||
+||    Features : 1483825                                                      ||
+||    Meta-features : 61988                                                   ||
+||    Chromosomes/contigs : 24                                                ||
+||                                                                            ||
+|| Process BAM file T2T_merged_sorted_chr18.bam...                            ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1540581                                              ||
+||    Successfully assigned alignments : 181230 (11.8%)                       ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_merged_sorted_chr2.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 7665238                                              ||
+||    Successfully assigned alignments : 896117 (11.7%)                       ||
+||    Running time : 0.06 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_merged_sorted_chr7.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 6445033                                              ||
+||    Successfully assigned alignments : 586339 (9.1%)                        ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file T2T_merged_sorted_chrY.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 381685                                               ||
+||    Successfully assigned alignments : 6396 (1.7%)                          ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the junction count table.                                            ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data1/project/proj1/re  ||
+|| sult/T2T_T2T_exon_counts.txt.summary"                                      ||
+||                                                                            ||
+\\============================================================================//
+

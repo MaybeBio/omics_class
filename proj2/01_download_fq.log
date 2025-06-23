@@ -1,0 +1,85 @@
+nohup: ignoring input
+2025-05-24T15:56:53 prefetch.3.2.1: 1) Resolving 'SRR7707733'...
+2025-05-24T15:56:55 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-05-24T15:56:56 prefetch.3.2.1: 1) Downloading 'SRR7707733'...
+2025-05-24T15:56:56 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-05-24T15:56:56 prefetch.3.2.1:  Downloading via HTTPS...
+2025-05-24T16:08:44 prefetch.3.2.1:  HTTPS download succeed
+2025-05-24T16:08:47 prefetch.3.2.1:  'SRR7707733' is valid: 3160687572 bytes were streamed from 3160679991
+2025-05-24T16:08:47 prefetch.3.2.1: 1) 'SRR7707733' was downloaded successfully
+spots read      : 24,797,025
+reads read      : 49,594,050
+reads written   : 49,594,050
+2025-05-24T16:09:24 prefetch.3.2.1: 1) Resolving 'SRR7707734'...
+2025-05-24T16:09:27 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-05-24T16:09:28 prefetch.3.2.1: 1) Downloading 'SRR7707734'...
+2025-05-24T16:09:28 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-05-24T16:09:28 prefetch.3.2.1:  Downloading via HTTPS...
+2025-05-24T17:48:04 prefetch.3.2.1:  HTTPS download succeed
+2025-05-24T17:48:08 prefetch.3.2.1:  'SRR7707734' is valid: 3467950560 bytes were streamed from 3467935267
+2025-05-24T17:48:08 prefetch.3.2.1: 1) 'SRR7707734' was downloaded successfully
+spots read      : 27,087,357
+reads read      : 54,174,714
+reads written   : 54,174,714
+2025-05-24T17:49:08 prefetch.3.2.1: 1) Resolving 'SRR7707735'...
+2025-05-24T17:49:11 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-05-24T17:49:12 prefetch.3.2.1: 1) Downloading 'SRR7707735'...
+2025-05-24T17:49:12 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-05-24T17:49:12 prefetch.3.2.1:  Downloading via HTTPS...
+2025-05-24T18:03:34 prefetch.3.2.1:  HTTPS download succeed
+2025-05-24T18:03:38 prefetch.3.2.1:  'SRR7707735' is valid: 4656579734 bytes were streamed from 4656578103
+2025-05-24T18:03:38 prefetch.3.2.1: 1) 'SRR7707735' was downloaded successfully
+spots read      : 35,570,644
+reads read      : 71,141,288
+reads written   : 71,141,288
+2025-05-24T18:06:28 prefetch.3.2.1: 1) Resolving 'SRR7707740'...
+2025-05-24T18:06:31 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-05-24T18:06:32 prefetch.3.2.1: 1) Downloading 'SRR7707740'...
+2025-05-24T18:06:32 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-05-24T18:06:32 prefetch.3.2.1:  Downloading via HTTPS...
+2025-05-24T18:18:46 prefetch.3.2.1:  HTTPS download succeed
+2025-05-24T18:18:49 prefetch.3.2.1:  'SRR7707740' is valid: 3770338354 bytes were streamed from 3770325559
+2025-05-24T18:18:49 prefetch.3.2.1: 1) 'SRR7707740' was downloaded successfully
+spots read      : 28,490,472
+reads read      : 56,980,944
+reads written   : 56,980,944
+2025-05-24T18:20:14 prefetch.3.2.1: 1) Resolving 'SRR7707741'...
+2025-05-24T18:20:16 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-05-24T18:20:17 prefetch.3.2.1: 1) Downloading 'SRR7707741'...
+2025-05-24T18:20:17 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-05-24T18:20:17 prefetch.3.2.1:  Downloading via HTTPS...
+2025-05-24T18:33:52 prefetch.3.2.1:  HTTPS download succeed
+2025-05-24T18:33:57 prefetch.3.2.1:  'SRR7707741' is valid: 4469204094 bytes were streamed from 4469200439
+2025-05-24T18:33:57 prefetch.3.2.1: 1) 'SRR7707741' was downloaded successfully
+spots read      : 33,672,451
+reads read      : 67,344,902
+reads written   : 67,344,902
+2025-05-24T18:36:23 prefetch.3.2.1: 1) Resolving 'SRR7707742'...
+2025-05-24T18:36:25 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-05-24T18:36:26 prefetch.3.2.1: 1) Downloading 'SRR7707742'...
+2025-05-24T18:36:26 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-05-24T18:36:26 prefetch.3.2.1:  Downloading via HTTPS...
+2025-05-24T18:49:56 prefetch.3.2.1:  HTTPS download succeed
+2025-05-24T18:50:00 prefetch.3.2.1:  'SRR7707742' is valid: 4451484692 bytes were streamed from 4451468855
+2025-05-24T18:50:00 prefetch.3.2.1: 1) 'SRR7707742' was downloaded successfully
+spots read      : 33,177,530
+reads read      : 66,355,060
+reads written   : 66,355,060
+currently downloading SRR7707733
+
+generating fastq for SRR7707733
+currently downloading SRR7707734
+
+generating fastq for SRR7707734
+currently downloading SRR7707735
+
+generating fastq for SRR7707735
+currently downloading SRR7707740
+
+generating fastq for SRR7707740
+currently downloading SRR7707741
+
+generating fastq for SRR7707741
+currently downloading SRR7707742
+
+generating fastq for SRR7707742

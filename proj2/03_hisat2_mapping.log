@@ -1,0 +1,121 @@
+nohup: ignoring input
+currently hisat2 mapping for SRR7707733
+
+24795194 reads; of these:
+  24795194 (100.00%) were paired; of these:
+    2413891 (9.74%) aligned concordantly 0 times
+    20436378 (82.42%) aligned concordantly exactly 1 time
+    1944925 (7.84%) aligned concordantly >1 times
+    ----
+    2413891 pairs aligned concordantly 0 times; of these:
+      70636 (2.93%) aligned discordantly 1 time
+    ----
+    2343255 pairs aligned 0 times concordantly or discordantly; of these:
+      4686510 mates make up the pairs; of these:
+        3030586 (64.67%) aligned 0 times
+        1399351 (29.86%) aligned exactly 1 time
+        256573 (5.47%) aligned >1 times
+93.89% overall alignment rate
+currently samtools converting and sort sam for SRR7707733
+
+[bam_sort_core] merging from 15 files and 15 in-memory blocks...
+currently hisat2 mapping for SRR7707734
+
+27085240 reads; of these:
+  27085240 (100.00%) were paired; of these:
+    2551428 (9.42%) aligned concordantly 0 times
+    22901361 (84.55%) aligned concordantly exactly 1 time
+    1632451 (6.03%) aligned concordantly >1 times
+    ----
+    2551428 pairs aligned concordantly 0 times; of these:
+      137650 (5.40%) aligned discordantly 1 time
+    ----
+    2413778 pairs aligned 0 times concordantly or discordantly; of these:
+      4827556 mates make up the pairs; of these:
+        2890078 (59.87%) aligned 0 times
+        1713361 (35.49%) aligned exactly 1 time
+        224117 (4.64%) aligned >1 times
+94.66% overall alignment rate
+currently samtools converting and sort sam for SRR7707734
+
+[bam_sort_core] merging from 15 files and 15 in-memory blocks...
+currently hisat2 mapping for SRR7707735
+
+35568305 reads; of these:
+  35568305 (100.00%) were paired; of these:
+    2900088 (8.15%) aligned concordantly 0 times
+    30879215 (86.82%) aligned concordantly exactly 1 time
+    1789002 (5.03%) aligned concordantly >1 times
+    ----
+    2900088 pairs aligned concordantly 0 times; of these:
+      94977 (3.27%) aligned discordantly 1 time
+    ----
+    2805111 pairs aligned 0 times concordantly or discordantly; of these:
+      5610222 mates make up the pairs; of these:
+        3274164 (58.36%) aligned 0 times
+        2120847 (37.80%) aligned exactly 1 time
+        215211 (3.84%) aligned >1 times
+95.40% overall alignment rate
+currently samtools converting and sort sam for SRR7707735
+
+[bam_sort_core] merging from 30 files and 15 in-memory blocks...
+currently hisat2 mapping for SRR7707740
+
+28488585 reads; of these:
+  28488585 (100.00%) were paired; of these:
+    2570530 (9.02%) aligned concordantly 0 times
+    24120331 (84.67%) aligned concordantly exactly 1 time
+    1797724 (6.31%) aligned concordantly >1 times
+    ----
+    2570530 pairs aligned concordantly 0 times; of these:
+      64153 (2.50%) aligned discordantly 1 time
+    ----
+    2506377 pairs aligned 0 times concordantly or discordantly; of these:
+      5012754 mates make up the pairs; of these:
+        2910022 (58.05%) aligned 0 times
+        1857229 (37.05%) aligned exactly 1 time
+        245503 (4.90%) aligned >1 times
+94.89% overall alignment rate
+currently samtools converting and sort sam for SRR7707740
+
+[bam_sort_core] merging from 30 files and 15 in-memory blocks...
+currently hisat2 mapping for SRR7707741
+
+33670084 reads; of these:
+  33670084 (100.00%) were paired; of these:
+    3281524 (9.75%) aligned concordantly 0 times
+    27784296 (82.52%) aligned concordantly exactly 1 time
+    2604264 (7.73%) aligned concordantly >1 times
+    ----
+    3281524 pairs aligned concordantly 0 times; of these:
+      96364 (2.94%) aligned discordantly 1 time
+    ----
+    3185160 pairs aligned 0 times concordantly or discordantly; of these:
+      6370320 mates make up the pairs; of these:
+        3707941 (58.21%) aligned 0 times
+        2246154 (35.26%) aligned exactly 1 time
+        416225 (6.53%) aligned >1 times
+94.49% overall alignment rate
+currently samtools converting and sort sam for SRR7707741
+
+[bam_sort_core] merging from 30 files and 15 in-memory blocks...
+currently hisat2 mapping for SRR7707742
+
+33175805 reads; of these:
+  33175805 (100.00%) were paired; of these:
+    3323018 (10.02%) aligned concordantly 0 times
+    27990752 (84.37%) aligned concordantly exactly 1 time
+    1862035 (5.61%) aligned concordantly >1 times
+    ----
+    3323018 pairs aligned concordantly 0 times; of these:
+      141059 (4.24%) aligned discordantly 1 time
+    ----
+    3181959 pairs aligned 0 times concordantly or discordantly; of these:
+      6363918 mates make up the pairs; of these:
+        3562421 (55.98%) aligned 0 times
+        2515935 (39.53%) aligned exactly 1 time
+        285562 (4.49%) aligned >1 times
+94.63% overall alignment rate
+currently samtools converting and sort sam for SRR7707742
+
+[bam_sort_core] merging from 30 files and 15 in-memory blocks...

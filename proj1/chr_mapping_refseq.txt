@@ -1,0 +1,4 @@
+2,chr2
+    7,chr7
+    18,chr18
+    Y,chrY

@@ -1,0 +1,15 @@
+Status	/data1/project/proj1/GRCH38/GRCH38_merged_sorted_18.bam	/data1/project/proj1/GRCH38/GRCH38_merged_sorted_2.bam	/data1/project/proj1/GRCH38/GRCH38_merged_sorted_7.bam	/data1/project/proj1/GRCH38/GRCH38_merged_sorted_Y.bam
+Assigned	166476	999572	818577	6959
+Unassigned_Unmapped	0	0	0	0
+Unassigned_Read_Type	0	0	0	0
+Unassigned_Singleton	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	461868	1851545	2319463	227377
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	134440	603911	444977	11118
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	771139	4128407	2833571	25855

@@ -1,0 +1,2223 @@
+BLASTP 3.0PE-AB [2009-10-30] [linux26-x64-I32LPF64 2009-11-17T18:52:53]
+
+Copyright (C) 2009 Warren R. Gish.  All rights reserved.
+Unlicensed use, reproduction or distribution are prohibited.
+Advanced Biocomputing, LLC, licenses this software only for personal use
+on a personally owned computer.
+
+Reference:  Gish, W. (1996-2009) http://blast.advbiocomp.com
+
+Query=  RU1_human
+        (282 letters)
+
+Database:  ws_215.protein
+           24,705 sequences; 10,879,267 total letters.
+Searching....10....20....30....40....50....60....70....80....90....100% done
+
+                                                                     Smallest
+                                                                       Sum
+                                                              High  Probability
+Sequences producing High-scoring Segment Pairs:              Score  P(N)      N
+
+K08D10.3	CE07355	WBGene00004386	locus:rnp-3	U1 small nucl...   378  3.2e-53   2
+K08D10.4	CE28597	WBGene00004385	locus:rnp-2	U1 small nucl...   332  1.5e-51   2
+C50D2.5	CE38492	WBGene00016808	status:Confirmed	UniProt:Q...   113  7.4e-08   1
+F46A9.6	CE08260	WBGene00003172	locus:mec-8	mecanosensory ...   111  5.8e-07   2
+R09B3.2	CE16307	WBGene00011155	RNA recognition motif. (ak...    91  2.6e-05   1
+D2089.4b	CE30509	WBGene00004207	locus:ptb-1	status:Partia...    86  5.4e-05   2
+T01D1.2g	CE41586	WBGene00001340	locus:etr-1	status:Confir...    95  6.5e-05   2
+T23F6.4	CE18963	WBGene00004315	locus:rbd-1	RNA recognitio...    85  8.1e-05   2
+T01D1.2a	CE12942	WBGene00001340	locus:etr-1	RNA-binding p...    95  9.0e-05   2
+T01D1.2e	CE41584	WBGene00001340	locus:etr-1	status:Confir...    95  9.1e-05   2
+T01D1.2f	CE41585	WBGene00001340	locus:etr-1	status:Confir...    95  9.2e-05   2
+D2089.4a	CE30508	WBGene00004207	locus:ptb-1	polypyrimidin...    86  0.00011   2
+Y57G11A.5	CE43586	WBGene00013293	RNA recognition motif. (...    82  0.00027   1
+C17D12.2	CE36103	WBGene00006807	locus:unc-75	RNA recognit...    80  0.00059   2
+C07A4.1	CE43237	WBGene00007396	RNA binding protein	status...    82  0.00062   2
+F35H8.5	CE00983	WBGene00001368	locus:exc-7	HUD	status:Par...    92  0.0011    2
+R06C1.4	CE18119	WBGene00011059	RNA recognition motif. (ak...    76  0.0013    1
+R09B3.3	CE16308	WBGene00011156	RNA recognition motif. (ak...    75  0.0017    1
+T01D1.2d	CE41583	WBGene00001340	locus:etr-1	status:Confir...    82  0.0024    2
+Y106G6H.2b	CE36227	WBGene00003902	locus:pab-1	status:Part...    97  0.0024    1
+Y106G6H.2c	CE36228	WBGene00003902	locus:pab-1	status:Conf...    97  0.0024    1
+Y106G6H.2a	CE20412	WBGene00003902	locus:pab-1	RNA recogni...    97  0.0028    1
+F56A8.6	CE16126	WBGene00000774	locus:cpf-2	RNA recognitio...    90  0.0072    1
+C08B11.5	CE36374	WBGene00004723	locus:sap-49	Poly(A) RNA ...    88  0.015     1
+C18A3.5f	CE32131	WBGene00015943	status:Confirmed	UniProt:...    86  0.017     1
+C18A3.5e	CE32130	WBGene00015943	status:Confirmed	UniProt:...    86  0.018     1
+F18H3.3b	CE03230	WBGene00003903	locus:pab-2	RNA recogniti...    89  0.019     1
+C18A3.5b	CE27709	WBGene00015943	status:Confirmed	UniProt:...    86  0.025     1
+F18H3.3a	CE02193	WBGene00003903	locus:pab-2	poly-adenylat...    89  0.025     1
+C33H5.12c	CE29698	WBGene00004703	locus:rsp-6	status:Confi...    75  0.026     1
+C18A3.5a	CE27708	WBGene00015943	RNA binding protein	statu...    86  0.028     1
+Y46G5A.13	CE21988	WBGene00012904	status:Partially_confirm...    85  0.039     1
+C30B5.4	CE02523	WBGene00016245	Probable RNA binding prote...    83  0.039     1
+D2089.1a	CE03111	WBGene00004704	locus:rsp-7	RNA binding p...    85  0.041     1
+F25B5.7d	CE32391	WBGene00017778	locus:psf-1	status:Partia...    84  0.041     1
+Y116A8C.34a	CE24152	WBGene00000889	locus:cyn-13	status:Co...    83  0.045     1
+B0035.12	CE05167	WBGene00007111	polyadenylate-binding pro...    72  0.045     2
+F22B5.2	CE02197	WBGene00001230	locus:eif-3.G	RNA binding ...    80  0.065     1
+F25B5.7a	CE42671	WBGene00017778	locus:psf-1	status:Confir...    84  0.070     1
+C33H5.12b	CE29697	WBGene00004703	locus:rsp-6	status:Confi...    75  0.081     1
+Y111B2A.18	CE31089	WBGene00004700	locus:rsp-3	splicing fa...    78  0.11      1
+C33H5.12a	CE04155	WBGene00004703	locus:rsp-6	RNA binding ...    75  0.12      1
+Y54H5A.3	CE24459	WBGene00021901	locus:tag-262	status:Conf...    76  0.22      1
+T04A8.6	CE01075	WBGene00011408	ribonuleoprotein	status:Co...    76  0.23      1
+C25A1.4	CE08369	WBGene00007706	RNA binding protein	status...    68  0.47      2
+T01D1.2b	CE41582	WBGene00001340	locus:etr-1	RNA-binding p...    73  0.50      1
+F39H2.2b	CE32411	WBGene00000890	locus:sig-7	peptidylproly...    72  0.61      1
+T22B2.4b	CE42801	WBGene00006321	locus:sup-12	status:Confi...    66  0.64      1
+Y47G6A.20a	CE24365	WBGene00004389	locus:rnp-6	RNA-binding...    71  0.67      1
+F39H2.2a	CE32410	WBGene00000890	locus:sig-7	peptidylproly...    72  0.69      1
+W02B12.3b	CE32944	WBGene00004698	locus:rsp-1	status:Confi...    65  0.72      1
+W02B12.3c	CE32945	WBGene00004698	locus:rsp-1	status:Confi...    65  0.73      1
+Y37D8A.21	CE44816	WBGene00012558	RNA recognition motif. (...    68  0.78      1
+ZK616.1	CE45009	WBGene00022771	status:Predicted	UniProt:D...    67  0.87      1
+F42A6.7a	CE17059	WBGene00001999	locus:hrp-1	RNA-binding p...    68  0.92      1
+F42A6.7d	CE39251	WBGene00001999	locus:hrp-1	status:Confir...    68  0.92      1
+T22B2.4a	CE13934	WBGene00006321	locus:sup-12	RNA-binding ...    66  0.93      1
+K04G7.10	CE30443	WBGene00004390	locus:rnp-7	SN-RNP U1	sta...    67  0.96      1
+C44B7.2b	CE25812	WBGene00016624	status:Confirmed	UniProt:...    67  0.96      1
+F29C4.7b	CE31493	WBGene00017929	status:Partially_confirme...    68  0.96      1
+Y47G6A.20b	CE24366	WBGene00004389	locus:rnp-6	RNA-binding...    71  0.97      2
+Y73B6BL.6a	CE29008	WBGene00022235	locus:sqd-1	status:Conf...    66  0.97      1
+Y73B6BL.6b	CE38662	WBGene00022235	locus:sqd-1	status:Conf...    66  0.97      1
+F29C4.7c	CE37226	WBGene00017929	status:Partially_confirme...    68  0.98      1
+F29C4.7a	CE17724	WBGene00017929	RNA-binding protein	statu...    68  0.99      1
+W02B12.3a	CE03763	WBGene00004698	locus:rsp-1	pre-mRNA spl...    65  0.992     1
+R10E4.2p	CE44587	WBGene00011199	locus:tag-310	status:Conf...    55  0.993     2
+F11A10.7	CE28911	WBGene00008688	status:Confirmed	UniProt:...    66  0.994     1
+R10E4.2j	CE44721	WBGene00011199	locus:tag-310	status:Part...    55  0.997     2
+F25B5.7b	CE29284	WBGene00017778	locus:psf-1	status:Confir...    60  0.998     1
+C44B7.2a	CE34752	WBGene00016624	status:Partially_confirme...    67  0.999     1
+Y47G6A.20c	CE31375	WBGene00004389	locus:rnp-6	status:Conf...    64  0.9993    1
+H28G03.1b	CE30080	WBGene00019249	status:Partially_confirm...    63  0.9997    1
+R10E4.2k	CE44582	WBGene00011199	locus:tag-310	status:Part...    55  0.9998    2
+R10E4.2o	CE44614	WBGene00011199	locus:tag-310	status:Conf...    55  0.9999    2
+H28G03.1c	CE31190	WBGene00019249	status:Confirmed	UniProt...    63  0.9999    1
+T11G6.8	CE33830	WBGene00011722	RNA recognition motif. (ak...    64  0.9999    1
+H28G03.1a	CE30079	WBGene00019249	RNA binding protein	stat...    63  0.9999    1
+R10E4.2g	CE44674	WBGene00011199	locus:tag-310	status:Part...    55  0.9999    2
+
+
+>K08D10.3	CE07355	WBGene00004386	locus:rnp-3	U1 small nuclear ribonucleoprotein
+          A	status:Confirmed	UniProt:Q21323	protein_id:AAA98033.1
+        Length = 217
+
+ Score = 378 (138.1 bits), Expect = 3.2e-53, Sum P(2) = 3.2e-53
+ Identities = 69/116 (59%), Positives = 89/116 (76%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSS 64
+             +  PNHTIY+NNLNEK+KKDELK+SL+ +F+QFG+I+ ++  R  KMRGQA ++FKEVSS
+Sbjct:     3 DINPNHTIYVNNLNEKVKKDELKRSLHMVFTQFGEIIQLMSFRKEKMRGQAHIVFKEVSS 62
+
+Query:    65 ATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFVXXXXXXXXXXXXSQETPA 120
+             A+NALR++QGFPFY KPMRIQYA+ DSD+I++ KGTFV              E PA
+Sbjct:    63 ASNALRALQGFPFYGKPMRIQYAREDSDVISRAKGTFVEKRQKSTKIAKKPYEKPA 118
+
+ Score = 179 (68.1 bits), Expect = 3.2e-53, Sum P(2) = 3.2e-53
+ Identities = 33/77 (42%), Positives = 49/77 (63%)
+
+Query:   206 PNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQ 265
+             PN+ILF +N+PE T    +  +F+QFPG +EVR +P   D AF+E+++E  +  AR AL 
+Sbjct:   141 PNNILFCSNIPEGTEPEQIQTIFSQFPGLREVRWMPNTKDFAFIEYESEDLSEPARQALD 200
+
+Query:   266 GFKITQNNAMKISFAKK 282
+              F+IT    + + FA K
+Sbjct:   201 NFRITPTQQITVKFASK 217
+
+ Score = 73 (30.8 bits), Expect = 0.33, P = 0.28
+ Identities = 28/85 (32%), Positives = 44/85 (51%)
+
+Query:   206 PNHILFLTNLPEET--NELM--LSMLFNQFPGFKEVRLVPGRHDI----AFVEFDNEVQA 257
+             PNH +++ NL E+   +EL   L M+F QF G + ++L+  R +     A + F     A
+Sbjct:     6 PNHTIYVNNLNEKVKKDELKRSLHMVFTQF-G-EIIQLMSFRKEKMRGQAHIVFKEVSSA 63
+
+Query:   258 GAARDALQGFKITQNNAMKISFAKK 282
+               A  ALQGF       M+I +A++
+Sbjct:    64 SNALRALQGFPF-YGKPMRIQYARE 87
+
+
+>K08D10.4	CE28597	WBGene00004385	locus:rnp-2	U1 small nuclear ribonucleoprotein
+          A	status:Confirmed	UniProt:Q21322	protein_id:AAA98032.2
+        Length = 206
+
+ Score = 332 (121.9 bits), Expect = 1.5e-51, Sum P(2) = 1.5e-51
+ Identities = 60/98 (61%), Positives = 81/98 (82%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSS 64
+             E  PN T+YINNLNEKIK DEL+KSL A+F QFG+I+ ++  R+LKMRGQA VIFKE+ +
+Sbjct:     3 EVAPNSTLYINNLNEKIKIDELRKSLVAVFKQFGEIVSVMCFRTLKMRGQAHVIFKELPA 62
+
+Query:    65 ATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+             A+ A  ++ GFPFY+KPMRIQ+A+ DSD++A+ KGT++
+Sbjct:    63 ASAAREALNGFPFYEKPMRIQFAREDSDVVAQEKGTYI 100
+
+ Score = 209 (78.6 bits), Expect = 1.5e-51, Sum P(2) = 1.5e-51
+ Identities = 40/78 (51%), Positives = 52/78 (66%)
+
+Query:   205 PPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDAL 264
+             PPN ILF TNLP+     ML ++FNQF G K++R+VP R  IAFVEFD +  A  AR  L
+Sbjct:   129 PPNKILFCTNLPDSATAEMLEIMFNQFAGLKDIRMVPNRPGIAFVEFDTDSLAIPARTTL 188
+
+Query:   265 QGFKITQNNAMKISFAKK 282
+               FKI+  + M++ +AKK
+Sbjct:   189 NNFKISAEHTMRVDYAKK 206
+
+ Score = 79 (32.9 bits), Expect = 0.057, P = 0.056
+ Identities = 31/88 (35%), Positives = 44/88 (50%)
+
+Query:   202 SENPPNHILFLTNLPEET--NELMLSML--FNQFPGFKEV---RLVPGRHDIAFVEFDNE 254
+             +E  PN  L++ NL E+   +EL  S++  F QF     V   R +  R   A V F   
+Sbjct:     2 AEVAPNSTLYINNLNEKIKIDELRKSLVAVFKQFGEIVSVMCFRTLKMRGQ-AHVIFKEL 60
+
+Query:   255 VQAGAARDALQGFKITQNNAMKISFAKK 282
+               A AAR+AL GF   +   M+I FA++
+Sbjct:    61 PAASAAREALNGFPFYEK-PMRIQFARE 87
+
+
+>C50D2.5	CE38492	WBGene00016808	status:Confirmed	UniProt:Q8ITY4
+         protein_id:AAN73870.2
+        Length = 138
+
+ Score = 113 (44.8 bits), Expect = 7.4e-08, P = 7.4e-08
+ Identities = 26/83 (31%), Positives = 44/83 (53%)
+
+Query:     4 PETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVS 63
+             PE   N  +YI NL  KI  +E+    Y IF +FG +  I V  + + RG AFV+++++ 
+Sbjct:    15 PEV--NRILYIKNLPYKITTEEM----YEIFGKFGAVRQIRVGNTAETRGTAFVVYEDIF 68
+
+Query:    64 SATNALRSMQGFPFYDKPMRIQY 86
+              A  A   + G+   ++ + + Y
+Sbjct:    69 DAKTACEHLSGYNVSNRYLVVLY 91
+
+ Score = 72 (30.4 bits), Expect = 0.14, P = 0.13
+ Identities = 21/71 (29%), Positives = 37/71 (52%)
+
+Query:   205 PP--NHILFLTNLPEE-TNELMLSMLFNQFPGFKEVRL--VPGRHDIAFVEFDNEVQAGA 259
+             PP  N IL++ NLP + T E M   +F +F   +++R+         AFV +++   A  
+Sbjct:    14 PPEVNRILYIKNLPYKITTEEMYE-IFGKFGAVRQIRVGNTAETRGTAFVVYEDIFDAKT 72
+
+Query:   260 ARDALQGFKIT 270
+             A + L G+ ++
+Sbjct:    73 ACEHLSGYNVS 83
+
+
+>F46A9.6	CE08260	WBGene00003172	locus:mec-8	mecanosensory gene mec-8
+         status:Confirmed	UniProt:Q19018	protein_id:CAB03111.1
+        Length = 312
+
+ Score = 111 (44.1 bits), Expect = 5.8e-07, Sum P(2) = 5.8e-07
+ Identities = 29/75 (38%), Positives = 43/75 (57%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-IAFVEFDNEVQAGAARDALQGFK 268
+             LF+ NL  E NE  L  +F  F GF  +RL       +AFVE+ +  +A  A  +LQGF+
+Sbjct:   230 LFVANLSAEVNEDTLRGVFKAFSGFTRLRLHNKNGSCVAFVEYSDLQKATQAMISLQGFQ 289
+
+Query:   269 ITQNN--AMKISFAK 281
+             IT N+   ++I +A+
+Sbjct:   290 ITANDRGGLRIEYAR 304
+
+ Score = 81 (33.6 bits), Expect = 0.071, P = 0.069
+ Identities = 25/83 (30%), Positives = 46/83 (55%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQ--AFVIFKEVSSATNA 68
+             T+++ NL+ ++ +D L+  ++  FS F ++      R     G   AFV + ++  AT A
+Sbjct:   229 TLFVANLSAEVNEDTLR-GVFKAFSGFTRL------RLHNKNGSCVAFVEYSDLQKATQA 281
+
+Query:    69 LRSMQGFPFY--DKP-MRIQYAK 88
+             + S+QGF     D+  +RI+YA+
+Sbjct:   282 MISLQGFQITANDRGGLRIEYAR 304
+
+ Score = 48 (22.0 bits), Expect = 5.8e-07, Sum P(2) = 5.8e-07
+ Identities = 20/93 (21%), Positives = 38/93 (40%)
+
+Query:     6 TRPNH--TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVS 63
+             T P+   T++++ L    K  EL           G +L +            FV F    
+Sbjct:    25 TNPSQVRTLFVSGLPMDAKPRELYLLFRGCRGYEGALLKMTSKNGKPTSPVGFVTFLSQQ 84
+
+Query:    64 SATNALRSMQGFPFYDK---PMRIQYAKTDSDI 93
+              A +A + +QG  F  +    +R++ AK+++ +
+Sbjct:    85 DAQDARKMLQGVRFDPECAQVLRLELAKSNTKV 117
+
+
+>R09B3.2	CE16307	WBGene00011155	RNA recognition motif. (aka RRM, RBD, or RNP
+         domain)	status:Confirmed	UniProt:O45712	protein_id:CAB03236.1
+        Length = 83
+
+ Score = 91 (37.1 bits), Expect = 2.6e-05, P = 2.6e-05
+ Identities = 26/80 (32%), Positives = 40/80 (50%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQI--LDILVSRSL-KMRGQAFVIFKEVSSATN 67
+             ++Y+ N   +  ++EL       FS  GQI  + I+  R   + RG AF+ F E  SA  
+Sbjct:     6 SVYVGNAPFQTTEEELGN----FFSSIGQINNVRIVCDRETGRPRGFAFIEFAEEGSAQR 61
+
+Query:    68 ALRSMQGFPFYDKPMRIQYA 87
+             A+  M G  F  +P+R+  A
+Sbjct:    62 AVEQMNGAEFNGRPLRVNLA 81
+
+ Score = 65 (27.9 bits), Expect = 0.021, P = 0.021
+ Identities = 21/78 (26%), Positives = 35/78 (44%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLV----PGR-HDIAFVEFDNEVQAGAARDAL 264
+             +++ N P +T E  L   F+       VR+V     GR    AF+EF  E  A  A + +
+Sbjct:     7 VYVGNAPFQTTEEELGNFFSSIGQINNVRIVCDRETGRPRGFAFIEFAEEGSAQRAVEQM 66
+
+Query:   265 QGFKITQNNAMKISFAKK 282
+              G +      ++++ A K
+Sbjct:    67 NGAEFN-GRPLRVNLANK 83
+
+
+>D2089.4b	CE30509	WBGene00004207	locus:ptb-1	status:Partially_confirmed
+          UniProt:Q8T3E6	protein_id:CAD30435.1
+        Length = 453
+
+ Score = 86 (35.3 bits), Expect = 5.4e-05, Sum P(2) = 5.4e-05
+ Identities = 23/79 (29%), Positives = 40/79 (50%)
+
+Query:   205 PPNHILFLTNLPEETNELMLSMLFNQFPGF--KEVRLVPGRHDIAFVEFDNEVQAGAARD 262
+             PP   L L+N+P   +E  L  +F +  GF  K  +  P  H +A  + ++   A  A  
+Sbjct:   373 PPCATLHLSNIPTSVSEEKLKEMFAE-AGFAVKAFKFFPKDHKMALCQLEDIETAIDALI 431
+
+Query:   263 ALQGFKITQNNAMKISFAK 281
+             A+   K+ +N  +++SF+K
+Sbjct:   432 AMHNHKLAENAHLRVSFSK 450
+
+ Score = 64 (27.6 bits), Expect = 5.4e-05, Sum P(2) = 5.4e-05
+ Identities = 20/89 (22%), Positives = 42/89 (47%)
+
+Query:     1 MAVPETRPNHTIYINNLNE-KIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIF 59
+             M  P       I ++NL+E K+  D    +L+ +F  +G ++ + +  + K    A + +
+Sbjct:   250 MRFPMINLTPVILVSNLHEMKVTTD----ALFTLFGVYGDVMRVKILYNKK--DNALIQY 303
+
+Query:    60 KEVSSATNALRSMQGFPFYDKPMRIQYAK 88
+              E   A  AL  +    ++D+ +R+  +K
+Sbjct:   304 SEPQQAQLALTHLDKVKWHDRLIRVAPSK 332
+
+ Score = 38 (18.4 bits), Expect = 6.8, Sum P(2) = 0.999
+ Identities = 7/26 (26%), Positives = 13/26 (50%)
+
+Query:   237 VRLVPGRHDIAFVEFDNEVQAGAARD 262
+             +R+ P +H    +  + +  AG  RD
+Sbjct:   326 IRVAPSKHTNVQMPKEGQPDAGLTRD 351
+
+
+>T01D1.2g	CE41586	WBGene00001340	locus:etr-1	status:Confirmed	UniProt:A7KQE9
+          protein_id:ABV68951.1
+        Length = 513
+
+ Score = 95 (38.5 bits), Expect = 6.5e-05, Sum P(2) = 6.5e-05
+ Identities = 32/99 (32%), Positives = 47/99 (47%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKEV 62
+             E R    ++I  L++K  ++ L++    IF++FG I D  V R    K RG AFV F   
+Sbjct:   137 ENRNERKLFIGQLSKKHNEENLRE----IFAKFGHIEDCSVLRDQDGKSRGCAFVTFTNR 192
+
+Query:    63 SSATNALRSM---QGFPFYDKPMRIQYAKTDSDIIAKMK 98
+             S A  A + M   Q       P+ +++A T  D   K K
+Sbjct:   193 SCAVVATKEMHHSQTMEGCSAPLVVKFADTQKDKDVKTK 231
+
+ Score = 73 (30.8 bits), Expect = 1.2, P = 0.68
+ Identities = 19/60 (31%), Positives = 32/60 (53%)
+
+Query:    34 FSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD 90
+             F+ FG IL   + + +   + +   FV ++   SATNA+ +M GF    K +++Q  K D
+Sbjct:   448 FAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSATNAISAMNGFQIGSKRLKVQL-KVD 506
+
+ Score = 54 (24.1 bits), Expect = 6.5e-05, Sum P(2) = 6.5e-05
+ Identities = 18/72 (25%), Positives = 31/72 (43%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQA 257
+             + P    LF+ +LP++  +  L   F  F G    ++   +         FV ++N   A
+Sbjct:   423 KGPDGANLFIYHLPQDFGDSDLINTFAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSA 482
+
+Query:   258 GAARDALQGFKI 269
+               A  A+ GF+I
+Sbjct:   483 TNAISAMNGFQI 494
+
+
+>T23F6.4	CE18963	WBGene00004315	locus:rbd-1	RNA recognition motif. (aka RRM,
+         RBD, or RNP domain) (6 domains)	status:Partially_confirmed
+         UniProt:Q9XU67	protein_id:CAB05631.1
+        Length = 872
+
+ Score = 85 (35.0 bits), Expect = 8.1e-05, Sum P(2) = 8.1e-05
+ Identities = 27/84 (32%), Positives = 44/84 (52%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             + + NL     + +L+K     F ++GQI D  +  ++  K RG AFV F +  SA+NAL
+Sbjct:     5 LIVKNLPSTCTEQQLRK----FFEKYGQISDASLKYTKEGKFRGFAFVGFLDEGSASNAL 60
+
+Query:    70 -RSMQGFPFYDKPMRIQYAKTDSD 92
+              +S Q F F  K + ++  +   D
+Sbjct:    61 AKSNQTF-FNSKKLTVEECRPFGD 83
+
+ Score = 70 (29.7 bits), Expect = 8.1e-05, Sum P(2) = 8.1e-05
+ Identities = 24/63 (38%), Positives = 30/63 (47%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQAGAARDAL 264
+             LFL NLP  T E  L  LF ++    EV++V  +        A VEF     A AA  AL
+Sbjct:   281 LFLRNLPYATKEDDLQFLFKKYGEVSEVQVVIDKKTGACKGFAIVEFVFPEAAVAAYSAL 340
+
+Query:   265 QGF 267
+              G+
+Sbjct:   341 DGY 343
+
+ Score = 57 (25.1 bits), Expect = 0.0017, Sum P(2) = 0.0017
+ Identities = 20/61 (32%), Positives = 30/61 (49%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLV--PGR---H-DIAFVEFDNEVQAGAARDA 263
+             L + NLP E +   +  LF  F   K +R+   PG+   H    FV+F +  +A  A D+
+Sbjct:   750 LLVRNLPFEASVKEVETLFETFGAVKTIRIPKKPGQKQQHRGFGFVDFISADEAHRAFDS 809
+
+Query:   264 L 264
+             L
+Sbjct:   810 L 810
+
+ Score = 44 (20.5 bits), Expect = 0.033, Sum P(2) = 0.033
+ Identities = 18/64 (28%), Positives = 27/64 (42%)
+
+Query:   202 SENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDI-AFVEFDNEVQAGAA 260
+             +E   + ++   NLP       L  +F +F    +V L+P    + A V   N V A  A
+Sbjct:   477 AEKRSDTVMLAKNLPAGVESEELQRMFEKFGDCTKV-LMPTEGGVSALVIMGNPVDAKKA 535
+
+Query:   261 RDAL 264
+               AL
+Sbjct:   536 FRAL 539
+
+ Score = 35 (17.4 bits), Expect = 0.26, Sum P(2) = 0.23
+ Identities = 8/21 (38%), Positives = 12/21 (57%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQ 230
+             LF+ NL  +T +  L  LF +
+Sbjct:   643 LFVKNLAFDTTDGSLEFLFRK 663
+
+
+>T01D1.2a	CE12942	WBGene00001340	locus:etr-1	RNA-binding protein
+          status:Confirmed	UniProt:Q17385	protein_id:AAB37881.1
+        Length = 584
+
+ Score = 95 (38.5 bits), Expect = 9.0e-05, Sum P(2) = 9.0e-05
+ Identities = 32/99 (32%), Positives = 47/99 (47%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKEV 62
+             E R    ++I  L++K  ++ L++    IF++FG I D  V R    K RG AFV F   
+Sbjct:   137 ENRNERKLFIGQLSKKHNEENLRE----IFAKFGHIEDCSVLRDQDGKSRGCAFVTFTNR 192
+
+Query:    63 SSATNALRSM---QGFPFYDKPMRIQYAKTDSDIIAKMK 98
+             S A  A + M   Q       P+ +++A T  D   K K
+Sbjct:   193 SCAVVATKEMHHSQTMEGCSAPLVVKFADTQKDKDVKTK 231
+
+ Score = 73 (30.8 bits), Expect = 1.3, P = 0.74
+ Identities = 19/60 (31%), Positives = 32/60 (53%)
+
+Query:    34 FSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD 90
+             F+ FG IL   + + +   + +   FV ++   SATNA+ +M GF    K +++Q  K D
+Sbjct:   519 FAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSATNAISAMNGFQIGSKRLKVQL-KVD 577
+
+ Score = 54 (24.1 bits), Expect = 9.0e-05, Sum P(2) = 9.0e-05
+ Identities = 18/72 (25%), Positives = 31/72 (43%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQA 257
+             + P    LF+ +LP++  +  L   F  F G    ++   +         FV ++N   A
+Sbjct:   494 KGPDGANLFIYHLPQDFGDSDLINTFAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSA 553
+
+Query:   258 GAARDALQGFKI 269
+               A  A+ GF+I
+Sbjct:   554 TNAISAMNGFQI 565
+
+
+>T01D1.2e	CE41584	WBGene00001340	locus:etr-1	status:Confirmed	UniProt:A8DYS1
+          protein_id:ABV68949.1
+        Length = 586
+
+ Score = 95 (38.5 bits), Expect = 9.1e-05, Sum P(2) = 9.1e-05
+ Identities = 32/99 (32%), Positives = 47/99 (47%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKEV 62
+             E R    ++I  L++K  ++ L++    IF++FG I D  V R    K RG AFV F   
+Sbjct:   137 ENRNERKLFIGQLSKKHNEENLRE----IFAKFGHIEDCSVLRDQDGKSRGCAFVTFTNR 192
+
+Query:    63 SSATNALRSM---QGFPFYDKPMRIQYAKTDSDIIAKMK 98
+             S A  A + M   Q       P+ +++A T  D   K K
+Sbjct:   193 SCAVVATKEMHHSQTMEGCSAPLVVKFADTQKDKDVKTK 231
+
+ Score = 73 (30.8 bits), Expect = 1.4, P = 0.74
+ Identities = 19/60 (31%), Positives = 32/60 (53%)
+
+Query:    34 FSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD 90
+             F+ FG IL   + + +   + +   FV ++   SATNA+ +M GF    K +++Q  K D
+Sbjct:   521 FAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSATNAISAMNGFQIGSKRLKVQL-KVD 579
+
+ Score = 54 (24.1 bits), Expect = 9.1e-05, Sum P(2) = 9.1e-05
+ Identities = 18/72 (25%), Positives = 31/72 (43%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQA 257
+             + P    LF+ +LP++  +  L   F  F G    ++   +         FV ++N   A
+Sbjct:   496 KGPDGANLFIYHLPQDFGDSDLINTFAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSA 555
+
+Query:   258 GAARDALQGFKI 269
+               A  A+ GF+I
+Sbjct:   556 TNAISAMNGFQI 567
+
+
+>T01D1.2f	CE41585	WBGene00001340	locus:etr-1	status:Confirmed	UniProt:A8DYS0
+          protein_id:ABV68950.1
+        Length = 588
+
+ Score = 95 (38.5 bits), Expect = 9.2e-05, Sum P(2) = 9.2e-05
+ Identities = 32/99 (32%), Positives = 47/99 (47%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKEV 62
+             E R    ++I  L++K  ++ L++    IF++FG I D  V R    K RG AFV F   
+Sbjct:   137 ENRNERKLFIGQLSKKHNEENLRE----IFAKFGHIEDCSVLRDQDGKSRGCAFVTFTNR 192
+
+Query:    63 SSATNALRSM---QGFPFYDKPMRIQYAKTDSDIIAKMK 98
+             S A  A + M   Q       P+ +++A T  D   K K
+Sbjct:   193 SCAVVATKEMHHSQTMEGCSAPLVVKFADTQKDKDVKTK 231
+
+ Score = 73 (30.8 bits), Expect = 1.4, P = 0.74
+ Identities = 19/60 (31%), Positives = 32/60 (53%)
+
+Query:    34 FSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD 90
+             F+ FG IL   + + +   + +   FV ++   SATNA+ +M GF    K +++Q  K D
+Sbjct:   523 FAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSATNAISAMNGFQIGSKRLKVQL-KVD 581
+
+ Score = 54 (24.1 bits), Expect = 9.2e-05, Sum P(2) = 9.2e-05
+ Identities = 18/72 (25%), Positives = 31/72 (43%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQA 257
+             + P    LF+ +LP++  +  L   F  F G    ++   +         FV ++N   A
+Sbjct:   498 KGPDGANLFIYHLPQDFGDSDLINTFAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSA 557
+
+Query:   258 GAARDALQGFKI 269
+               A  A+ GF+I
+Sbjct:   558 TNAISAMNGFQI 569
+
+
+>D2089.4a	CE30508	WBGene00004207	locus:ptb-1	polypyrimidine tract binding
+          protein	status:Partially_confirmed	UniProt:Q18999
+          protein_id:CAA85411.3
+        Length = 615
+
+ Score = 86 (35.3 bits), Expect = 0.00011, Sum P(2) = 0.00011
+ Identities = 23/79 (29%), Positives = 40/79 (50%)
+
+Query:   205 PPNHILFLTNLPEETNELMLSMLFNQFPGF--KEVRLVPGRHDIAFVEFDNEVQAGAARD 262
+             PP   L L+N+P   +E  L  +F +  GF  K  +  P  H +A  + ++   A  A  
+Sbjct:   535 PPCATLHLSNIPTSVSEEKLKEMFAE-AGFAVKAFKFFPKDHKMALCQLEDIETAIDALI 593
+
+Query:   263 ALQGFKITQNNAMKISFAK 281
+             A+   K+ +N  +++SF+K
+Sbjct:   594 AMHNHKLAENAHLRVSFSK 612
+
+ Score = 64 (27.6 bits), Expect = 0.00011, Sum P(2) = 0.00011
+ Identities = 20/89 (22%), Positives = 42/89 (47%)
+
+Query:     1 MAVPETRPNHTIYINNLNE-KIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIF 59
+             M  P       I ++NL+E K+  D    +L+ +F  +G ++ + +  + K    A + +
+Sbjct:   412 MRFPMINLTPVILVSNLHEMKVTTD----ALFTLFGVYGDVMRVKILYNKK--DNALIQY 465
+
+Query:    60 KEVSSATNALRSMQGFPFYDKPMRIQYAK 88
+              E   A  AL  +    ++D+ +R+  +K
+Sbjct:   466 SEPQQAQLALTHLDKVKWHDRLIRVAPSK 494
+
+ Score = 54 (24.1 bits), Expect = 0.0012, Sum P(2) = 0.0012
+ Identities = 19/75 (25%), Positives = 35/75 (46%)
+
+Query:     2 AVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKE 61
+             AV     +  +++ N    I  D +   L  +  Q+G + + ++   LK + QAFV ++E
+Sbjct:   113 AVTSIPVSKVVHVRN----IPPDLVDVELMQLCIQYGPVSNYMM---LKGKSQAFVEYEE 165
+
+Query:    62 VSSATNALRSMQGFP 76
+              +SA   +  M   P
+Sbjct:   166 EASAAAFVSGMTAVP 180
+
+
+>Y57G11A.5	CE43586	WBGene00013293	RNA recognition motif. (aka RRM, RBD, or RNP
+           domain)	status:Partially_confirmed	UniProt:O18219
+           protein_id:CAB16494.2
+        Length = 110
+
+ Score = 82 (33.9 bits), Expect = 0.00027, P = 0.00027
+ Identities = 24/92 (26%), Positives = 45/92 (48%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N  +Y+ N+      D  +K + A+FS  G I  I +++  +  G AFV FK    A +A
+Sbjct:    16 NRQVYVGNM----PFDATEKEIEAVFSVMGPIKSIWMAK--RPPGFAFVTFKRTVHAFDA 69
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKTD--SDIIAKMK 98
+             ++ + G    D   +++  + D   D+  +M+
+Sbjct:    70 VKYLNGKKICDLEAKVEMCEVDFKEDLRRRME 101
+
+ Score = 60 (26.2 bits), Expect = 2.2, P = 0.89
+ Identities = 18/66 (27%), Positives = 28/66 (42%)
+
+Query:   204 NPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDA 263
+             N  N  +++ N+P +  E  +  +F+     K + +       AFV F   V A  A   
+Sbjct:    13 NVENRQVYVGNMPFDATEKEIEAVFSVMGPIKSIWMAKRPPGFAFVTFKRTVHAFDAVKY 72
+
+Query:   264 LQGFKI 269
+             L G KI
+Sbjct:    73 LNGKKI 78
+
+
+>C17D12.2	CE36103	WBGene00006807	locus:unc-75	RNA recognition motif. (aka RRM,
+          RBD, or RNP domain) (2 domains)	status:Confirmed	UniProt:O62068
+          protein_id:CAB03896.4
+        Length = 514
+
+ Score = 80 (33.2 bits), Expect = 0.00059, Sum P(2) = 0.00059
+ Identities = 23/86 (26%), Positives = 46/86 (53%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLK--MRGQAFVIFK---EVSSAT 66
+             ++I  L+++  +DE++    A+F+ FG++ ++ V R      +G AFV +K   +   A 
+Sbjct:   126 LFIGMLSKQQSEDEVR----ALFATFGELDEVTVLRGADGASKGCAFVKYKHGLDAHMAI 181
+
+Query:    67 NALRSMQGFPFYDKPMRIQYAKTDSD 92
+             +AL   Q  P     + ++YA T+ +
+Sbjct:   182 SALHGSQTMPGASSSLVVKYADTEKE 207
+
+ Score = 66 (28.3 bits), Expect = 0.023, Sum P(2) = 0.023
+ Identities = 23/78 (29%), Positives = 40/78 (51%)
+
+Query:    20 KIKKDELKKSLYAIFSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNA---LRSMQ 73
+             +I ++  +K L  +F QFG+I +  IL  +   M +G AF+ +    SA      L   +
+Sbjct:    35 QIPRNLEEKDLRHLFEQFGKIYEFTILKDKYTGMHKGCAFLTYCHRDSAVRCQATLHDQK 94
+
+Query:    74 GFPFYDKPMRIQYAKTDS 91
+               P  ++ M+++ A TDS
+Sbjct:    95 TLPGMNRAMQVKPADTDS 112
+
+ Score = 62 (26.9 bits), Expect = 0.00059, Sum P(2) = 0.00059
+ Identities = 19/65 (29%), Positives = 30/65 (46%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQAGAARDAL 264
+             LF+ +LP+E  +  L  +F  F      ++   R         FV +DN   + AA  A+
+Sbjct:   431 LFIYHLPQEFGDAELIQMFAPFGHIVSAKVFVDRATNQSKCFGFVSYDNIHSSQAAITAM 490
+
+Query:   265 QGFKI 269
+              GF+I
+Sbjct:   491 NGFQI 495
+
+ Score = 48 (22.0 bits), Expect = 0.57, Sum P(2) = 0.44
+ Identities = 18/61 (29%), Positives = 29/61 (47%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDI----AFVEFDNEVQAGAARDALQ 265
+             LF+  L ++ +E  +  LF  F    EV ++ G        AFV++ + + A  A  AL 
+Sbjct:   126 LFIGMLSKQQSEDEVRALFATFGELDEVTVLRGADGASKGCAFVKYKHGLDAHMAISALH 185
+
+Query:   266 G 266
+             G
+Sbjct:   186 G 186
+
+
+>C07A4.1	CE43237	WBGene00007396	RNA binding protein	status:Partially_confirmed
+         UniProt:Q93194	protein_id:CAB01717.3
+        Length = 450
+
+ Score = 82 (33.9 bits), Expect = 0.00062, Sum P(2) = 0.00062
+ Identities = 24/100 (24%), Positives = 49/100 (49%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL---KMRGQAFVIFKE 61
+             +T  +  +++ +L++ +  + LK +    F++FG++ +  V R +   K +G  FV F  
+Sbjct:   220 DTSKHFHVFVGDLSKDVSNELLKST----FTKFGEVSEAKVIRDVQTQKSKGYGFVSFPN 275
+
+Query:    62 VSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTF 101
+               +A NA+  M G     + +R  +A   +    + K TF
+Sbjct:   276 KQNAENAIAGMNGKWIGKRAVRTNWAARKNSEENRDKLTF 315
+
+ Score = 82 (33.9 bits), Expect = 0.091, P = 0.087
+ Identities = 20/83 (24%), Positives = 42/83 (50%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N ++Y+ N++++    +L+     +FS +G I ++   R  K +  AFV +++   AT A
+Sbjct:   326 NTSVYVGNISQQTTDADLRD----LFSTYGDIAEV---RIFKTQRYAFVRYEKKECATKA 378
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKTDS 91
+             +  M G       +R  + +T +
+Sbjct:   379 IMEMNGKEMAGNQVRCSWGRTQA 401
+
+ Score = 58 (25.5 bits), Expect = 0.00062, Sum P(2) = 0.00062
+ Identities = 19/80 (23%), Positives = 38/80 (47%)
+
+Query:   202 SENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAAR 261
+             S    N  +++ N+ ++T +  L  LF+ +    EVR+   +   AFV ++ +  A  A 
+Sbjct:   321 STKADNTSVYVGNISQQTTDADLRDLFSTYGDIAEVRIFKTQR-YAFVRYEKKECATKAI 379
+
+Query:   262 DALQGFKITQNNAMKISFAK 281
+               + G K    N ++ S+ +
+Sbjct:   380 MEMNG-KEMAGNQVRCSWGR 398
+
+
+>F35H8.5	CE00983	WBGene00001368	locus:exc-7	HUD	status:Partially_confirmed
+         UniProt:Q20084	protein_id:CAA85327.1
+        Length = 456
+
+ Score = 92 (37.4 bits), Expect = 0.0066, P = 0.0066
+ Identities = 24/85 (28%), Positives = 44/85 (51%)
+
+Query:     4 PETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKE 61
+             P     + +++ NL+     D L   L+ +FSQFG I+++ + R L  + +G AFV    
+Sbjct:   368 PSDTAGYCLFVYNLSSDTD-DTL---LWQLFSQFGAIVNVKILRDLTQQCKGYAFVSMSN 423
+
+Query:    62 VSSATNALRSMQGFPFYDKPMRIQY 86
+              + A NA+ S+ G     K +++ +
+Sbjct:   424 YTEAYNAMLSLNGTNLAGKTLQVVF 448
+
+ Score = 74 (31.1 bits), Expect = 0.0011, Sum P(2) = 0.0011
+ Identities = 24/96 (25%), Positives = 49/96 (51%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQA----FVI 58
+             + E++ N  + IN L + + ++E++    ++F+  G+I    + R  K+ GQ+    FV 
+Sbjct:    37 IGESKTN--LIINYLPQGMTQEEVR----SLFTSIGEIESCKLVRD-KVTGQSLGYGFVN 89
+
+Query:    59 FKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDII 94
+             +     A  A+ S  G    +K +++ YA+  +D I
+Sbjct:    90 YVREEDALRAVSSFNGLRLQNKTIKVSYARPSNDQI 125
+
+ Score = 65 (27.9 bits), Expect = 0.0011, Sum P(2) = 0.0011
+ Identities = 20/76 (26%), Positives = 36/76 (47%)
+
+Query:   208 HILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD----IAFVEFDNEVQAGAARDA 263
+             + LF+ NL  +T++ +L  LF+QF     V+++          AFV   N  +A  A  +
+Sbjct:   374 YCLFVYNLSSDTDDTLLWQLFSQFGAIVNVKILRDLTQQCKGYAFVSMSNYTEAYNAMLS 433
+
+Query:   264 LQGFKITQNNAMKISF 279
+             L G  +     +++ F
+Sbjct:   434 LNGTNLA-GKTLQVVF 448
+
+ Score = 56 (24.8 bits), Expect = 0.090, Sum P(2) = 0.086
+ Identities = 24/77 (31%), Positives = 37/77 (48%)
+
+Query:     3 VPETRP-NHTIYINNLNEK-IKKDELKKSLYAIFSQFGQILDI-LVSRSLK--MRGQAFV 57
+             V   RP N  I  +NL    I K      L +IF  FGQI+   ++S ++    +G  FV
+Sbjct:   115 VSYARPSNDQIKGSNLYVSGIPKSMTLHELESIFRPFGQIITSRILSDNVTGLSKGVGFV 174
+
+Query:    58 IFKEVSSATNALRSMQG 74
+              F +   A  A++++ G
+Sbjct:   175 RFDKKDEADVAIKTLNG 191
+
+ Score = 43 (20.2 bits), Expect = 0.17, Sum P(2) = 0.16
+ Identities = 16/62 (25%), Positives = 26/62 (41%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRL----VPG-RHDIAFVEFDNEVQAGAARDAL 264
+             L+++ +P+      L  +F  F      R+    V G    + FV FD + +A  A   L
+Sbjct:   130 LYVSGIPKSMTLHELESIFRPFGQIITSRILSDNVTGLSKGVGFVRFDKKDEADVAIKTL 189
+
+Query:   265 QG 266
+              G
+Sbjct:   190 NG 191
+
+
+>R06C1.4	CE18119	WBGene00011059	RNA recognition motif. (aka RRM, RBD, or RNP
+         domain)	status:Confirmed	UniProt:O62337	protein_id:CAB03222.1
+        Length = 84
+
+ Score = 76 (31.8 bits), Expect = 0.0013, P = 0.0013
+ Identities = 18/77 (23%), Positives = 38/77 (49%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALR 70
+             ++Y+ N+  +  ++E+  + +A       +  +    + + RG AFV F E + A  A+ 
+Sbjct:     7 SVYVGNVPYQGTEEEIG-NYFAAVGHVNNVRIVYDRETGRPRGFAFVEFSEEAGAQRAVE 65
+
+Query:    71 SMQGFPFYDKPMRIQYA 87
+              + G  F  + +R+ YA
+Sbjct:    66 QLNGVAFNGRNLRVNYA 82
+
+ Score = 65 (27.9 bits), Expect = 0.021, P = 0.021
+ Identities = 22/78 (28%), Positives = 35/78 (44%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLV----PGR-HDIAFVEFDNEVQAGAARDAL 264
+             +++ N+P +  E  +   F        VR+V     GR    AFVEF  E  A  A + L
+Sbjct:     8 VYVGNVPYQGTEEEIGNYFAAVGHVNNVRIVYDRETGRPRGFAFVEFSEEAGAQRAVEQL 67
+
+Query:   265 QGFKITQNNAMKISFAKK 282
+              G      N +++++A K
+Sbjct:    68 NGVAFNGRN-LRVNYANK 84
+
+
+>R09B3.3	CE16308	WBGene00011156	RNA recognition motif. (aka RRM, RBD, or RNP
+         domain)	status:Confirmed	UniProt:O45713	protein_id:CAB03237.1
+        Length = 85
+
+ Score = 75 (31.5 bits), Expect = 0.0017, P = 0.0017
+ Identities = 23/81 (28%), Positives = 41/81 (50%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILV--SRSL-KMRGQAFVIFKEVSSATN 67
+             ++Y+ N   +  +D+L    Y  FSQ G + ++ +   R   + RG AFV F E ++A  
+Sbjct:     5 SVYVGNAPFQTTEDDLGN--Y--FSQAGNVSNVRIVCDRETGRPRGFAFVEFTEEAAAQR 60
+
+Query:    68 ALRSMQGFPFYDKPMRIQYAK 88
+             A+    G  F  + +R+  A+
+Sbjct:    61 AVDQFNGVDFNGRALRVNLAQ 81
+
+ Score = 72 (30.4 bits), Expect = 0.0036, P = 0.0036
+ Identities = 24/77 (31%), Positives = 35/77 (45%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLV----PGR-HDIAFVEFDNEVQAGAARDAL 264
+             +++ N P +T E  L   F+Q      VR+V     GR    AFVEF  E  A  A D  
+Sbjct:     6 VYVGNAPFQTTEDDLGNYFSQAGNVSNVRIVCDRETGRPRGFAFVEFTEEAAAQRAVDQF 65
+
+Query:   265 QGFKITQNNAMKISFAK 281
+              G       A++++ A+
+Sbjct:    66 NGVDFN-GRALRVNLAQ 81
+
+
+>T01D1.2d	CE41583	WBGene00001340	locus:etr-1	status:Confirmed	UniProt:A8DYS3
+          protein_id:ABV68948.1
+        Length = 535
+
+ Score = 82 (33.9 bits), Expect = 0.0024, Sum P(2) = 0.0024
+ Identities = 25/70 (35%), Positives = 36/70 (51%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKEV 62
+             E R    ++I  L++K  ++ L++    IF++FG I D  V R    K RG AFV F   
+Sbjct:   137 ENRNERKLFIGQLSKKHNEENLRE----IFAKFGHIEDCSVLRDQDGKSRGCAFVTFTNR 192
+
+Query:    63 SSATNALRSM 72
+             S A  A + M
+Sbjct:   193 SCAVVATKEM 202
+
+ Score = 73 (30.8 bits), Expect = 1.2, P = 0.70
+ Identities = 19/60 (31%), Positives = 32/60 (53%)
+
+Query:    34 FSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD 90
+             F+ FG IL   + + +   + +   FV ++   SATNA+ +M GF    K +++Q  K D
+Sbjct:   470 FAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSATNAISAMNGFQIGSKRLKVQL-KVD 528
+
+ Score = 54 (24.1 bits), Expect = 0.0024, Sum P(2) = 0.0024
+ Identities = 18/72 (25%), Positives = 31/72 (43%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDNEVQA 257
+             + P    LF+ +LP++  +  L   F  F G    ++   +         FV ++N   A
+Sbjct:   445 KGPDGANLFIYHLPQDFGDSDLINTFAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSA 504
+
+Query:   258 GAARDALQGFKI 269
+               A  A+ GF+I
+Sbjct:   505 TNAISAMNGFQI 516
+
+
+>Y106G6H.2b	CE36227	WBGene00003902	locus:pab-1	status:Partially_confirmed
+            UniProt:Q7K798	protein_id:CAE54916.1
+        Length = 583
+
+ Score = 97 (39.2 bits), Expect = 0.0024, P = 0.0024
+ Identities = 24/93 (25%), Positives = 45/93 (48%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             +Y+ NL+E +  D LKK     F  +G I    ++   + + +G  FV F++   AT+A+
+Sbjct:   256 LYVKNLDETVDDDGLKKQ----FESYGNITSAKVMTDENGRSKGFGFVCFEKPEEATSAV 311
+
+Query:    70 RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+               M       KP+ +  A+   D  A++   ++
+Sbjct:   312 TEMNSKMVCSKPLYVAIAQRKEDRRAQLASQYM 344
+
+ Score = 80 (33.2 bits), Expect = 0.22, P = 0.19
+ Identities = 22/65 (33%), Positives = 34/65 (52%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             I+I NL++ I      KS+Y  FS FG IL   + +      +G  FV F+   +A NA+
+Sbjct:    59 IFIKNLDKVIDN----KSIYDTFSLFGNILSCKVAIDEDGFSKGYGFVHFETEEAAQNAI 114
+
+Query:    70 RSMQG 74
+             + + G
+Sbjct:   115 QKVNG 119
+
+ Score = 68 (29.0 bits), Expect = 4.9, P = 0.992
+ Identities = 24/98 (24%), Positives = 46/98 (46%)
+
+Query:     5 ETRPNHT-IYINNLNEKIKKDELKKSLYAIFSQFGQILDI-LVSRSLKMRGQAFVIFKEV 62
+             ET    T +Y+ N  +   K+ L+K    +F++FG I    +++   K +G  FV F   
+Sbjct:   144 ETAKQFTNVYVKNFGDHYNKETLEK----LFAKFGNITSCEVMTVEGKSKGFGFVAFANP 199
+
+Query:    63 SSATNALRSMQGFPFY--DKPMRIQYAKTDSDIIAKMK 98
+               A  A++++        D  + +  A+  S+  A++K
+Sbjct:   200 EEAETAVQALHDSTIEGTDLKLHVCRAQKKSERHAELK 237
+
+
+>Y106G6H.2c	CE36228	WBGene00003902	locus:pab-1	status:Confirmed	UniProt:Q7K797
+            protein_id:CAE54917.1
+        Length = 586
+
+ Score = 97 (39.2 bits), Expect = 0.0024, P = 0.0024
+ Identities = 24/93 (25%), Positives = 45/93 (48%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             +Y+ NL+E +  D LKK     F  +G I    ++   + + +G  FV F++   AT+A+
+Sbjct:   259 LYVKNLDETVDDDGLKKQ----FESYGNITSAKVMTDENGRSKGFGFVCFEKPEEATSAV 314
+
+Query:    70 RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+               M       KP+ +  A+   D  A++   ++
+Sbjct:   315 TEMNSKMVCSKPLYVAIAQRKEDRRAQLASQYM 347
+
+ Score = 86 (35.3 bits), Expect = 0.045, P = 0.044
+ Identities = 24/83 (28%), Positives = 43/83 (51%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMR---GQAFVIFKEVSSATN 67
+             ++Y+ +L+  + +      L+  FS  G +L I V R    R   G A+V F++ + A  
+Sbjct:    33 SLYVGDLHPDVNES----ILFEKFSAAGPVLSIRVCRDNATRLSLGYAYVNFQQPADAER 88
+
+Query:    68 ALRSMQGFPFYDKPMRIQYAKTD 90
+             A+ +M     + KPMRI +++ D
+Sbjct:    89 AMDTMNFEALHGKPMRIMWSQRD 111
+
+ Score = 68 (29.0 bits), Expect = 4.9, P = 0.993
+ Identities = 24/98 (24%), Positives = 46/98 (46%)
+
+Query:     5 ETRPNHT-IYINNLNEKIKKDELKKSLYAIFSQFGQILDI-LVSRSLKMRGQAFVIFKEV 62
+             ET    T +Y+ N  +   K+ L+K    +F++FG I    +++   K +G  FV F   
+Sbjct:   147 ETAKQFTNVYVKNFGDHYNKETLEK----LFAKFGNITSCEVMTVEGKSKGFGFVAFANP 202
+
+Query:    63 SSATNALRSMQGFPFY--DKPMRIQYAKTDSDIIAKMK 98
+               A  A++++        D  + +  A+  S+  A++K
+Sbjct:   203 EEAETAVQALHDSTIEGTDLKLHVCRAQKKSERHAELK 240
+
+
+>Y106G6H.2a	CE20412	WBGene00003902	locus:pab-1	RNA recognition motif. (aka RRM,
+            RBD, or RNP domain) \; Poly-adenylate binding protein, unique
+            domain.	status:Confirmed	UniProt:Q9U302	protein_id:CAA21572.1
+        Length = 646
+
+ Score = 97 (39.2 bits), Expect = 0.0028, P = 0.0028
+ Identities = 24/93 (25%), Positives = 45/93 (48%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             +Y+ NL+E +  D LKK     F  +G I    ++   + + +G  FV F++   AT+A+
+Sbjct:   319 LYVKNLDETVDDDGLKKQ----FESYGNITSAKVMTDENGRSKGFGFVCFEKPEEATSAV 374
+
+Query:    70 RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+               M       KP+ +  A+   D  A++   ++
+Sbjct:   375 TEMNSKMVCSKPLYVAIAQRKEDRRAQLASQYM 407
+
+ Score = 86 (35.3 bits), Expect = 0.051, P = 0.049
+ Identities = 24/83 (28%), Positives = 43/83 (51%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMR---GQAFVIFKEVSSATN 67
+             ++Y+ +L+  + +      L+  FS  G +L I V R    R   G A+V F++ + A  
+Sbjct:    33 SLYVGDLHPDVNES----ILFEKFSAAGPVLSIRVCRDNATRLSLGYAYVNFQQPADAER 88
+
+Query:    68 ALRSMQGFPFYDKPMRIQYAKTD 90
+             A+ +M     + KPMRI +++ D
+Sbjct:    89 AMDTMNFEALHGKPMRIMWSQRD 111
+
+ Score = 80 (33.2 bits), Expect = 0.24, P = 0.22
+ Identities = 22/65 (33%), Positives = 34/65 (52%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             I+I NL++ I      KS+Y  FS FG IL   + +      +G  FV F+   +A NA+
+Sbjct:   122 IFIKNLDKVIDN----KSIYDTFSLFGNILSCKVAIDEDGFSKGYGFVHFETEEAAQNAI 177
+
+Query:    70 RSMQG 74
+             + + G
+Sbjct:   178 QKVNG 182
+
+ Score = 68 (29.0 bits), Expect = 5.5, P = 0.996
+ Identities = 24/98 (24%), Positives = 46/98 (46%)
+
+Query:     5 ETRPNHT-IYINNLNEKIKKDELKKSLYAIFSQFGQILDI-LVSRSLKMRGQAFVIFKEV 62
+             ET    T +Y+ N  +   K+ L+K    +F++FG I    +++   K +G  FV F   
+Sbjct:   207 ETAKQFTNVYVKNFGDHYNKETLEK----LFAKFGNITSCEVMTVEGKSKGFGFVAFANP 262
+
+Query:    63 SSATNALRSMQGFPFY--DKPMRIQYAKTDSDIIAKMK 98
+               A  A++++        D  + +  A+  S+  A++K
+Sbjct:   263 EEAETAVQALHDSTIEGTDLKLHVCRAQKKSERHAELK 300
+
+
+>F56A8.6	CE16126	WBGene00000774	locus:cpf-2	RNA recognition motif. (aka RRM,
+         RBD, or RNP domain)	status:Confirmed	UniProt:O45577
+         protein_id:CAB05746.1
+        Length = 336
+
+ Score = 90 (36.7 bits), Expect = 0.0073, P = 0.0072
+ Identities = 21/88 (23%), Positives = 47/88 (53%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILV--SRSL-KMRGQAFVIF 59
+             V   R   ++++ N++  + +D ++    +IFS+ G +L I +   R   K +G  F+ F
+Sbjct:    11 VGNDRSQRSVFVGNISYDVSEDTIR----SIFSKAGNVLSIKMVHDRETGKPKGYGFIEF 66
+
+Query:    60 KEVSSATNALRSMQGFPFYDKPMRIQYA 87
+              ++ +A  A+R++ G+    + +R+  A
+Sbjct:    67 PDIQTAEVAIRNLNGYELSGRILRVDSA 94
+
+
+>C08B11.5	CE36374	WBGene00004723	locus:sap-49	Poly(A) RNA binding protein
+          status:Confirmed	UniProt:Q09442	protein_id:CAB60993.2
+        Length = 388
+
+ Score = 88 (36.0 bits), Expect = 0.015, P = 0.015
+ Identities = 28/85 (32%), Positives = 45/85 (52%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDI-LVSRSLKM---RGQAFVIFKEVSSATN 67
+             I++ NL+ ++  DE  K LY  FS FG IL +  + R +     +G AF+ F    ++  
+Sbjct:   102 IFVGNLDPEV--DE--KLLYDTFSAFGVILQVPKIMRDVDSGTSKGFAFINFASFEASDT 157
+
+Query:    68 ALRSMQGFPFYDKPMRIQYA-KTDS 91
+             AL +M G    ++ + + YA K DS
+Sbjct:   158 ALEAMNGQFLCNRAITVSYAFKRDS 182
+
+ Score = 71 (30.1 bits), Expect = 1.3, P = 0.74
+ Identities = 20/88 (22%), Positives = 41/88 (46%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIF 59
+             + E   + TIY+  L+EK+ +      L+ +  Q G ++ + + +   +   +G  FV F
+Sbjct:     6 IVERNQDATIYVGGLDEKVSES----ILWELMVQAGPVVSVNMPKDRVTANHQGFGFVEF 61
+
+Query:    60 KEVSSATNALRSMQGFPFYDKPMRIQYA 87
+                  A  A++ +     Y KP+++  A
+Sbjct:    62 MGEEDADYAIKILNMIKLYGKPIKVNKA 89
+
+
+>C18A3.5f	CE32131	WBGene00015943	status:Confirmed	UniProt:Q8IG49
+          protein_id:AAN63457.1
+        Length = 295
+
+ Score = 86 (35.3 bits), Expect = 0.017, P = 0.017
+ Identities = 23/81 (28%), Positives = 42/81 (51%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N ++Y+ N+   + +DE+++     F+ FG+I ++   R  KM+G AFV F    +A  A
+Sbjct:   127 NTSVYVGNI-ASLTEDEIRQG----FASFGRITEV---RIFKMQGYAFVKFDNKDAAAKA 178
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKT 89
+             +  M       + +R  + KT
+Sbjct:   179 IVQMNNQDVGGQLVRCSWGKT 199
+
+ Score = 71 (30.1 bits), Expect = 0.062, Sum P(2) = 0.060
+ Identities = 19/75 (25%), Positives = 37/75 (49%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIF 59
+             +  TR  H +++ +L+ ++   +L+++    F  FG + D  V R   + K +G  FV +
+Sbjct:    16 IDTTRHFH-VFVGDLSSEVDNQKLREA----FQPFGDVSDAKVIRDTNTTKSKGYGFVSY 70
+
+Query:    60 KEVSSATNALRSMQG 74
+              +   A  A+  M G
+Sbjct:    71 PKREEAERAIEQMNG 85
+
+ Score = 46 (21.3 bits), Expect = 0.062, Sum P(2) = 0.060
+ Identities = 16/54 (29%), Positives = 25/54 (46%)
+
+Query:   207 NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA 260
+             N  +++ N+   T +  +   F  F    EVR+       AFV+FDN+  A  A
+Sbjct:   127 NTSVYVGNIASLTED-EIRQGFASFGRITEVRIFK-MQGYAFVKFDNKDAAAKA 178
+
+
+>C18A3.5e	CE32130	WBGene00015943	status:Confirmed	UniProt:Q8IG50
+          protein_id:AAN63456.1
+        Length = 305
+
+ Score = 86 (35.3 bits), Expect = 0.018, P = 0.018
+ Identities = 23/81 (28%), Positives = 42/81 (51%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N ++Y+ N+   + +DE+++     F+ FG+I ++   R  KM+G AFV F    +A  A
+Sbjct:   137 NTSVYVGNI-ASLTEDEIRQG----FASFGRITEV---RIFKMQGYAFVKFDNKDAAAKA 188
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKT 89
+             +  M       + +R  + KT
+Sbjct:   189 IVQMNNQDVGGQLVRCSWGKT 209
+
+ Score = 71 (30.1 bits), Expect = 0.068, Sum P(2) = 0.066
+ Identities = 19/75 (25%), Positives = 37/75 (49%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIF 59
+             +  TR  H +++ +L+ ++   +L+++    F  FG + D  V R   + K +G  FV +
+Sbjct:    26 IDTTRHFH-VFVGDLSSEVDNQKLREA----FQPFGDVSDAKVIRDTNTTKSKGYGFVSY 80
+
+Query:    60 KEVSSATNALRSMQG 74
+              +   A  A+  M G
+Sbjct:    81 PKREEAERAIEQMNG 95
+
+ Score = 46 (21.3 bits), Expect = 0.068, Sum P(2) = 0.066
+ Identities = 16/54 (29%), Positives = 25/54 (46%)
+
+Query:   207 NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA 260
+             N  +++ N+   T +  +   F  F    EVR+       AFV+FDN+  A  A
+Sbjct:   137 NTSVYVGNIASLTED-EIRQGFASFGRITEVRIFK-MQGYAFVKFDNKDAAAKA 188
+
+
+>F18H3.3b	CE03230	WBGene00003903	locus:pab-2	RNA recognition motif. (aka RRM,
+          RBD, or RNP domain) (4 domains)	status:Partially_confirmed
+          UniProt:Q19581	protein_id:CAA90446.1
+        Length = 566
+
+ Score = 89 (36.4 bits), Expect = 0.020, P = 0.019
+ Identities = 24/93 (25%), Positives = 44/93 (47%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             +Y+ N+ E +  D L+      FS FG I    ++V  + + +G  FV F++   AT A+
+Sbjct:   345 LYVKNIEEDLNDDGLRDH----FSSFGTITSAKVMVDENGRSKGFGFVCFEKPEEATAAV 400
+
+Query:    70 RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+               M       KP+ +  A+   D  A++   ++
+Sbjct:   401 TDMNSKMIGAKPLYVALAQRKEDRRAQLASQYM 433
+
+ Score = 86 (35.3 bits), Expect = 0.043, P = 0.042
+ Identities = 25/83 (30%), Positives = 43/83 (51%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMR---GQAFVIFKEVSSATN 67
+             ++YI +L+  + +      L+  FS  G +L I V R    R   G A+V F++ + A  
+Sbjct:    58 SLYIGDLHPDVSE----AMLFEKFSMAGPVLSIRVCRDNTSRLSLGYAYVNFQQPADAER 113
+
+Query:    68 ALRSMQGFPFYDKPMRIQYAKTD 90
+             AL +M     + +PMRI +++ D
+Sbjct:   114 ALDTMNFEVIHGRPMRIMWSQRD 136
+
+ Score = 84 (34.6 bits), Expect = 0.073, P = 0.071
+ Identities = 26/78 (33%), Positives = 37/78 (47%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLK--MRGQAFVIFKEVSSAT 66
+             N  I+I NL+  I      KS+Y  FS FG IL   V+   +   +G  FV F+   SA 
+Sbjct:   144 NGNIFIKNLDRVIDN----KSVYDTFSLFGNILSCKVATDDEGNSKGYGFVHFETEHSAQ 199
+
+Query:    67 NALRSMQGFPFYDKPMRI 84
+              A+  + G    DK + +
+Sbjct:   200 TAIEKVNGMLLSDKKVYV 217
+
+ Score = 68 (29.0 bits), Expect = 4.7, P = 0.991
+ Identities = 17/63 (26%), Positives = 33/63 (52%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL--KMRGQAFVIFKEVSSATNAL 69
+             +++ N  E + +++L     A+FS+FG+I   +V      K +G  FV F +  +A  A+
+Sbjct:   240 VFVKNFGEHLDQEKLS----AMFSKFGEITSAVVMTDAQGKPKGFGFVAFADQDAAGQAV 295
+
+Query:    70 RSM 72
+               +
+Sbjct:   296 EKL 298
+
+
+>C18A3.5b	CE27709	WBGene00015943	status:Confirmed	UniProt:Q95QV7
+          protein_id:AAK68192.1
+        Length = 376
+
+ Score = 86 (35.3 bits), Expect = 0.025, P = 0.025
+ Identities = 23/81 (28%), Positives = 42/81 (51%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N ++Y+ N+   + +DE+++     F+ FG+I ++   R  KM+G AFV F    +A  A
+Sbjct:   208 NTSVYVGNI-ASLTEDEIRQG----FASFGRITEV---RIFKMQGYAFVKFDNKDAAAKA 259
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKT 89
+             +  M       + +R  + KT
+Sbjct:   260 IVQMNNQDVGGQLVRCSWGKT 280
+
+ Score = 71 (30.1 bits), Expect = 0.12, Sum P(2) = 0.11
+ Identities = 19/75 (25%), Positives = 37/75 (49%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIF 59
+             +  TR  H +++ +L+ ++   +L+++    F  FG + D  V R   + K +G  FV +
+Sbjct:    97 IDTTRHFH-VFVGDLSSEVDNQKLREA----FQPFGDVSDAKVIRDTNTTKSKGYGFVSY 151
+
+Query:    60 KEVSSATNALRSMQG 74
+              +   A  A+  M G
+Sbjct:   152 PKREEAERAIEQMNG 166
+
+ Score = 46 (21.3 bits), Expect = 0.12, Sum P(2) = 0.11
+ Identities = 16/54 (29%), Positives = 25/54 (46%)
+
+Query:   207 NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA 260
+             N  +++ N+   T +  +   F  F    EVR+       AFV+FDN+  A  A
+Sbjct:   208 NTSVYVGNIASLTED-EIRQGFASFGRITEVRIFK-MQGYAFVKFDNKDAAAKA 259
+
+
+>F18H3.3a	CE02193	WBGene00003903	locus:pab-2	poly-adenylate binding protein
+          status:Confirmed	UniProt:Q19579	protein_id:CAA90444.1
+        Length = 692
+
+ Score = 89 (36.4 bits), Expect = 0.025, P = 0.025
+ Identities = 24/93 (25%), Positives = 44/93 (47%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILD--ILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             +Y+ N+ E +  D L+      FS FG I    ++V  + + +G  FV F++   AT A+
+Sbjct:   345 LYVKNIEEDLNDDGLRDH----FSSFGTITSAKVMVDENGRSKGFGFVCFEKPEEATAAV 400
+
+Query:    70 RSMQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+               M       KP+ +  A+   D  A++   ++
+Sbjct:   401 TDMNSKMIGAKPLYVALAQRKEDRRAQLASQYM 433
+
+ Score = 86 (35.3 bits), Expect = 0.055, P = 0.054
+ Identities = 25/83 (30%), Positives = 43/83 (51%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMR---GQAFVIFKEVSSATN 67
+             ++YI +L+  + +      L+  FS  G +L I V R    R   G A+V F++ + A  
+Sbjct:    58 SLYIGDLHPDVSE----AMLFEKFSMAGPVLSIRVCRDNTSRLSLGYAYVNFQQPADAER 113
+
+Query:    68 ALRSMQGFPFYDKPMRIQYAKTD 90
+             AL +M     + +PMRI +++ D
+Sbjct:   114 ALDTMNFEVIHGRPMRIMWSQRD 136
+
+ Score = 84 (34.6 bits), Expect = 0.094, P = 0.089
+ Identities = 26/78 (33%), Positives = 37/78 (47%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLK--MRGQAFVIFKEVSSAT 66
+             N  I+I NL+  I      KS+Y  FS FG IL   V+   +   +G  FV F+   SA 
+Sbjct:   144 NGNIFIKNLDRVIDN----KSVYDTFSLFGNILSCKVATDDEGNSKGYGFVHFETEHSAQ 199
+
+Query:    67 NALRSMQGFPFYDKPMRI 84
+              A+  + G    DK + +
+Sbjct:   200 TAIEKVNGMLLSDKKVYV 217
+
+
+>C33H5.12c	CE29698	WBGene00004703	locus:rsp-6	status:Confirmed	UniProt:Q18409
+           protein_id:AAL32214.1
+        Length = 118
+
+ Score = 75 (31.5 bits), Expect = 0.026, P = 0.026
+ Identities = 20/63 (31%), Positives = 35/63 (55%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +Y+  L       EL++    IF +FG+I  + V+R  +  G AFV + +V  A +A+R+
+Sbjct:     5 VYVGGLPSDATSQELEE----IFDRFGRIRKVWVAR--RPPGFAFVEYDDVRDAEDAVRA 58
+
+Query:    72 MQG 74
+             + G
+Sbjct:    59 LDG 61
+
+ Score = 63 (27.2 bits), Expect = 1.2, P = 0.68
+ Identities = 17/60 (28%), Positives = 30/60 (50%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI 269
+             +++  LP +     L  +F++F   ++V +       AFVE+D+   A  A  AL G +I
+Sbjct:     5 VYVGGLPSDATSQELEEIFDRFGRIRKVWVARRPPGFAFVEYDDVRDAEDAVRALDGSRI 64
+
+
+>C18A3.5a	CE27708	WBGene00015943	RNA binding protein	status:Confirmed
+          UniProt:Q95QV8	protein_id:AAK68191.1
+        Length = 408
+
+ Score = 86 (35.3 bits), Expect = 0.028, P = 0.028
+ Identities = 23/81 (28%), Positives = 42/81 (51%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N ++Y+ N+   + +DE+++     F+ FG+I ++   R  KM+G AFV F    +A  A
+Sbjct:   240 NTSVYVGNI-ASLTEDEIRQG----FASFGRITEV---RIFKMQGYAFVKFDNKDAAAKA 291
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKT 89
+             +  M       + +R  + KT
+Sbjct:   292 IVQMNNQDVGGQLVRCSWGKT 312
+
+ Score = 78 (32.5 bits), Expect = 0.23, P = 0.21
+ Identities = 23/81 (28%), Positives = 41/81 (50%)
+
+Query:   202 SENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV-PGRHD-IAFVEFDNEVQAGA 259
+             S+ P    L++ NL     E  ++ LFNQ     + +++  G +D  AFVEF +  QA  
+Sbjct:    42 SDEP--RTLYVGNLDSTVTEDFIATLFNQIGSVTKTKVIFDGSNDPYAFVEFSDHGQASQ 99
+
+Query:   260 ARDALQGFKITQNNAMKISFA 280
+             A   +   ++  +  MK+++A
+Sbjct:   100 ALQTMNK-RLLLDREMKVNWA 119
+
+ Score = 75 (31.5 bits), Expect = 0.051, Sum P(2) = 0.050
+ Identities = 20/77 (25%), Positives = 37/77 (48%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALR 70
+             T+Y+ NL+  + +D +      +F+Q G +    V         AFV F +   A+ AL+
+Sbjct:    47 TLYVGNLDSTVTEDFIA----TLFNQIGSVTKTKVIFDGSNDPYAFVEFSDHGQASQALQ 102
+
+Query:    71 SMQGFPFYDKPMRIQYA 87
+             +M      D+ M++ +A
+Sbjct:   103 TMNKRLLLDREMKVNWA 119
+
+ Score = 71 (30.1 bits), Expect = 0.14, Sum P(2) = 0.13
+ Identities = 19/75 (25%), Positives = 37/75 (49%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIF 59
+             +  TR  H +++ +L+ ++   +L+++    F  FG + D  V R   + K +G  FV +
+Sbjct:   129 IDTTRHFH-VFVGDLSSEVDNQKLREA----FQPFGDVSDAKVIRDTNTTKSKGYGFVSY 183
+
+Query:    60 KEVSSATNALRSMQG 74
+              +   A  A+  M G
+Sbjct:   184 PKREEAERAIEQMNG 198
+
+ Score = 46 (21.3 bits), Expect = 0.051, Sum P(2) = 0.050
+ Identities = 16/54 (29%), Positives = 25/54 (46%)
+
+Query:   207 NHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAA 260
+             N  +++ N+   T +  +   F  F    EVR+       AFV+FDN+  A  A
+Sbjct:   240 NTSVYVGNIASLTED-EIRQGFASFGRITEVRIFK-MQGYAFVKFDNKDAAAKA 291
+
+
+>Y46G5A.13	CE21988	WBGene00012904	status:Partially_confirmed	UniProt:Q9U2F5
+           protein_id:CAB60356.1
+        Length = 434
+
+ Score = 85 (35.0 bits), Expect = 0.039, P = 0.039
+ Identities = 24/84 (28%), Positives = 46/84 (54%)
+
+Query:     9 NHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             N ++Y+ N+   + +DE++++    F +FG I ++   R+ K++G AFV F+   SA  A
+Sbjct:   255 NTSVYVGNI-ANLGEDEIRRA----FDRFGPINEV---RTFKIQGYAFVKFETKESAARA 306
+
+Query:    69 LRSMQGFPFYDKPMRIQYAKT-DS 91
+             +  M       + +R  + K+ DS
+Sbjct:   307 IVQMNNADIGGQIVRCSWGKSGDS 330
+
+ Score = 82 (33.9 bits), Expect = 0.087, P = 0.083
+ Identities = 28/82 (34%), Positives = 45/82 (54%)
+
+Query:   202 SENPPNHILFLTNL-PEETNELMLSMLFNQFPGFKEVRLV-PGRHD-IAFVEFDNEVQAG 258
+             SE+P    LF+ NL P  T+E  L+ LFNQ     + +++  G +D  AFVEF +  QA 
+Sbjct:    36 SEDP--RTLFVANLDPAITDEF-LATLFNQIGAVMKAKIIFEGLNDPYAFVEFSDHNQAT 92
+
+Query:   259 AARDALQGFKITQNNAMKISFA 280
+              A  +  G ++ +   M +++A
+Sbjct:    93 LALQSHNGRELLEKE-MHVTWA 113
+
+ Score = 74 (31.1 bits), Expect = 0.71, P = 0.51
+ Identities = 24/78 (30%), Positives = 40/78 (51%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDI-LVSRSLKMRGQAFVIFKEVSSATNAL 69
+             T+++ NL+  I  DE    L  +F+Q G ++   ++   L     AFV F + + AT AL
+Sbjct:    41 TLFVANLDPAIT-DEF---LATLFNQIGAVMKAKIIFEGLN-DPYAFVEFSDHNQATLAL 95
+
+Query:    70 RSMQGFPFYDKPMRIQYA 87
+             +S  G    +K M + +A
+Sbjct:    96 QSHNGRELLEKEMHVTWA 113
+
+ Score = 70 (29.7 bits), Expect = 2.0, P = 0.87
+ Identities = 23/94 (24%), Positives = 45/94 (47%)
+
+Query:     4 PETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIFK 60
+             PET  +  +++ +L  +I   +L+++    F +FG++ +  + R   + K +G  FV + 
+Sbjct:   126 PETSRHFHVFVGDLCSEIDSTKLREA----FVKFGEVSEAKIIRDNNTNKGKGYGFVSYP 181
+
+Query:    61 EVSSATNALRSMQGFPFYDKPMRIQYA--KTDSD 92
+                 A  A+  M G     + +R  +A  K D D
+Sbjct:   182 RREDAERAIDEMNGAWLGRRTIRTNWATRKPDED 215
+
+
+>C30B5.4	CE02523	WBGene00016245	Probable RNA binding protein	status:Confirmed
+         UniProt:Q18318	protein_id:AAK31468.1
+        Length = 302
+
+ Score = 83 (34.3 bits), Expect = 0.039, P = 0.039
+ Identities = 20/80 (25%), Positives = 44/80 (55%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSL---KMRGQAFVIFKEVSSATNA 68
+             IYI  L+  + + ++     A+FSQ+G++++I + R     K +G AF+ +K+  S   A
+Sbjct:    40 IYIGGLSYALSEGDV----IAVFSQYGEVMNINLIRDKDTGKSKGFAFLCYKDQRSTILA 95
+
+Query:    69 LRSMQGFPFYDKPMRIQYAK 88
+             + +  G   + + +R+ + +
+Sbjct:    96 VDNFNGISLHKRMIRVDHVE 115
+
+
+>D2089.1a	CE03111	WBGene00004704	locus:rsp-7	RNA binding protein
+          status:Confirmed	UniProt:O01159	protein_id:CAA90135.2
+        Length = 452
+
+ Score = 85 (35.0 bits), Expect = 0.042, P = 0.041
+ Identities = 24/88 (27%), Positives = 51/88 (57%)
+
+Query:     3 VPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMR--GQAFVIFK 60
+             V E R   T+Y+ NL + +  +E+ + L+ ++  FG+++   ++          A+V F 
+Sbjct:   158 VEEIR--RTVYVGNLPKGVDGNEVLE-LFNMY--FGEVMYARMASGPDALPCAYAYVEFS 212
+
+Query:    61 EVSSATNALRSMQGFPFYDKPMRIQYAK 88
+             + +S  NAL++  GF F ++P++IQ+++
+Sbjct:   213 QQASVCNALQN-DGFEFKERPLKIQHSR 239
+
+
+>F25B5.7d	CE32391	WBGene00017778	locus:psf-1	status:Partially_confirmed
+          UniProt:Q8I7K5	protein_id:AAN63408.1
+        Length = 374
+
+ Score = 84 (34.6 bits), Expect = 0.042, P = 0.041
+ Identities = 23/71 (32%), Positives = 35/71 (49%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI 269
+             LF+ NLP E  E  L  LF+      E  L  G+   AF+  D    A +A++A+ G +I
+Sbjct:   118 LFVGNLPNEVKETELKELFSPHGDIAECYL-SGK-GFAFLRLDTRAHAESAKEAIDG-RI 174
+
+Query:   270 TQNNAMKISFA 280
+                  +++ FA
+Sbjct:   175 IHGRQVRVRFA 185
+
+ Score = 67 (28.6 bits), Expect = 3.7, P = 0.97
+ Identities = 19/76 (25%), Positives = 41/76 (53%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +++ NL  ++K+ ELK+    +FS  G I +  +S     +G AF+     + A +A  +
+Sbjct:   118 LFVGNLPNEVKETELKE----LFSPHGDIAECYLSG----KGFAFLRLDTRAHAESAKEA 169
+
+Query:    72 MQGFPFYDKPMRIQYA 87
+             + G   + + +R+++A
+Sbjct:   170 IDGRIIHGRQVRVRFA 185
+
+
+>Y116A8C.34a	CE24152	WBGene00000889	locus:cyn-13	status:Confirmed
+            UniProt:Q9U2S6	protein_id:CAB55151.1
+        Length = 331
+
+ Score = 83 (34.3 bits), Expect = 0.046, P = 0.045
+ Identities = 26/88 (29%), Positives = 39/88 (44%)
+
+Query:     4 PETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVS---RSLKMRGQAFVIFK 60
+             P  R   T+Y+    E    D  +K L A F  FG ++ I +     S K RG  FV F 
+Sbjct:     6 PHNR-KRTLYVGGFTE----DVTEKVLMAAFIPFGDVVAISIPMDYESGKHRGFGFVEFD 60
+
+Query:    61 EVSSATNALRSMQGFPFYDKPMRIQYAK 88
+                 A  A+ +M     + K +R+ +A+
+Sbjct:    61 MAEDAAMAIDNMNESELFGKTIRVNFAR 88
+
+
+>B0035.12	CE05167	WBGene00007111	polyadenylate-binding protein like
+          status:Partially_confirmed	UniProt:Q17430	protein_id:CAA97405.1
+        Length = 836
+
+ Score = 72 (30.4 bits), Expect = 0.046, Sum P(2) = 0.045
+ Identities = 23/84 (27%), Positives = 42/84 (50%)
+
+Query:     2 AVPETRPNHTIYINNLNEKIKKDELKKSLYAIFS-QFGQILDILVSRSLKMRGQAFVIFK 60
+             A P T    TI+++NL+    +DE+++++  + S +F +      +  L  RG A+V+ +
+Sbjct:   585 AAPGTEDARTIFVSNLDFTTTEDEIRQAIEGVASIRFAR----KANSDLVHRGFAYVVME 640
+
+Query:    61 EVSSATNALRSMQGFPFYDKPMRI 84
+                 A  AL   +  P   +PM I
+Sbjct:   641 NDQKAQQALLKDR-VPVKGRPMFI 663
+
+ Score = 70 (29.7 bits), Expect = 4.4, P = 0.99
+ Identities = 19/62 (30%), Positives = 34/62 (54%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDI--LVSRSLKMRGQAFVIFKEVSSATNAL 69
+             +++ N++ +   DELK    A+FS+FG +  +  +  +  K +G AFV F   +SA   +
+Sbjct:   685 VFVRNVHFQATDDELK----ALFSKFGTVTSVRRVTHKDGKPKGIAFVDFDTEASAQKCV 740
+
+Query:    70 RS 71
+              S
+Sbjct:   741 AS 742
+
+ Score = 57 (25.1 bits), Expect = 0.046, Sum P(2) = 0.045
+ Identities = 18/52 (34%), Positives = 27/52 (51%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVP---GR-HDIAFVEFDNEVQA 257
+             +F+ N+  +  +  L  LF++F     VR V    G+   IAFV+FD E  A
+Sbjct:   685 VFVRNVHFQATDDELKALFSKFGTVTSVRRVTHKDGKPKGIAFVDFDTEASA 736
+
+
+>F22B5.2	CE02197	WBGene00001230	locus:eif-3.G	RNA binding protein
+         status:Confirmed	UniProt:Q19706	protein_id:CAA90354.1
+        Length = 256
+
+ Score = 80 (33.2 bits), Expect = 0.067, P = 0.065
+ Identities = 18/82 (21%), Positives = 42/82 (51%)
+
+Query:    10 HTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKM---RGQAFVIFKEVSSAT 66
+             +T  + NL +++ +DEL+     +F + G+++ I ++R       +G AFV F+    A 
+Sbjct:   176 NTCRVTNLPQEMNEDELRD----LFGKIGRVIRIFIARDKVTGLPKGFAFVTFESRDDAA 231
+
+Query:    67 NALRSMQGFPFYDKPMRIQYAK 88
+              A+  +     Y   +++++ +
+Sbjct:   232 RAIAELNDIRMYHMVLKVEWTR 253
+
+
+>F25B5.7a	CE42671	WBGene00017778	locus:psf-1	status:Confirmed	UniProt:B3GWA1
+          protein_id:ACD85141.1
+        Length = 562
+
+ Score = 84 (34.6 bits), Expect = 0.073, P = 0.070
+ Identities = 23/71 (32%), Positives = 35/71 (49%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI 269
+             LF+ NLP E  E  L  LF+      E  L  G+   AF+  D    A +A++A+ G +I
+Sbjct:   118 LFVGNLPNEVKETELKELFSPHGDIAECYL-SGK-GFAFLRLDTRAHAESAKEAIDG-RI 174
+
+Query:   270 TQNNAMKISFA 280
+                  +++ FA
+Sbjct:   175 IHGRQVRVRFA 185
+
+ Score = 67 (28.6 bits), Expect = 6.1, P = 0.998
+ Identities = 19/76 (25%), Positives = 41/76 (53%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +++ NL  ++K+ ELK+    +FS  G I +  +S     +G AF+     + A +A  +
+Sbjct:   118 LFVGNLPNEVKETELKE----LFSPHGDIAECYLSG----KGFAFLRLDTRAHAESAKEA 169
+
+Query:    72 MQGFPFYDKPMRIQYA 87
+             + G   + + +R+++A
+Sbjct:   170 IDGRIIHGRQVRVRFA 185
+
+
+>C33H5.12b	CE29697	WBGene00004703	locus:rsp-6	status:Confirmed	UniProt:Q18409
+           protein_id:AAL32213.1
+        Length = 153
+
+ Score = 75 (31.5 bits), Expect = 0.084, P = 0.081
+ Identities = 20/63 (31%), Positives = 35/63 (55%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +Y+  L       EL++    IF +FG+I  + V+R  +  G AFV + +V  A +A+R+
+Sbjct:     5 VYVGGLPSDATSQELEE----IFDRFGRIRKVWVAR--RPPGFAFVEYDDVRDAEDAVRA 58
+
+Query:    72 MQG 74
+             + G
+Sbjct:    59 LDG 61
+
+ Score = 63 (27.2 bits), Expect = 2.4, P = 0.91
+ Identities = 17/60 (28%), Positives = 30/60 (50%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI 269
+             +++  LP +     L  +F++F   ++V +       AFVE+D+   A  A  AL G +I
+Sbjct:     5 VYVGGLPSDATSQELEEIFDRFGRIRKVWVARRPPGFAFVEYDDVRDAEDAVRALDGSRI 64
+
+
+>Y111B2A.18	CE31089	WBGene00004700	locus:rsp-3	splicing factor	status:Confirmed
+            UniProt:Q9NEW6	protein_id:CAC35847.2
+        Length = 258
+
+ Score = 78 (32.5 bits), Expect = 0.12, P = 0.11
+ Identities = 19/77 (24%), Positives = 45/77 (58%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +Y+ NL   +++ E++     IF ++G+I  + + +S +    AFV F++   A +A+R+
+Sbjct:    11 VYVGNLPGDVREKEVED----IFHKYGRIKYVDI-KSGRGPAFAFVEFEDHRDAEDAVRA 65
+
+Query:    72 MQGFPFYDKPMRIQYAK 88
+               G+ F  + +R+++ +
+Sbjct:    66 RDGYEFDGRRIRVEFTR 82
+
+ Score = 71 (30.1 bits), Expect = 0.74, P = 0.52
+ Identities = 19/73 (26%), Positives = 37/73 (50%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-IAFVEFDNEVQAGAARDALQGFK 268
+             +++ NLP +  E  +  +F+++   K V +  GR    AFVEF++   A  A  A  G++
+Sbjct:    11 VYVGNLPGDVREKEVEDIFHKYGRIKYVDIKSGRGPAFAFVEFEDHRDAEDAVRARDGYE 70
+
+Query:   269 ITQNNAMKISFAK 281
+                   +++ F +
+Sbjct:    71 F-DGRRIRVEFTR 82
+
+
+>C33H5.12a	CE04155	WBGene00004703	locus:rsp-6	RNA binding protein
+           status:Confirmed	UniProt:Q18409	protein_id:AAA82270.1
+        Length = 179
+
+ Score = 75 (31.5 bits), Expect = 0.13, P = 0.12
+ Identities = 20/63 (31%), Positives = 35/63 (55%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +Y+  L       EL++    IF +FG+I  + V+R  +  G AFV + +V  A +A+R+
+Sbjct:     5 VYVGGLPSDATSQELEE----IFDRFGRIRKVWVAR--RPPGFAFVEYDDVRDAEDAVRA 58
+
+Query:    72 MQG 74
+             + G
+Sbjct:    59 LDG 61
+
+ Score = 63 (27.2 bits), Expect = 3.3, P = 0.96
+ Identities = 17/60 (28%), Positives = 30/60 (50%)
+
+Query:   210 LFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHDIAFVEFDNEVQAGAARDALQGFKI 269
+             +++  LP +     L  +F++F   ++V +       AFVE+D+   A  A  AL G +I
+Sbjct:     5 VYVGGLPSDATSQELEEIFDRFGRIRKVWVARRPPGFAFVEYDDVRDAEDAVRALDGSRI 64
+
+
+>Y54H5A.3	CE24459	WBGene00021901	locus:tag-262	status:Confirmed	UniProt:Q9N394
+          protein_id:AAF60781.1
+        Length = 302
+
+ Score = 76 (31.8 bits), Expect = 0.25, P = 0.22
+ Identities = 21/90 (23%), Positives = 45/90 (50%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             ++  +L  ++  DEL    +  +  F +   +  SR+ K +G  FV F++      A+R 
+Sbjct:   205 VFCGDLGNEVS-DELLAKAFRKYPSFQKAKVVRESRTNKSKGYGFVSFRDSEDYVRAMRE 263
+
+Query:    72 MQGFPFYDKPMRIQ---YAKTDSDIIAKMK 98
+             M G    ++P++++   + + + D+I K K
+Sbjct:   264 MDGKYVGNRPIKLRKSAWKERNIDVI-KQK 292
+
+
+>T04A8.6	CE01075	WBGene00011408	ribonuleoprotein	status:Confirmed
+         UniProt:Q22135	protein_id:CAA84724.1
+        Length = 307
+
+ Score = 76 (31.8 bits), Expect = 0.26, P = 0.23
+ Identities = 22/72 (30%), Positives = 38/72 (52%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKM---RGQAFVIFKEVSSATNA 68
+             IY+  + ++I     +K L   F QFG +L I V+R+ +    +G A+V F   + A  A
+Sbjct:    31 IYVVKI-KRIPFGFFEKELLGYFRQFGNVLRIRVARNRRTGNHKGWAYVGFDNKAVAEIA 89
+
+Query:    69 LRSMQGFPFYDK 80
+               SM G+  +++
+Sbjct:    90 AESMNGYLMFEQ 101
+
+
+>C25A1.4	CE08369	WBGene00007706	RNA binding protein	status:Confirmed
+         UniProt:Q9XVS2	protein_id:CAB02757.1
+        Length = 454
+
+ Score = 68 (29.0 bits), Expect = 0.64, Sum P(2) = 0.47
+ Identities = 20/90 (22%), Positives = 41/90 (45%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQI--LDILVSRSLKMRGQAFVIFKEVSSATNAL 69
+             I+I NL   +  D+L    Y +F   G+I  +D  + +  K +G   + +     A  A+
+Sbjct:   190 IFIANLAFNVGTDKL----YEVFGMAGKITWMDFRIDKEGKSKGVCVIQYTHPIEAVQAV 245
+
+Query:    70 RSMQGFPFYDKPMRIQYAKTDSDIIAKMKG 99
+               + G   +D+ + ++  + D ++  K  G
+Sbjct:   246 SMLNGQRLFDRNLVVKMDRFDKELEHKEGG 275
+
+ Score = 44 (20.5 bits), Expect = 0.64, Sum P(2) = 0.47
+ Identities = 19/74 (25%), Positives = 35/74 (47%)
+
+Query:   209 ILFLTNLPEE-TNELMLSMLFNQFPGFKEVRLV-PGRHDIAFVEFDNEVQAGAARDALQG 266
+             ++ + NLP + T +++   + N F     V ++ PG   I F  F +   A  AR AL G
+Sbjct:   386 VIIIRNLPSDYTWQIVRDRVRN-FGEVDSVDMMAPGAARIRFATFQD---AERARAALYG 441
+
+Query:   267 FKITQNNAMKISFA 280
+               + +   + + +A
+Sbjct:   442 STV-EGRMISVDYA 454
+
+
+>T01D1.2b	CE41582	WBGene00001340	locus:etr-1	RNA-binding protein
+          status:Confirmed	UniProt:A8DYR9	protein_id:ABV68947.1
+        Length = 352
+
+ Score = 73 (30.8 bits), Expect = 0.70, P = 0.50
+ Identities = 19/60 (31%), Positives = 32/60 (53%)
+
+Query:    34 FSQFGQILD--ILVSRSLKM-RGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTD 90
+             F+ FG IL   + + +   + +   FV ++   SATNA+ +M GF    K +++Q  K D
+Sbjct:   287 FAPFGGILSAKVFIDKVTNLSKCFGFVSYENAQSATNAISAMNGFQIGSKRLKVQL-KVD 345
+
+
+>F39H2.2b	CE32411	WBGene00000890	locus:sig-7	peptidylprolyl isomerase
+          status:Confirmed	UniProt:Q8I4J2	protein_id:CAD56584.1
+        Length = 358
+
+ Score = 72 (30.4 bits), Expect = 0.93, P = 0.61
+ Identities = 18/56 (32%), Positives = 28/56 (50%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDN 253
+             E PP ++LF+  L   T +  L ++F++F       +V  R        AF+EFDN
+Sbjct:   167 EVPPENVLFVCKLNPVTTDEDLEIIFSRFGKINNCEIVRDRRSGDSLQYAFIEFDN 222
+
+ Score = 65 (27.9 bits), Expect = 5.8, P = 0.997
+ Identities = 22/90 (24%), Positives = 40/90 (44%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQ---AFVIFKE 61
+             E  P + +++  LN  +  DE    L  IFS+FG+I +  + R  +       AF+ F  
+Sbjct:   167 EVPPENVLFVCKLNP-VTTDE---DLEIIFSRFGKINNCEIVRDRRSGDSLQYAFIEFDN 222
+
+Query:    62 VSSATNALRSMQGFPFYDKPMRIQYAKTDS 91
+               S   A   M      D+ + + ++++ S
+Sbjct:   223 AKSCEQAFFKMDNVLIDDRRIHVDFSQSVS 252
+
+
+>T22B2.4b	CE42801	WBGene00006321	locus:sup-12	status:Confirmed	UniProt:B3KM00
+          protein_id:ACF16175.1
+        Length = 151
+
+ Score = 66 (28.3 bits), Expect = 1.0, P = 0.64
+ Identities = 17/46 (36%), Positives = 26/46 (56%)
+
+Query:    28 KSLYAIFSQFGQILD--ILVSRSL-KMRGQAFVIFKEVSSATNALR 70
+             K+L+  F QFG I +  ++  R+  K RG  FV  K+ +SA  A +
+Sbjct:    49 KTLHEYFEQFGDIEEAVVITDRNTQKSRGYGFVTMKDRASAERACK 94
+
+
+>Y47G6A.20a	CE24365	WBGene00004389	locus:rnp-6	RNA-binding protein
+            status:Confirmed	UniProt:Q9N3S3	protein_id:AAF60676.1
+        Length = 339
+
+ Score = 71 (30.1 bits), Expect = 1.1, P = 0.67
+ Identities = 19/101 (18%), Positives = 49/101 (48%)
+
+Query:     1 MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQ---AFV 57
+             M   + +    +Y+++++  + + +LK    ++F  FG+I+   ++R+   RG     ++
+Sbjct:   198 MVQKDAKKYFRVYVSSVHPDLSETDLK----SVFEAFGEIVKCQLARAPTGRGHRGFGYL 253
+
+Query:    58 IFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMK 98
+              F  ++S + A+  M  F    + +R+    T  D +  ++
+Sbjct:   254 EFNNLTSQSEAIAGMNMFDLGGQYLRVGKCVTPPDALTYLQ 294
+
+
+>F39H2.2a	CE32410	WBGene00000890	locus:sig-7	peptidylprolyl isomerase
+          status:Confirmed	UniProt:O18161	protein_id:CAB10726.2
+        Length = 427
+
+ Score = 72 (30.4 bits), Expect = 1.2, P = 0.69
+ Identities = 18/56 (32%), Positives = 28/56 (50%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD-----IAFVEFDN 253
+             E PP ++LF+  L   T +  L ++F++F       +V  R        AF+EFDN
+Sbjct:   236 EVPPENVLFVCKLNPVTTDEDLEIIFSRFGKINNCEIVRDRRSGDSLQYAFIEFDN 291
+
+ Score = 65 (27.9 bits), Expect = 7.3, P = 0.9993
+ Identities = 22/90 (24%), Positives = 40/90 (44%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQ---AFVIFKE 61
+             E  P + +++  LN  +  DE    L  IFS+FG+I +  + R  +       AF+ F  
+Sbjct:   236 EVPPENVLFVCKLNP-VTTDE---DLEIIFSRFGKINNCEIVRDRRSGDSLQYAFIEFDN 291
+
+Query:    62 VSSATNALRSMQGFPFYDKPMRIQYAKTDS 91
+               S   A   M      D+ + + ++++ S
+Sbjct:   292 AKSCEQAFFKMDNVLIDDRRIHVDFSQSVS 321
+
+
+>W02B12.3b	CE32944	WBGene00004698	locus:rsp-1	status:Confirmed	UniProt:Q23121
+           protein_id:CAD59159.1
+        Length = 148
+
+ Score = 65 (27.9 bits), Expect = 1.3, P = 0.72
+ Identities = 21/77 (27%), Positives = 37/77 (48%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             IYI  L  ++ + +++      F  +GQI D+L    LK  G  FV F +   A +A+  
+Sbjct:     5 IYIGRLTSRVSEKDIEH----FFRGYGQIRDVL----LK-NGFGFVEFDDKRDAEDAVHD 55
+
+Query:    72 MQGFPFYDKPMRIQYAK 88
+             + G     + + + Y+K
+Sbjct:    56 LNGKELGGERVILDYSK 72
+
+
+>W02B12.3c	CE32945	WBGene00004698	locus:rsp-1	status:Confirmed	UniProt:Q23121
+           protein_id:CAD59160.1
+        Length = 150
+
+ Score = 65 (27.9 bits), Expect = 1.3, P = 0.73
+ Identities = 21/77 (27%), Positives = 37/77 (48%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             IYI  L  ++ + +++      F  +GQI D+L    LK  G  FV F +   A +A+  
+Sbjct:     5 IYIGRLTSRVSEKDIEH----FFRGYGQIRDVL----LK-NGFGFVEFDDKRDAEDAVHD 55
+
+Query:    72 MQGFPFYDKPMRIQYAK 88
+             + G     + + + Y+K
+Sbjct:    56 LNGKELGGERVILDYSK 72
+
+
+>Y37D8A.21	CE44816	WBGene00012558	RNA recognition motif. (aka RRM, RBD, or RNP
+           domain)	status:Confirmed	UniProt:Q9XWV4	protein_id:CAA21536.2
+        Length = 243
+
+ Score = 68 (29.0 bits), Expect = 1.5, P = 0.78
+ Identities = 22/98 (22%), Positives = 52/98 (53%)
+
+Query:     4 PETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVI--FKE 61
+             PE R   TIY+ N +E++ ++ L++    +F Q G ++ +++ R ++     F +  F++
+Sbjct:    10 PEER---TIYVANFSEEVDEELLEE----LFIQAGPVVKVIL-RDVRDSNAKFALVEFED 61
+
+Query:    62 VSSATNALRSMQGFPFYDKPMRIQYAK-TDSDIIAKMK 98
+               S   A+  M G   +++ ++++    T+ + + K K
+Sbjct:    62 ELSVLFAIELMNGVRLFNQELQVKPRNGTNQEELYKRK 99
+
+ Score = 61 (26.5 bits), Expect = 9.6, P = 0.99993
+ Identities = 19/68 (27%), Positives = 32/68 (47%)
+
+Query:   205 PPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLVPGRHD---IAFVEFDNEVQAGAAR 261
+             P    +++ N  EE +E +L  LF Q     +V L   R      A VEF++E+    A 
+Sbjct:    10 PEERTIYVANFSEEVDEELLEELFIQAGPVVKVILRDVRDSNAKFALVEFEDELSVLFAI 69
+
+Query:   262 DALQGFKI 269
+             + + G ++
+Sbjct:    70 ELMNGVRL 77
+
+
+>ZK616.1	CE45009	WBGene00022771	status:Predicted	UniProt:D0G911
+         protein_id:ACY40021.2
+        Length = 251
+
+ Score = 67 (28.6 bits), Expect = 2.1, P = 0.87
+ Identities = 18/91 (19%), Positives = 41/91 (45%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             +Y+   +  +  ++++  +  + + F   +DI+ + S K RG AFV  + ++ A   L  
+Sbjct:    11 LYVGGFSTNLSSEQIRNLITQLAAPFEVSIDIVENGSRKHRGFAFVQCRSLAEANVLLAK 70
+
+Query:    72 MQGFPFYDKPMRIQYAKTDSDIIAKMKGTFV 102
+               G  F       +  K   ++++ +   FV
+Sbjct:    71 FSGL-FTKVNFAKKEPKPAENVMSNISNVFV 100
+
+
+>F42A6.7a	CE17059	WBGene00001999	locus:hrp-1	RNA-binding protein
+          status:Confirmed	UniProt:Q22037	protein_id:AAB92051.1
+        Length = 346
+
+ Score = 68 (29.0 bits), Expect = 2.5, P = 0.92
+ Identities = 20/62 (32%), Positives = 31/62 (50%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIFKEVSSATNA 68
+             I++  L      D+L +  Y   SQFG+I DI+V R   + + RG  FV F   +    A
+Sbjct:    25 IFVGGLTSNTT-DDLMREFY---SQFGEITDIIVMRDPTTKRSRGFGFVTFSGKTEVDAA 80
+
+Query:    69 LR 70
+             ++
+Sbjct:    81 MK 82
+
+
+>F42A6.7d	CE39251	WBGene00001999	locus:hrp-1	status:Confirmed	UniProt:Q22037
+          protein_id:ABB51186.1
+        Length = 347
+
+ Score = 68 (29.0 bits), Expect = 2.5, P = 0.92
+ Identities = 20/62 (32%), Positives = 31/62 (50%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIFKEVSSATNA 68
+             I++  L      D+L +  Y   SQFG+I DI+V R   + + RG  FV F   +    A
+Sbjct:    25 IFVGGLTSNTT-DDLMREFY---SQFGEITDIIVMRDPTTKRSRGFGFVTFSGKTEVDAA 80
+
+Query:    69 LR 70
+             ++
+Sbjct:    81 MK 82
+
+
+>T22B2.4a	CE13934	WBGene00006321	locus:sup-12	RNA-binding protein
+          status:Confirmed	UniProt:O45189	protein_id:AAC04442.1
+        Length = 248
+
+ Score = 66 (28.3 bits), Expect = 2.6, P = 0.93
+ Identities = 17/46 (36%), Positives = 26/46 (56%)
+
+Query:    28 KSLYAIFSQFGQILD--ILVSRSL-KMRGQAFVIFKEVSSATNALR 70
+             K+L+  F QFG I +  ++  R+  K RG  FV  K+ +SA  A +
+Sbjct:    49 KTLHEYFEQFGDIEEAVVITDRNTQKSRGYGFVTMKDRASAERACK 94
+
+
+>K04G7.10	CE30443	WBGene00004390	locus:rnp-7	SN-RNP U1	status:Confirmed
+          UniProt:Q09584	protein_id:AAA62536.2
+        Length = 332
+
+ Score = 67 (28.6 bits), Expect = 3.1, P = 0.96
+ Identities = 17/83 (20%), Positives = 39/83 (46%)
+
+Query:     8 PNHTIYINNLNEKIKKDELKKSLYAIFSQFGQI--LDILVSRSLKMRGQAFVIFKEVSSA 65
+             P  T+++  +N +  + +L++     F  +G+I  L ++   + K RG AF+ + + +  
+Sbjct:   102 PYRTLFVGRINYETSESKLRRE----FEAYGKIKKLTMVHDEAGKPRGYAFIEYSDKAEM 157
+
+Query:    66 TNALRSMQGFPFYDKPMRIQYAK 88
+               A +   G     K + + Y +
+Sbjct:   158 HTAYKKADGIKVDGKRLVVDYER 180
+
+
+>C44B7.2b	CE25812	WBGene00016624	status:Confirmed	UniProt:Q95QR6
+          protein_id:AAL16321.1
+        Length = 339
+
+ Score = 67 (28.6 bits), Expect = 3.2, P = 0.96
+ Identities = 23/92 (25%), Positives = 40/92 (43%)
+
+Query:     1 MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFK 60
+             M      PN  + +  LN +   D     +Y I +  G++L + V     +  QA V F+
+Sbjct:   112 MGFESATPNKVLVVTVLNAQYPIDA--DVIYQISNAQGKVLRVAVMHKPTVV-QALVEFE 168
+
+Query:    61 EVSSATNALRSMQGFPFYDK--PMRIQYAKTD 90
+              +  A  A  +M G   Y     +++++AK D
+Sbjct:   169 SMEVAKAAKHAMNGADIYSGCCTLKVEFAKPD 200
+
+ Score = 51 (23.0 bits), Expect = 9.7, Sum P(2) = 0.99994
+ Identities = 14/36 (38%), Positives = 20/36 (55%)
+
+Query:   247 AFVEFDNEVQAGAARDALQGFKITQNNA-MKISFAK 281
+             A VEF++   A AA+ A+ G  I      +K+ FAK
+Sbjct:   163 ALVEFESMEVAKAAKHAMNGADIYSGCCTLKVEFAK 198
+
+ Score = 48 (22.0 bits), Expect = 9.7, Sum P(2) = 0.99994
+ Identities = 17/62 (27%), Positives = 32/62 (51%)
+
+Query:     6 TRPNHTI--YINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVS 63
+             T PN +I  ++ NL++K+ + +L ++L    S FG +         +M   A V F+++ 
+Sbjct:    26 TNPNPSIVVHVRNLHQKVTEADLLEAL----SNFGPVAYATCIPHSRM---ALVEFEDIE 78
+
+Query:    64 SA 65
+              A
+Sbjct:    79 GA 80
+
+
+>F29C4.7b	CE31493	WBGene00017929	status:Partially_confirmed	UniProt:Q8MXG5
+          protein_id:AAM98029.1
+        Length = 423
+
+ Score = 68 (29.0 bits), Expect = 3.3, P = 0.96
+ Identities = 19/82 (23%), Positives = 39/82 (47%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKM-RGQAFVIFKEVSSATNAL 69
+             T+++ N+   +K+ E++     +F + G++ ++ +   +      AFV+F+ V  A  A 
+Sbjct:   170 TLFVGNMPSDVKEREIRH----VFEEHGKVEEVDIKTPINTDAAYAFVMFQTVDQAIQAK 225
+
+Query:    70 RSMQGFPFY--DKPMRIQYAKT 89
+                Q  P       M+I Y K+
+Sbjct:   226 AEEQDRPIRAGGSRMKIGYGKS 247
+
+
+>Y47G6A.20b	CE24366	WBGene00004389	locus:rnp-6	RNA-binding protein
+            status:Confirmed	UniProt:Q9N3S4	protein_id:AAF60666.1
+        Length = 749
+
+ Score = 71 (30.1 bits), Expect = 3.5, Sum P(2) = 0.97
+ Identities = 19/101 (18%), Positives = 49/101 (48%)
+
+Query:     1 MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQ---AFV 57
+             M   + +    +Y+++++  + + +LK    ++F  FG+I+   ++R+   RG     ++
+Sbjct:   198 MVQKDAKKYFRVYVSSVHPDLSETDLK----SVFEAFGEIVKCQLARAPTGRGHRGFGYL 253
+
+Query:    58 IFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMK 98
+              F  ++S + A+  M  F    + +R+    T  D +  ++
+Sbjct:   254 EFNNLTSQSEAIAGMNMFDLGGQYLRVGKCVTPPDALTYLQ 294
+
+ Score = 38 (18.4 bits), Expect = 3.5, Sum P(2) = 0.97
+ Identities = 9/29 (31%), Positives = 16/29 (55%)
+
+Query:   248 FVEFDNEVQAGAARDALQGFKITQNNAMK 276
+             FV++ + +Q   A+ AL G +    N +K
+Sbjct:   706 FVKYSDSMQVDRAKAALDG-RFFGGNTVK 733
+
+
+>Y73B6BL.6a	CE29008	WBGene00022235	locus:sqd-1	status:Confirmed	UniProt:Q8MXR6
+            protein_id:AAM44397.1
+        Length = 305
+
+ Score = 66 (28.3 bits), Expect = 3.6, P = 0.97
+ Identities = 19/67 (28%), Positives = 33/67 (49%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDIL--VSRSLKMRGQ-AFVIFKE 61
+             ++R N  +++  L     + +L+      F QFG++ DI     +  K R   AF++F+E
+Sbjct:   105 KSRENKKVFVGGLPSDYSEQDLRSH----FEQFGKVDDIEWPFDKQTKARRNFAFIVFEE 160
+
+Query:    62 VSSATNA 68
+               SA  A
+Sbjct:   161 EESADKA 167
+
+
+>Y73B6BL.6b	CE38662	WBGene00022235	locus:sqd-1	status:Confirmed	UniProt:Q4W5P0
+            protein_id:AAY43984.1
+        Length = 308
+
+ Score = 66 (28.3 bits), Expect = 3.6, P = 0.97
+ Identities = 19/67 (28%), Positives = 33/67 (49%)
+
+Query:     5 ETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDIL--VSRSLKMRGQ-AFVIFKE 61
+             ++R N  +++  L     + +L+      F QFG++ DI     +  K R   AF++F+E
+Sbjct:   105 KSRENKKVFVGGLPSDYSEQDLRSH----FEQFGKVDDIEWPFDKQTKARRNFAFIVFEE 160
+
+Query:    62 VSSATNA 68
+               SA  A
+Sbjct:   161 EESADKA 167
+
+
+>F29C4.7c	CE37226	WBGene00017929	status:Partially_confirmed	UniProt:Q688A7
+          protein_id:AAU05574.1
+        Length = 497
+
+ Score = 68 (29.0 bits), Expect = 4.0, P = 0.98
+ Identities = 19/82 (23%), Positives = 39/82 (47%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKM-RGQAFVIFKEVSSATNAL 69
+             T+++ N+   +K+ E++     +F + G++ ++ +   +      AFV+F+ V  A  A 
+Sbjct:   147 TLFVGNMPSDVKEREIRH----VFEEHGKVEEVDIKTPINTDAAYAFVMFQTVDQAIQAK 202
+
+Query:    70 RSMQGFPFY--DKPMRIQYAKT 89
+                Q  P       M+I Y K+
+Sbjct:   203 AEEQDRPIRAGGSRMKIGYGKS 224
+
+
+>F29C4.7a	CE17724	WBGene00017929	RNA-binding protein	status:Partially_confirmed
+          UniProt:O76366	protein_id:AAC19192.1
+        Length = 520
+
+ Score = 68 (29.0 bits), Expect = 4.3, P = 0.99
+ Identities = 19/82 (23%), Positives = 39/82 (47%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKM-RGQAFVIFKEVSSATNAL 69
+             T+++ N+   +K+ E++     +F + G++ ++ +   +      AFV+F+ V  A  A 
+Sbjct:   170 TLFVGNMPSDVKEREIRH----VFEEHGKVEEVDIKTPINTDAAYAFVMFQTVDQAIQAK 225
+
+Query:    70 RSMQGFPFY--DKPMRIQYAKT 89
+                Q  P       M+I Y K+
+Sbjct:   226 AEEQDRPIRAGGSRMKIGYGKS 247
+
+
+>W02B12.3a	CE03763	WBGene00004698	locus:rsp-1	pre-mRNA splicing factor like
+           protein	status:Confirmed	UniProt:Q23121	protein_id:CAA91395.1
+        Length = 312
+
+ Score = 65 (27.9 bits), Expect = 4.8, P = 0.992
+ Identities = 21/77 (27%), Positives = 37/77 (48%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRS 71
+             IYI  L  ++ + +++      F  +GQI D+L    LK  G  FV F +   A +A+  
+Sbjct:     5 IYIGRLTSRVSEKDIEH----FFRGYGQIRDVL----LK-NGFGFVEFDDKRDAEDAVHD 55
+
+Query:    72 MQGFPFYDKPMRIQYAK 88
+             + G     + + + Y+K
+Sbjct:    56 LNGKELGGERVILDYSK 72
+
+
+>R10E4.2p	CE44587	WBGene00011199	locus:tag-310	status:Confirmed	UniProt:D5MCQ9
+          protein_id:CBK55597.1
+        Length = 293
+
+ Score = 55 (24.4 bits), Expect = 5.0, Sum P(2) = 0.993
+ Identities = 18/68 (26%), Positives = 30/68 (44%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV--PGRHD--IAFVEFDNEVQAG 258
+             ++P N  L++ NLP +  E ML    N+F      R++  P      + F   D++ +  
+Sbjct:   185 QDPTN--LYIANLPLDFTEQMLETELNKFGMVISTRILRTPDNQSRGVGFARMDSKEKCE 242
+
+Query:   259 AARDALQG 266
+                 AL G
+Sbjct:   243 VIISALNG 250
+
+ Score = 45 (20.9 bits), Expect = 5.0, Sum P(2) = 0.993
+ Identities = 15/65 (23%), Positives = 28/65 (43%)
+
+Query:     6 TRPNHT-IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSS 64
+             T P+ T +YI  L      D+L + + + +        I+   +   +G  FV F+   +
+Sbjct:   102 TTPSSTNLYIRGLMPNTN-DDLLREMCSKYGNIASTKAIMDKATNNCKGYGFVDFESPQA 160
+
+Query:    65 ATNAL 69
+             A  A+
+Sbjct:   161 AAAAV 165
+
+
+>F11A10.7	CE28911	WBGene00008688	status:Confirmed	UniProt:Q95QL3
+          protein_id:CAC70081.1
+        Length = 394
+
+ Score = 66 (28.3 bits), Expect = 5.1, P = 0.994
+ Identities = 26/77 (33%), Positives = 40/77 (51%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFS-QFGQILDILVSRSL---KMRGQAFVIFKEVSSATN 67
+             I++ NL  +I +D    +L   FS Q G +  + + R     K +G AFV FK+ SS + 
+Sbjct:   248 IFVGNLPFEITED----ALITFFSAQIGPVEAVRIVRDKDTGKGKGFAFVNFKQDSSVSL 303
+
+Query:    68 ALRSMQGFPFYDKPMRI 84
+             AL SM+      + +RI
+Sbjct:   304 AL-SMETIKMEKRDLRI 319
+
+
+>R10E4.2j	CE44721	WBGene00011199	locus:tag-310	status:Partially_confirmed
+          UniProt:D5MCQ4	protein_id:CBK55592.1
+        Length = 316
+
+ Score = 55 (24.4 bits), Expect = 5.9, Sum P(2) = 0.997
+ Identities = 18/68 (26%), Positives = 30/68 (44%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV--PGRHD--IAFVEFDNEVQAG 258
+             ++P N  L++ NLP +  E ML    N+F      R++  P      + F   D++ +  
+Sbjct:   121 QDPTN--LYIANLPLDFTEQMLETELNKFGMVISTRILRTPDNQSRGVGFARMDSKEKCE 178
+
+Query:   259 AARDALQG 266
+                 AL G
+Sbjct:   179 VIISALNG 186
+
+ Score = 45 (20.9 bits), Expect = 5.9, Sum P(2) = 0.997
+ Identities = 15/67 (22%), Positives = 28/67 (41%)
+
+Query:     5 ETRPNH--TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEV 62
+             + RP H   +YI  L      D+L + + + +        I+   +   +G  FV F+  
+Sbjct:    36 QQRPFHGTNLYIRGLMPNTN-DDLLREMCSKYGNIASTKAIMDKATNNCKGYGFVDFESP 94
+
+Query:    63 SSATNAL 69
+              +A  A+
+Sbjct:    95 QAAAAAV 101
+
+
+>F25B5.7b	CE29284	WBGene00017778	locus:psf-1	status:Confirmed	UniProt:Q95QI9
+          protein_id:AAL02495.1
+        Length = 165
+
+ Score = 60 (26.2 bits), Expect = 6.4, P = 0.998
+ Identities = 16/56 (28%), Positives = 30/56 (53%)
+
+Query:    12 IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATN 67
+             +++ NL  ++K+ ELK+    +FS  G I +  +S      G+ F   + +S+A N
+Sbjct:   118 LFVGNLPNEVKETELKE----LFSPHGDIAECYLS------GKGFAFLRLISNAAN 163
+
+
+>C44B7.2a	CE34752	WBGene00016624	status:Partially_confirmed	UniProt:Q95QR5
+          protein_id:AAL16320.2
+        Length = 597
+
+ Score = 67 (28.6 bits), Expect = 6.6, P = 0.999
+ Identities = 23/92 (25%), Positives = 40/92 (43%)
+
+Query:     1 MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFK 60
+             M      PN  + +  LN +   D     +Y I +  G++L + V     +  QA V F+
+Sbjct:   112 MGFESATPNKVLVVTVLNAQYPIDA--DVIYQISNAQGKVLRVAVMHKPTVV-QALVEFE 168
+
+Query:    61 EVSSATNALRSMQGFPFYDK--PMRIQYAKTD 90
+              +  A  A  +M G   Y     +++++AK D
+Sbjct:   169 SMEVAKAAKHAMNGADIYSGCCTLKVEFAKPD 200
+
+
+>Y47G6A.20c	CE31375	WBGene00004389	locus:rnp-6	status:Confirmed	UniProt:Q8MXS9
+            protein_id:AAM81102.1
+        Length = 346
+
+ Score = 64 (27.6 bits), Expect = 7.2, P = 0.9993
+ Identities = 15/79 (18%), Positives = 40/79 (50%)
+
+Query:     1 MAVPETRPNHTIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFK 60
+             M   + +    +Y+++++  + + +LK    ++F  FG+I+   ++R+   RG     + 
+Sbjct:   198 MVQKDAKKYFRVYVSSVHPDLSETDLK----SVFEAFGEIVKCQLARAPTGRGHRGFGYL 253
+
+Query:    61 EVSSATNALRSMQGFPFYD 79
+             E ++ T+   ++ G   +D
+Sbjct:   254 EFNNLTSQSEAIAGMNMFD 272
+
+
+>H28G03.1b	CE30080	WBGene00019249	status:Partially_confirmed	UniProt:Q8WSM5
+           protein_id:AAL38960.1
+        Length = 315
+
+ Score = 63 (27.2 bits), Expect = 8.2, P = 0.9997
+ Identities = 17/52 (32%), Positives = 27/52 (51%)
+
+Query:    21 IKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIFKEVSSATNAL 69
+             +  D   + L   FSQ+G ++D +V R   +   RG  FV F  + SA +A+
+Sbjct:    56 LSHDTTDEQLGNYFSQWGPVVDAIVIRDPNTKHSRGFGFVTFASIFSAESAM 107
+
+
+>R10E4.2k	CE44582	WBGene00011199	locus:tag-310	status:Partially_confirmed
+          UniProt:D5MCR5	protein_id:CBK55603.1
+        Length = 371
+
+ Score = 55 (24.4 bits), Expect = 8.7, Sum P(2) = 0.9998
+ Identities = 18/68 (26%), Positives = 30/68 (44%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV--PGRHD--IAFVEFDNEVQAG 258
+             ++P N  L++ NLP +  E ML    N+F      R++  P      + F   D++ +  
+Sbjct:   121 QDPTN--LYIANLPLDFTEQMLETELNKFGMVISTRILRTPDNQSRGVGFARMDSKEKCE 178
+
+Query:   259 AARDALQG 266
+                 AL G
+Sbjct:   179 VIISALNG 186
+
+ Score = 45 (20.9 bits), Expect = 8.7, Sum P(2) = 0.9998
+ Identities = 15/67 (22%), Positives = 28/67 (41%)
+
+Query:     5 ETRPNH--TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEV 62
+             + RP H   +YI  L      D+L + + + +        I+   +   +G  FV F+  
+Sbjct:    36 QQRPFHGTNLYIRGLMPNTN-DDLLREMCSKYGNIASTKAIMDKATNNCKGYGFVDFESP 94
+
+Query:    63 SSATNAL 69
+              +A  A+
+Sbjct:    95 QAAAAAV 101
+
+
+>R10E4.2o	CE44614	WBGene00011199	locus:tag-310	status:Confirmed	UniProt:D5MCQ8
+          protein_id:CBK55596.1
+        Length = 374
+
+ Score = 55 (24.4 bits), Expect = 8.8, Sum P(2) = 0.9999
+ Identities = 18/68 (26%), Positives = 30/68 (44%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV--PGRHD--IAFVEFDNEVQAG 258
+             ++P N  L++ NLP +  E ML    N+F      R++  P      + F   D++ +  
+Sbjct:   121 QDPTN--LYIANLPLDFTEQMLETELNKFGMVISTRILRTPDNQSRGVGFARMDSKEKCE 178
+
+Query:   259 AARDALQG 266
+                 AL G
+Sbjct:   179 VIISALNG 186
+
+ Score = 45 (20.9 bits), Expect = 8.8, Sum P(2) = 0.9999
+ Identities = 15/67 (22%), Positives = 28/67 (41%)
+
+Query:     5 ETRPNH--TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEV 62
+             + RP H   +YI  L      D+L + + + +        I+   +   +G  FV F+  
+Sbjct:    36 QQRPFHGTNLYIRGLMPNTN-DDLLREMCSKYGNIASTKAIMDKATNNCKGYGFVDFESP 94
+
+Query:    63 SSATNAL 69
+              +A  A+
+Sbjct:    95 QAAAAAV 101
+
+
+>H28G03.1c	CE31190	WBGene00019249	status:Confirmed	UniProt:Q8MXF3
+           protein_id:AAM69104.1
+        Length = 335
+
+ Score = 63 (27.2 bits), Expect = 8.9, P = 0.9999
+ Identities = 17/52 (32%), Positives = 27/52 (51%)
+
+Query:    21 IKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIFKEVSSATNAL 69
+             +  D   + L   FSQ+G ++D +V R   +   RG  FV F  + SA +A+
+Sbjct:    76 LSHDTTDEQLGNYFSQWGPVVDAIVIRDPNTKHSRGFGFVTFASIFSAESAM 127
+
+
+>T11G6.8	CE33830	WBGene00011722	RNA recognition motif. (aka RRM, RBD, or RNP
+         domain)	status:Confirmed	UniProt:Q22412	protein_id:CAA93419.2
+        Length = 408
+
+ Score = 64 (27.6 bits), Expect = 9.0, P = 0.9999
+ Identities = 20/58 (34%), Positives = 27/58 (46%)
+
+Query:    11 TIYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSSATNA 68
+             T+YI NL     +   +K L   F Q+G   DI   R L  +G AF+ F    +A  A
+Sbjct:   236 TLYIGNLGPSGAQQVTEKDLNDFFYQYG---DIRCLRVLTEKGCAFIEFTTREAAERA 290
+
+
+>H28G03.1a	CE30079	WBGene00019249	RNA binding protein	status:Confirmed
+           UniProt:Q8WSM6	protein_id:AAL38959.1
+        Length = 336
+
+ Score = 63 (27.2 bits), Expect = 9.0, P = 0.9999
+ Identities = 17/52 (32%), Positives = 27/52 (51%)
+
+Query:    21 IKKDELKKSLYAIFSQFGQILDILVSR---SLKMRGQAFVIFKEVSSATNAL 69
+             +  D   + L   FSQ+G ++D +V R   +   RG  FV F  + SA +A+
+Sbjct:    77 LSHDTTDEQLGNYFSQWGPVVDAIVIRDPNTKHSRGFGFVTFASIFSAESAM 128
+
+
+>R10E4.2g	CE44674	WBGene00011199	locus:tag-310	status:Partially_confirmed
+          UniProt:D5MCQ2	protein_id:CBK55590.1
+        Length = 380
+
+ Score = 55 (24.4 bits), Expect = 9.1, Sum P(2) = 0.9999
+ Identities = 18/68 (26%), Positives = 30/68 (44%)
+
+Query:   203 ENPPNHILFLTNLPEETNELMLSMLFNQFPGFKEVRLV--PGRHD--IAFVEFDNEVQAG 258
+             ++P N  L++ NLP +  E ML    N+F      R++  P      + F   D++ +  
+Sbjct:   185 QDPTN--LYIANLPLDFTEQMLETELNKFGMVISTRILRTPDNQSRGVGFARMDSKEKCE 242
+
+Query:   259 AARDALQG 266
+                 AL G
+Sbjct:   243 VIISALNG 250
+
+ Score = 45 (20.9 bits), Expect = 9.1, Sum P(2) = 0.9999
+ Identities = 15/65 (23%), Positives = 28/65 (43%)
+
+Query:     6 TRPNHT-IYINNLNEKIKKDELKKSLYAIFSQFGQILDILVSRSLKMRGQAFVIFKEVSS 64
+             T P+ T +YI  L      D+L + + + +        I+   +   +G  FV F+   +
+Sbjct:   102 TTPSSTNLYIRGLMPNTN-DDLLREMCSKYGNIASTKAIMDKATNNCKGYGFVDFESPQA 160
+
+Query:    65 ATNAL 69
+             A  A+
+Sbjct:   161 AAAAV 165
+
+
+Parameters:
+  filter=seg+xnu
+
+  ctxfactor=1.00
+  E=10
+
+  Query                        -----  As Used  -----    -----  Computed  ----
+  Frame  MatID Matrix name     Lambda    K       H      Lambda    K       H
+   +0      0   BLOSUM62        0.320   0.134   0.375    same    same    same
+               Q=9,R=2         0.244   0.0300  0.180     n/a     n/a     n/a
+
+  Query
+  Frame  MatID  Length  Eff.Length     E    S W   T  X   E2     S2
+   +0      0      282       201       9.5  65 3  11 22  0.45    32
+                                                    43  0.45    35
+
+
+Statistics:
+
+  Database:  /share/home/ccwei/courses/2016/pab/hw2/C.elegans/Proteome/ws_215.protein
+   Title:  ws_215.protein
+   Posted:  9:21:18 PM CST Oct 27, 2016
+   Created:  9:21:18 PM CST Oct 27, 2016
+   Format:  XDF-1
+   # of letters in database:  10,879,267
+   # of sequences in database:  24,705
+   # of database sequences satisfying E:  79
+  No. of states in DFA:  605 (138 KB)
+  Total size of DFA:  294 KB (2115 KB)
+  Time to generate neighborhood:  0.00u 0.00s 0.00t   Elapsed:  00:00:00
+  No. of threads or processors used:  1
+  Search cpu time:  0.84u 0.00s 0.84t   Elapsed:  00:00:01
+  Total cpu time:  0.85u 0.00s 0.85t   Elapsed:  00:00:01
+  Start:  Thu Oct 27 21:21:40 2016   End:  Thu Oct 27 21:21:41 2016

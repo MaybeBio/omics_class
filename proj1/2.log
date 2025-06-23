@@ -1,0 +1,80 @@
+nohup: ignoring input
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           GRCH38_merged_sorted_18.bam                      ||
+||                           GRCH38_merged_sorted_2.bam                       ||
+||                           GRCH38_merged_sorted_7.bam                       ||
+||                           GRCH38_merged_sorted_Y.bam                       ||
+||                                                                            ||
+||             Output file : grch38_refseq_exon_counts.txt                    ||
+||                 Summary : grch38_refseq_exon_counts.txt.summary            ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : GRCh38.gtf (GTF)                                 ||
+||      Dir for temp files : /data1/project/proj1/result                      ||
+||      Assignment details : <input_file>.featureCounts                       ||
+||     Details output path : /data1/project/proj1/result                      ||
+||                                                                            ||
+||       Junction Counting : <output_file>.jcounts                            ||
+||   Chromosome alias file : chr_alias2.txt                                   ||
+||                                                                            ||
+||                 Threads : 20                                               ||
+||                   Level : feature level                                    ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| 4 chromosome name aliases are loaded.                                      ||
+|| Load annotation file GRCh38.gtf ...                                        ||
+||    Features : 2206931                                                      ||
+||    Meta-features : 199300                                                  ||
+||    Chromosomes/contigs : 531                                               ||
+||                                                                            ||
+|| Process BAM file GRCH38_merged_sorted_18.bam...                            ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 1533923                                              ||
+||    Successfully assigned alignments : 166476 (10.9%)                       ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GRCH38_merged_sorted_2.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 7583435                                              ||
+||    Successfully assigned alignments : 999572 (13.2%)                       ||
+||    Running time : 0.06 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GRCH38_merged_sorted_7.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 6416588                                              ||
+||    Successfully assigned alignments : 818577 (12.8%)                       ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GRCH38_merged_sorted_Y.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 271309                                               ||
+||    Successfully assigned alignments : 6959 (2.6%)                          ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the junction count table.                                            ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data1/project/proj1/re  ||
+|| sult/grch38_refseq_exon_counts.txt.summary"                                ||
+||                                                                            ||
+\\============================================================================//
+

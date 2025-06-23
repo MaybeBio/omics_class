@@ -1,0 +1,15 @@
+Status	/data1/project/proj1/T2T/T2T_merged_sorted_chr18.bam	/data1/project/proj1/T2T/T2T_merged_sorted_chr2.bam	/data1/project/proj1/T2T/T2T_merged_sorted_chr7.bam	/data1/project/proj1/T2T/T2T_merged_sorted_chrY.bam
+Assigned	181230	896117	586339	6396
+Unassigned_Unmapped	0	0	0	0
+Unassigned_Read_Type	0	0	0	0
+Unassigned_Singleton	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	470392	1902329	2334202	338644
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	120721	598411	463278	11589
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	768238	4268381	3061214	25056

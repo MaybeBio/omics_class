@@ -1,0 +1,1 @@
+2,chr2\n7,chr7\n18,chr18\nY,chrY

@@ -1,0 +1,4 @@
+chr2,2
+chr7,7
+chr18,18
+chrY,Y
